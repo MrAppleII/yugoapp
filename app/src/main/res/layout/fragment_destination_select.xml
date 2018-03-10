@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="jesusgarnica.com.yugo.destination_select">
+
+
+
+    <RelativeLayout
+        android:layout_weight="1.7"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <EditText
+
+        android:layout_below="@id/navigation_toolbar"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/where_toEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/white"
+        android:hint="Where to?"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <LinearLayout
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/menuBarView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/where_toEditText"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/daysButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/open_sans_light"
+            android:text="Days: 0" />
+
+
+        <Button
+            android:id="@+id/themeButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/open_sans_light"
+            android:text="Theme"
+            android:theme="@style/Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:id="@+id/budgetButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/open_sans_light"
+            android:text="Budget"
+            android:theme="@style/Widget.AppCompat.Button.Borderless" />
+
+        <Button
+            android:id="@+id/travalersButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/open_sans_light"
+            android:text="Travelers"
+            android:theme="@style/Widget.AppCompat.Button.Borderless" />
+
+
+    </LinearLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_weight="0.3"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+</LinearLayout>
