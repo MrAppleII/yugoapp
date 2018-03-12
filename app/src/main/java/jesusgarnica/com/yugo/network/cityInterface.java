@@ -12,6 +12,6 @@ import retrofit2.http.GET;
 
 public interface cityInterface {
 
-    @GET("inbox.json")
+    @GET("inbox.json") //this is onlt for testing purposes, link will be updated soon
     Call<List<CityItem>> getCityList();
 }

@@ -5,9 +5,19 @@ import android.content.DialogInterface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.view.ActionMode;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.text.Layout;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -20,6 +30,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+import jesusgarnica.com.yugo.adapter.MessageAdapter;
 import jesusgarnica.com.yugo.adapter.cityListAdapter;
 import jesusgarnica.com.yugo.network.cityInterface;
 import jesusgarnica.com.yugo.network.cityListClient;
@@ -38,7 +49,7 @@ import retrofit2.Response;
  * Use the {@link destination_select#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class destination_select extends Fragment {
+public class destination_select extends Fragment implements SwipeRefreshLayout.OnRefreshListener, cityListAdapter.cityAdapterListener {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -47,7 +58,10 @@ public class destination_select extends Fragment {
     private Button budgetSelect;
     private Button travelersSelect;
     private Integer travalersTotal;
+    private SwipeRefreshLayout swipeRefreshLayout;
+
     private Integer budgetTotal;
+    private RecyclerView recyclerView; //OUR RV for the cities
     //CITIES LIST VARIABLES
     private List<CityItem> cities = new ArrayList<>();
     private cityListAdapter cAdapter;
@@ -103,6 +117,21 @@ public class destination_select extends Fragment {
         daysSelect = destinationView.findViewById(R.id.daysButton);
         budgetSelect = destinationView.findViewById(R.id.budgetButton);
         travelersSelect = destinationView.findViewById(R.id.travalersButton);
+        Toolbar toolbar = destinationView.findViewById(R.id.navigation_toolbar);
+        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+        recyclerView = (RecyclerView) destinationView.findViewById(R.id.city_recycler_view);
+        swipeRefreshLayout = (SwipeRefreshLayout) destinationView.findViewById(R.id.city_refresh_layout);
+        swipeRefreshLayout.setOnRefreshListener(this);
+
+        cAdapter = new cityListAdapter(this.getContext(), cities, this);
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
+        recyclerView.setLayoutManager(mLayoutManager);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+        recyclerView.setAdapter(cAdapter);
+
+
+        getCities();
+
         /* Lets listen for the user to pick how many days*/
         daysSelect.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -242,9 +271,20 @@ public class destination_select extends Fragment {
         Ending code for the buttons
 
          */
+        /*
+
+        CODE FOR OUR RECYCLER VIEW OF CITIES
+         */
+
+
+
+
+
+
         return destinationView;
     }
     private void getCities() {
+        swipeRefreshLayout.setRefreshing(true);
 
         cityInterface apiService =
                 cityListClient.getClient().create(cityInterface.class);
@@ -267,12 +307,14 @@ public class destination_select extends Fragment {
                 }
 
                 cAdapter.notifyDataSetChanged();
+                swipeRefreshLayout.setRefreshing(false);
 
             }
 
             @Override
             public void onFailure(Call<List<CityItem>> call, Throwable t) {
                 Toast.makeText(getView().getContext(), "Unable to fetch json: " + t.getMessage(), Toast.LENGTH_LONG).show();
+                swipeRefreshLayout.setRefreshing(false);
 
             }
         });
@@ -294,11 +336,19 @@ public class destination_select extends Fragment {
                     + " must implement OnFragmentInteractionListener");
         }
     }
+    @Override
+    public void onRefresh() {
+        // swipe refresh is performed, fetch the messages again
+        getCities();
+    }
 
     @Override
     public void onDetach() {
         super.onDetach();
         mListener = null;
+    }
+    public void onCityClicked(int x){
+        
     }
 
     /**

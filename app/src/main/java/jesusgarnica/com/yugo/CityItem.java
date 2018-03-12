@@ -7,7 +7,6 @@ package jesusgarnica.com.yugo;
 public class CityItem {
     private String cityName;
     private String cityImage;
-
     private int id;
     public CityItem(){
 
@@ -16,7 +15,7 @@ public class CityItem {
     public void setId(int id){
         this.id = id;
     }
-    public int returnId(){
+    public int getId(){
         return id;
     }
     public void setCityName(String cityName){

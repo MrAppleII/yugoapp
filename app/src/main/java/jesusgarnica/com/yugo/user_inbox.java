@@ -171,7 +171,7 @@ public class user_inbox extends Fragment implements SwipeRefreshLayout.OnRefresh
         swipeRefreshLayout = (SwipeRefreshLayout) mainView.findViewById(R.id.swipe_refresh_layout);
         swipeRefreshLayout.setOnRefreshListener(this);
 
-        mAdapter = new MessageAdapter(this.getContext(), messages,this);
+        mAdapter = new MessageAdapter(this.getContext(), messages, this );
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity().getApplicationContext());
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());

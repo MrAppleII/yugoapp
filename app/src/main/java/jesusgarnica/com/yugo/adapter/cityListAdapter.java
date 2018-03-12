@@ -1,6 +1,7 @@
 package jesusgarnica.com.yugo.adapter;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.util.SparseBooleanArray;
 import android.view.HapticFeedbackConstants;
@@ -23,7 +24,7 @@ import jesusgarnica.com.yugo.R;
 
 public class cityListAdapter extends RecyclerView.Adapter<cityListAdapter.MyCityViewHolder>  {
     private Context cityContext;
-    private List<CityItem> cityList;
+    private List<CityItem> cityList; // This is the ArrayList of cities
     private cityListAdapter.cityAdapterListener listener;
     private SparseBooleanArray selectedItems;
 
@@ -41,7 +42,7 @@ public class cityListAdapter extends RecyclerView.Adapter<cityListAdapter.MyCity
 
 
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.message_list_rows, parent, false);
+                .inflate(R.layout.city_block_layout, parent, false);
 
         return new MyCityViewHolder(itemView);
     }
@@ -51,18 +52,17 @@ public class cityListAdapter extends RecyclerView.Adapter<cityListAdapter.MyCity
         CityItem city = cityList.get(position);
 
         // displaying text view data
-        holder.cityName.setText(city.getCityName());
+      holder.cityName.setText("test city");
+         holder.cityBackground.setBackgroundColor(Color.BLUE); //They will all be blue for test purposes
 
 
-        // change the row state to activated
-        holder.itemView.setActivated(selectedItems.get(position, false));
 
 
         // display profile image
         applyBackgroundImage(holder, city);
 
         // apply click events
-        applyClickEvents(holder, position);
+       // applyClickEvents(holder, position);
     }
     private void applyBackgroundImage(MyCityViewHolder h, CityItem city){
 
@@ -70,7 +70,7 @@ public class cityListAdapter extends RecyclerView.Adapter<cityListAdapter.MyCity
 
     @Override
     public int getItemCount() {
-        return 0;
+        return cityList.size();
     }
 
     public class MyCityViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
@@ -111,7 +111,10 @@ public class cityListAdapter extends RecyclerView.Adapter<cityListAdapter.MyCity
 
 
     }
-
+    @Override
+    public long getItemId(int position) {
+        return cityList.get(position).getId();
+    }
 
 
 }
