@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Yugo.GettingStarted"
+             BackgroundColor="BlueViolet">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="First Let Us Ask You A Few Questions"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                     FontSize="32"
+                   TextColor="White"
+                />
+            <Entry Placeholder="What is your name?"></Entry>
+            <Entry Placeholder="What do you go by?"></Entry>
+            <Entry Placeholder="Enter your email"></Entry>
+            <Entry Placeholder="Type in a password"></Entry>
+            <Button Text="Continue"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

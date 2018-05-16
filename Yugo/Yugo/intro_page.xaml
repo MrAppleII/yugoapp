@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Yugo"
+             BackgroundColor="BlueViolet"
+             x:Class="Yugo.intro_page">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Label Text="WELCOME TO YUGO"
+                   FontSize="38"
+                   TextColor="White"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="Center" />
+
+            <Button x:Name="signUpButton"  
+                    Text="Sign Up"
+                       TextColor="White"
+                       BackgroundColor="DarkBlue"
+                      FontSize="Large"
+                       FontAttributes="Bold"
+                   />
+            <Button x:Name="loginButton"
+                       Text="Login"
+                
+                      IsVisible="True"
+                 
+                    BackgroundColor="DarkBlue"
+                       TextColor="White"
+                    
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                    
+                   />
+                   
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

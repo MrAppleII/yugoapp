@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              BackgroundColor="BlueViolet"
+             x:Class="Yugo.AskQuestions">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Now to find the perfect guide for you"
+                     VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="Center"
+                     FontSize="28"
+                   TextColor="White"></Label>
+        <Label Text="I am into underground events"
+               FontSize="20"
+                VerticalOptions="CenterAndExpand" 
+               HorizontalOptions="Center"
+               ></Label>
+     
+
+      
+        <Button Text="Yes"></Button>
+            <Button Text="No"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

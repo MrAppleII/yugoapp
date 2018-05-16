@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="BlueViolet"
+             x:Class="Yugo.tripDetails">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                     FontSize="48"
+                   TextColor="White"
+                />
+            <Label Text="Now lets talk about your trip!"
+                     VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                     FontSize="28"
+                   TextColor="White"></Label>
+            <Label Text="When are you going"></Label>
+            <DatePicker></DatePicker>
+
+            <Entry Placeholder="Where are you going?"></Entry>
+            <Entry Placeholder="How many people are going with you?"></Entry>
+            <Button Text="Continue"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

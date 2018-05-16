@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Yugo.GuideSelect"
+             BackgroundColor="BlueViolet">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Now lets select a guide"
+               VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                     FontSize="32"
+                   TextColor="White" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
