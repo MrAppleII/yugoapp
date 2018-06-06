@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Plugin.Connectivity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +18,29 @@ namespace Yugo
 		{
 			InitializeComponent ();
 		}
+        private void SignUp_buttonclicked(object sender, EventArgs e)
+        {
+            //(sender as Button).Text = "I was just clicked!";
+            Navigation.PushAsync(new GettingStarted());
+        }
+    
 
-       
     }
+
 }
+    public class NetworkCheck
+    {
+        public static bool IsInternet()
+        {
+            if (CrossConnectivity.Current.IsConnected)
+            {
+                return true;
+            }
+            else
+            {
+                // TODO We dont have permission to use the internet so therefore further action is needed   
+                return false;
+            }
+        }
+    }
+   

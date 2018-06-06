@@ -19,6 +19,7 @@
                        BackgroundColor="DarkBlue"
                       FontSize="Large"
                        FontAttributes="Bold"
+                      Clicked="SignUp_buttonclicked"
                    />
             <Button x:Name="loginButton"
                        Text="Login"

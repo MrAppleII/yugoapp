@@ -21,7 +21,9 @@
 
             <Entry Placeholder="Where are you going?"></Entry>
             <Entry Placeholder="How many people are going with you?"></Entry>
-            <Button Text="Continue"></Button>
+            <Button Text="Continue"
+                    Clicked="TripDetails_buttonclicked"
+                    ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

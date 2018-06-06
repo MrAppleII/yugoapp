@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Yugo"
+            x:Class="Yugo.LoggedInNavigation"
+            Title="Home"
+            >
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Explore">
+        <StackLayout>
+            <Label Text="Where are you headed?"
+                
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Button Text="Japan"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Center"
+                      Clicked="Jp_buttonclicked"
+                    />
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Trip" />
+  <ContentPage Title="Inbox" />
+    <ContentPage Title="Profile" />
+</TabbedPage>

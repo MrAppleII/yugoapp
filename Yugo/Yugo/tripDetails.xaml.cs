@@ -16,5 +16,13 @@ namespace Yugo
 		{
 			InitializeComponent ();
 		}
-	}
+        private void TripDetails_buttonclicked(object sender, EventArgs e)
+        {
+
+            Application.Current.MainPage.Navigation.PushModalAsync(new NavigationPage(new LoggedInNavigation()));
+            //Navigation.PushModalAsync(new LoggedInNavigation());
+            //await Navigation.PopAsync();
+        }
+
+    }
 }

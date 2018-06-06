@@ -15,7 +15,10 @@
             <Entry Placeholder="What do you go by?"></Entry>
             <Entry Placeholder="Enter your email"></Entry>
             <Entry Placeholder="Type in a password"></Entry>
-            <Button Text="Continue"></Button>
+            <Button 
+                Text="Continue"
+                   Clicked="GS_buttonclicked"
+                ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

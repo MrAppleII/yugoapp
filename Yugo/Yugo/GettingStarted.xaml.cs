@@ -16,5 +16,11 @@ namespace Yugo
 		{
 			InitializeComponent ();
 		}
-	}
+        private void GS_buttonclicked(object sender, EventArgs e)
+        {
+            //(sender as Button).Text = "I was just clicked!";
+            Navigation.PushAsync(new tripDetails());
+        }
+
+    }
 }

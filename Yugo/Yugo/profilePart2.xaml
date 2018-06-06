@@ -12,7 +12,7 @@
                    TextColor="White"
                 />
           
-            <Entry Placeholder="What do you go by?"></Entry>
+         
             <Button Text="Continue"></Button>
         </StackLayout>
     </ContentPage.Content>

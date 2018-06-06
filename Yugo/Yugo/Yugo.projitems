@@ -24,28 +24,20 @@
       <DependentUpon>GettingStarted.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)GuideSelect.xaml.cs">
-      <DependentUpon>GuideSelect.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)HomeNavigation.xaml.cs">
-      <DependentUpon>HomeNavigation.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)GuideSelectScreen.xaml.cs">
+      <DependentUpon>GuideSelectScreen.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)intro_page.xaml.cs">
       <DependentUpon>intro_page.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)LoggedInHome.xaml.cs">
-      <DependentUpon>LoggedInHome.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)LoggedInNavigation.xaml.cs">
+      <DependentUpon>LoggedInNavigation.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Page1.xaml.cs">
-      <DependentUpon>Page1.xaml</DependentUpon>
-      <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)profilePart2.xaml.cs">
       <DependentUpon>profilePart2.xaml</DependentUpon>
@@ -55,12 +47,6 @@
       <DependentUpon>tripDetails.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Page1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)intro_page.xaml">
@@ -93,19 +79,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)GuideSelect.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)LoggedInNavigation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)HomeNavigation.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)LoggedInHome.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)GuideSelectScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

@@ -13,8 +13,9 @@ namespace Yugo
 		{
 			InitializeComponent();
 
-			MainPage = new Yugo.MainPage();
-		}
+            MainPage = new NavigationPage(new Yugo.intro_page());
+        }
+        
 
 		protected override void OnStart ()
 		{
