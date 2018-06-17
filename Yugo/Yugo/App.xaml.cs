@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FFImageLoading.Forms.Platform;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,9 +12,14 @@ namespace Yugo
 	{
 		public App ()
 		{
-			InitializeComponent();
-
-            MainPage = new NavigationPage(new Yugo.intro_page());
+           
+            InitializeComponent();
+            CachedImageRenderer.Init(true);
+          
+            //MainPage = new NavigationPage(new Yugo.intro_page());
+           
+            //   MainPage = new NavigationPage(new Yugo.GuideSelectScreen());
+              MainPage = new NavigationPage(new Yugo.LoggedInNavigation());
         }
         
 

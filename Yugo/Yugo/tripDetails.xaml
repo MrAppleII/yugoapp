@@ -1,29 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             BackgroundColor="BlueViolet"
+           
              x:Class="Yugo.tripDetails">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome"
+            
+            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+
+            <Label Text="Welcome!"
+                   Margin="0,0,0,100"
                 VerticalOptions="CenterAndExpand" 
+                    FontFamily="{StaticResource Roboto-Light}"
                 HorizontalOptions="CenterAndExpand"
                      FontSize="48"
-                   TextColor="White"
+                   TextColor="Black"
                 />
             <Label Text="Now lets talk about your trip!"
+                   Margin="0,0,0,20"
                      VerticalOptions="CenterAndExpand" 
+                    FontFamily="{StaticResource Roboto-Light}"
                 HorizontalOptions="CenterAndExpand"
                      FontSize="28"
-                   TextColor="White"></Label>
-            <Label Text="When are you going"></Label>
-            <DatePicker></DatePicker>
+                   TextColor="Black"></Label>
+                <StackLayout Orientation="Horizontal" WidthRequest="250" HorizontalOptions="Center">
 
-            <Entry Placeholder="Where are you going?"></Entry>
-            <Entry Placeholder="How many people are going with you?"></Entry>
-            <Button Text="Continue"
+                    <Label Text="When are you going? "  FontFamily="{StaticResource Roboto-Light}" VerticalTextAlignment="Center"  HorizontalOptions="CenterAndExpand" FontSize="Large"></Label>
+                    <DatePicker
+                 HorizontalOptions="Center"
+                
+                ></DatePicker>
+                </StackLayout>
+           
+
+            <Entry Placeholder="Where are you going?"
+                    FontFamily="{StaticResource Roboto-Light}"
+                   HorizontalOptions="Center"
+                   WidthRequest="250"></Entry>
+            <Entry Placeholder="How many Travelers?"
+                    FontFamily="{StaticResource Roboto-Light}"
+                    HorizontalOptions="Center"
+                   WidthRequest="250"></Entry>
+                <StackLayout Orientation="Vertical" VerticalOptions="End">
+                    <Button Text="Continue"
+                             WidthRequest="250"
+                             BorderRadius = "4"
+                         FontFamily="{StaticResource Roboto-Light}"
+                BorderWidth = "1"
+                        BackgroundColor="Transparent"
+                       BorderColor="White"
+                            
+                       TextColor="White"
+                    
+                       FontSize="Medium"
+                     HorizontalOptions="Center"
                     Clicked="TripDetails_buttonclicked"
                     ></Button>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,15 +18,72 @@ namespace Yugo
             InitializeComponent();
            
         }
-        private void Jp_buttonclicked(object sender, EventArgs e)
+       
+        private async void GetCities()
         {
-            //TODO goto the next string
-            //(sender as Button).Text = "I was just clicked!";
+            //await DisplayAlert("Internet Availible", "Going forward with Method", "OK");
+            //Check network status   
+            if (NetworkCheck.IsInternet())
+            {
 
-            Navigation.PushAsync(new GuideSelectScreen());
+                var client = new System.Net.Http.HttpClient();
+                var response = await client.GetAsync("https://api.myjson.com/bins/rodzi");
+                string destinationsJson = await response.Content.ReadAsStringAsync();
+                DestinationList ObjCityList = new DestinationList();
+                if (destinationsJson != "")
+                {
+                    //Converting JSON Array Objects into generic list  
+                    ObjCityList = JsonConvert.DeserializeObject<DestinationList>(destinationsJson);
+                }
+                //Binding listview with server response    
+                listviewTrip.ItemsSource = ObjCityList.Cities;
+            }
+            else
+            {
+                await DisplayAlert("JSONParsing", "No network is available.", "Ok");
+            }
+            //Hide loader after server response    
+            ProgressLoader.IsVisible = false;
+        }
+        public void listviewCity_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
 
+            var itemSelectedData = e.SelectedItem as Destination;
+            String apiLink = itemSelectedData.ListLink;
+            if (apiLink != "")
+            {
+                Navigation.PushAsync(new GuideSelectScreen(itemSelectedData));
+
+            }
+            else
+            {
+                DisplayAlert("Alert", "City is coming soon. Stay tuned!", "OK");
+            }
+           
+           
+            //do nothing so far
+        }
+        protected override void OnAppearing()
+        {
+            GetCities();
 
         }
+    }
+    public class Destination
+    {
+        public string CityName { get; set; }
+        public string CityNameUpperCase { get { return CityName.ToUpper(); } }
+        public string CountryName{ get; set; }
+        public string CityPic { get; set; }
+        public string ListLink { get; set; }
+        public string CityID { get; set; }
+    }
+
+
+
+    public class DestinationList
+    {
+        public List<Destination> Cities { get; set; }
     }
 
 }

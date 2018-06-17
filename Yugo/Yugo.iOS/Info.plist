@@ -50,5 +50,16 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleName</key>
 	<string>Yugo</string>
+	<key>UIAppFonts</key>
+	<array>
+    <string>rajdhani-bold.ttf</string>
+    <string>rajdhani-light.ttf</string>
+	<string>rajdhani-medium.ttf</string>
+	<string>rajdhani-regular.ttf</string>
+	<string>rajdhani-semibold.ttf</string>
+	<string>Roboto-Light.ttf</string>
+	<string>Roboto-Regular.ttf</string>
+	<string>Roboto-Thin.ttf</string>
+	</array>
 </dict>
 </plist>

@@ -2,40 +2,87 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Yugo"
-             BackgroundColor="BlueViolet"
+            
              x:Class="Yugo.intro_page">
     <ContentPage.Content>
-        <StackLayout>
-            
-            <Label Text="WELCOME TO YUGO"
-                   FontSize="38"
-                   TextColor="White"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="Center" />
+        
+         
+         
 
-            <Button x:Name="signUpButton"  
-                    Text="Sign Up"
+            <StackLayout>
+                <StackLayout Margin="0,190,0,0"  Orientation="Vertical" VerticalOptions="Start" HorizontalOptions="Center">
+                <!-- top controls#6dcff6 -->
+                <Label Text="YUGO"
+                     FontFamily="{StaticResource Rajdhani-MediumFont}"
+                   FontSize="64"
+                  
+                    TextColor="#6A2F72"
+                       HorizontalOptions="Center"
+                />
+               
+            </StackLayout>
+
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                    <!-- middle controls -->
+                
+                <Entry Placeholder="Email Address"
+                       
+                       HorizontalOptions="Center"
                        TextColor="White"
-                       BackgroundColor="DarkBlue"
-                      FontSize="Large"
-                       FontAttributes="Bold"
+                       FontFamily="{StaticResource Roboto-Light}"
+                        PlaceholderColor="DarkGray"
+                        WidthRequest="250"
+                       ></Entry>
+                    
+                <Entry Placeholder="Password"
+                      WidthRequest="250"
+                        TextColor="White"
+                      HorizontalOptions="Center"
+                    PlaceholderColor="DarkGray"
+                      FontFamily="{StaticResource Roboto-Light}"
+                       ></Entry>
+
+                <Button x:Name="loginButton"
+                       Text="Login"
+                       FontFamily="{StaticResource Roboto-Light}"
+                WidthRequest="250"
+                      IsVisible="True"
+                   BorderRadius = "4"
+                        
+                BorderWidth = "1"
+                        BackgroundColor="Transparent"
+                       BorderColor="Black"
+                            
+                       TextColor="White"
+                    
+                       FontSize="Medium"
+                      HorizontalOptions="Center"
+                    
+                   />
+                
+            </StackLayout>
+
+                <StackLayout Orientation="Vertical" VerticalOptions="End">
+                    <!-- bottom controls -->
+                <BoxView HeightRequest="1"  BackgroundColor="Black" HorizontalOptions="FillAndExpand" />
+                <Button x:Name="signUpButton"  
+                        HorizontalOptions="Fill"
+                        HeightRequest="35"
+                    Text="Don't have an account? Sign up."
+                       TextColor="White"
+                      BorderRadius = "6"
+                BorderWidth = "0"
+                        FontFamily="{StaticResource Roboto-Light}"
+                        BackgroundColor="Transparent"
+                       BorderColor="Black"
+                      FontSize="Small"
                       Clicked="SignUp_buttonclicked"
                    />
-            <Button x:Name="loginButton"
-                       Text="Login"
-                
-                      IsVisible="True"
-                 
-                    BackgroundColor="DarkBlue"
-                       TextColor="White"
-                    
-                       FontSize="Large"
-                       FontAttributes="Bold"
-                    
-                   />
-                   
+            </StackLayout>
+            </StackLayout>
 
 
-        </StackLayout>
+
+        
     </ContentPage.Content>
 </ContentPage>

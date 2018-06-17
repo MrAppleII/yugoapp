@@ -64,3 +64,12 @@ C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\Yugo.iOS.LoggedI
 C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\Yugo.iOS.csproj.CopyComplete
 C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\Yugo.iOS.exe
 C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\Yugo.iOS.pdb
+C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\App.xaml.g.cs
+C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\MainPage.xaml.g.cs
+C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\intro_page.xaml.g.cs
+C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\GettingStarted.xaml.g.cs
+C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\profilePart2.xaml.g.cs
+C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\tripDetails.xaml.g.cs
+C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\LoggedInNavigation.xaml.g.cs
+C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\GuideSelectScreen.xaml.g.cs
+C:\Users\gtech\source\repos\Yugo\Yugo\Yugo.iOS\obj\iPhone\Debug\GuideDetails.xaml.g.cs

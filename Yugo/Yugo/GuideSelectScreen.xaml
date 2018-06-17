@@ -2,49 +2,120 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xaml="http://xamarin.com/schemas/2014/forms"
-             x:Class="Yugo.GuideSelectScreen">
-    <ContentPage.Content>
-        <StackLayout>
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="1*" />
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+              xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             x:Class="Yugo.GuideSelectScreen"
+             >
+    <ContentPage.Content >
+        <StackLayout  VerticalOptions="FillAndExpand">
+            <StackLayout HorizontalOptions="CenterAndExpand">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="70"/>
+                        
+                    </Grid.RowDefinitions>
 
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Button Text="Theme" HorizontalOptions="StartAndExpand" Grid.Row="1" Grid.Column="1" TextColor="Gray"  FontAttributes="Bold"/>
-                <Button Text="Budget" HorizontalOptions="StartAndExpand" Grid.Row="1" Grid.Column="2" TextColor="Gray"  FontAttributes="Bold"/>
+                   
 
-            </Grid>
-            <Grid>
+                    <ffimageloading:CachedImage   
+                            Grid.Row="0"
+                    Aspect="AspectFill"
+                                                Source ="https://images.pexels.com/photos/34142/pexels-photo.jpg?"
+                    DownsampleToViewSize="true"
+                    Margin="0"
+                            >
+                        <ffimageloading:CachedImage.Transformations>
+                            <fftransformations:BlurredTransformation Radius="4"/>
+                        </ffimageloading:CachedImage.Transformations>
+                    </ffimageloading:CachedImage>
+
+                    <Label Grid.Row="0" Margin="5" Text="TOKYO, JAPAN" FontSize="26" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontFamily="{StaticResource Roboto-Regular}" />
+                </Grid>
+                
+            </StackLayout>
+            <StackLayout VerticalOptions="FillAndExpand">
+            <Grid VerticalOptions="FillAndExpand" >
                 <Grid>
               
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
+                        <RowDefinition  Height="*"/>
                 </Grid.RowDefinitions>
-                <Label Grid.Row="0" Margin="10" Text="Now lets a pick a guide!" FontSize="22" />
-                <ListView x:Name="listviewConacts" Grid.Row="1" HorizontalOptions="FillAndExpand" HasUnevenRows="True" ItemSelected="listviewContacts_ItemSelected">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
+                        <Grid Grid.Row="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Button Text="Theme" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1" TextColor="White"  
+                        FontFamily="{StaticResource Roboto-Light}" 
+                        BorderRadius = "4"
+                         BorderWidth = "1"
+                        BackgroundColor="Transparent"
+                       BorderColor="Black"
+                            
+                       />
+                            <Button Text="Budget" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="2" TextColor="White"  BorderRadius = "4"
+                        FontFamily="{StaticResource Roboto-Light}" 
+                         BorderWidth = "1"
+                        BackgroundColor="Transparent"
+                       BorderColor="Black" />
+                            <Button Text="Travelers" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="3" TextColor="White"   BorderRadius = "4"
+                        FontFamily="{StaticResource Roboto-Light}" 
+                         BorderWidth = "1"
+                        BackgroundColor="Transparent"
+                       BorderColor="Black"/>
+                        </Grid>
+
+
+
+                        
+                <ListView x:Name="listviewConacts" Grid.Row="1" HorizontalOptions="FillAndExpand"   SeparatorVisibility="None" HasUnevenRows="True" ItemSelected="listviewContacts_ItemSelected">
+                    <ListView.ItemTemplate >
+                        <DataTemplate >
                             <ViewCell>
                                 <Grid HorizontalOptions="FillAndExpand" Padding="10">
                                     <Grid.RowDefinitions>
+
+                                        
+                                         <RowDefinition Height="Auto"/>
                                         <RowDefinition Height="Auto"/>
                                         <RowDefinition Height="Auto"/>
                                         <RowDefinition Height="Auto"/>
-                                        <RowDefinition Height="Auto"/>
-                                    </Grid.RowDefinitions>
-                                    <Label Text="{Binding name}" HorizontalOptions="StartAndExpand" Grid.Row="0" TextColor="Blue"  FontAttributes="Bold"/>
-                                    <Label Text="{Binding rating}" HorizontalOptions="StartAndExpand" Grid.Row="1" TextColor="Gray"  FontAttributes="Bold"/>
-                                    <Label Text="{Binding about}" HorizontalOptions="StartAndExpand" Grid.Row="2" TextColor="Orange"  FontAttributes="Bold"/>
-                                    <Label Text="{Binding languages}" HorizontalOptions="StartAndExpand" Grid.Row="3" TextColor="Orange"  FontAttributes="Bold"/>
+                                                <RowDefinition Height="Auto"/>
+                                            </Grid.RowDefinitions>
+                                          
+                                            <StackLayout  Orientation="Horizontal" Grid.Row="0">
+
+                                                <ffimageloading:CachedImage    HorizontalOptions="Fill" VerticalOptions="Center"
+                                                                              Margin="2"
+                                                           Aspect="AspectFit"                     
+			                                       HeightRequest="75"
+		                                    	        DownsampleToViewSize="true"
+                                                           Grid.Row="0"
+                                                      
+			                                    Source ="{Binding PicUrl}">
+                                                        <ffimageloading:CachedImage.Transformations>
+                                                            <fftransformations:CircleTransformation/>
+                                                        </ffimageloading:CachedImage.Transformations>
+                                                    </ffimageloading:CachedImage>
+                                                <Label Text="{Binding name}" HorizontalOptions="StartAndExpand" FontSize="Medium" VerticalOptions="Center" Grid.Row="1" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+                                                </StackLayout>
+
+
+
+
+                                            <Label Text="{Binding rating}" HorizontalOptions="StartAndExpand" Grid.Row="1" TextColor="Gray"  FontFamily="{StaticResource Roboto-Light}" />
+                                            <Label Text="{Binding about}" HorizontalOptions="StartAndExpand" Grid.Row="2" TextColor="Gray" FontFamily="{StaticResource Roboto-Light}"  />
+                                            <Label Text="{Binding languages}" HorizontalOptions="StartAndExpand" Grid.Row="3" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
 
                                     
 
-                                    <BoxView HeightRequest="2" Margin="0,10,10,0" BackgroundColor="Gray" Grid.Row="4" HorizontalOptions="FillAndExpand" />
+                                    <BoxView HeightRequest="2" Margin="0,10,10,0" BackgroundColor="DarkGray" Grid.Row="4" HorizontalOptions="FillAndExpand" />
                                 </Grid>
                             </ViewCell>
 
@@ -54,6 +125,8 @@
             </Grid>
             <ActivityIndicator x:Name="ProgressLoader" IsRunning="true"/>
         </Grid>
+        </StackLayout>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

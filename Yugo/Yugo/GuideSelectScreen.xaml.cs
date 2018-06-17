@@ -14,13 +14,15 @@ namespace Yugo
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class GuideSelectScreen : ContentPage
 	{
-		public GuideSelectScreen ()
+        private Destination currentCity;
+        
+		public GuideSelectScreen (Destination selectedCity)
 		{
-           
+            currentCity = selectedCity;
             InitializeComponent ();
            
 		}
-        public async void GetJSON()
+        private async void GetJSON()
         {
             //await DisplayAlert("Internet Availible", "Going forward with Method", "OK");
             //Check network status   
@@ -28,7 +30,8 @@ namespace Yugo
             {
                
                 var client = new System.Net.Http.HttpClient();
-                var response = await client.GetAsync("https://api.myjson.com/bins/c37qy");
+                String guideLink = currentCity.ListLink;
+                var response = await client.GetAsync(guideLink);
                 string contactsJson = await response.Content.ReadAsStringAsync();
                 ContactList ObjContactList = new ContactList();
                 if (contactsJson != "")
@@ -46,9 +49,11 @@ namespace Yugo
             //Hide loader after server response    
             ProgressLoader.IsVisible = false;
         }
-        public void listviewContacts_ItemSelected()
+        public void listviewContacts_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            GetJSON();
+          
+            var itemSelectedData = e.SelectedItem as Contact;
+            Navigation.PushAsync(new GuideDetails(itemSelectedData));
             //do nothing so far
         }
         protected override void OnAppearing()
@@ -82,6 +87,7 @@ namespace Yugo
     public class Contact
     {
         public string id { get; set; }
+        public string PicUrl { get; set; }
         public string name { get; set; }
         public string email { get; set; }
         public string rating { get; set; }

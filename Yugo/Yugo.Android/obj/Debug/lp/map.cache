@@ -29,3 +29,15 @@ netstandard
 System.Net.Http.Extensions
 System.Net.Http.Primitives
 Newtonsoft.Json
+FFImageLoading
+FFImageLoading.Platform
+FFImageLoading.Transformations
+System.Resources.ResourceManager
+FFImageLoading.Forms
+FFImageLoading.Forms.Platform
+FFImageLoading.Svg.Forms
+FFImageLoading.Svg.Platform
+SkiaSharp
+System.Reflection.Extensions
+UXDivers.Gorilla.Common
+UXDivers.Gorilla.Common.Droid

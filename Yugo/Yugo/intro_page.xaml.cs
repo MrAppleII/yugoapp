@@ -16,12 +16,14 @@ namespace Yugo
 	{
 		public intro_page ()
 		{
-			InitializeComponent ();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+            
+            InitializeComponent();
+        }
         private void SignUp_buttonclicked(object sender, EventArgs e)
         {
             //(sender as Button).Text = "I was just clicked!";
-            Navigation.PushAsync(new GettingStarted());
+            Navigation.PushAsync(new GettingStarted(),true);
         }
     
 

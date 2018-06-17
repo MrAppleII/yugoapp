@@ -1,24 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  
              x:Class="Yugo.GettingStarted"
-             BackgroundColor="BlueViolet">
+            >
     <ContentPage.Content>
+      
         <StackLayout>
-            <Label Text="First Let Us Ask You A Few Questions"
+
+
+            <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand">
+                <!-- middle controls -->
+                <Label Text="First Let Us Ask You A Few Questions"
+                                          FontFamily="{StaticResource Roboto-Light}"
+                HorizontalTextAlignment="Center"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                      FontSize="32"
                    TextColor="White"
                 />
-            <Entry Placeholder="What is your name?"></Entry>
-            <Entry Placeholder="What do you go by?"></Entry>
-            <Entry Placeholder="Enter your email"></Entry>
-            <Entry Placeholder="Type in a password"></Entry>
+                <Entry Placeholder="Name"
+                     HorizontalOptions="Center"
+                       FontFamily="{StaticResource Roboto-Light}"
+                        WidthRequest="250"
+                       ></Entry>
+
+                <Entry Placeholder="Enter your email"
+                   HorizontalOptions="Center"
+                       FontFamily="{StaticResource Roboto-Light}"
+                        WidthRequest="250"></Entry>
+                <Entry Placeholder="Type in a password"
+                   HorizontalOptions="Center"
+                       FontFamily="{StaticResource Roboto-Light}"
+                        WidthRequest="250"></Entry>
+
+
+
+            </StackLayout>
+            <StackLayout Orientation="Vertical" VerticalOptions="End">
             <Button 
+                Margin="0,0,0,70"
                 Text="Continue"
+                FontFamily="{StaticResource Roboto-Light}"
+                WidthRequest="250"
+                      IsVisible="True"
+                   BorderRadius = "4"
+                        
+                BorderWidth = "1"
+                        BackgroundColor="Transparent"
+                       BorderColor="White"
+                            
+                       TextColor="White"
+                    
+                       FontSize="Medium"
+                      HorizontalOptions="Center"
                    Clicked="GS_buttonclicked"
                 ></Button>
         </StackLayout>
+
+            
+        </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

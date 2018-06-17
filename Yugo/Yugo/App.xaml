@@ -5,6 +5,44 @@
 	<Application.Resources>
 
 		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="Rajdhani-BoldFont">
+                <On Platform="Android" Value="rajdhani-bold.ttf#rajdhani" />
+                <On Platform="iOS" Value="rajdhani-bold"/>
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="Rajdhani-LightFont">
+                <On Platform="Android" Value="rajdhani-light.ttf#rajdhani" />
+                <On Platform="iOS" Value="rajdhani-light"/>
+                
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="Rajdhani-MediumFont">
+                <On Platform="Android" Value="rajdhani-medium.ttf#rajdhani" />
+                <On Platform="iOS" Value="rajdhani-medium"/>
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="Rajdhani-NormalFont">
+                <On Platform="Android" Value="rajdhani-regular.ttf#rajdhani" />
+                <On Platform="iOS" Value="rajdhani-regular"/>
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="Roboto-Regular">
+                <On Platform="Android" Value="Roboto-Regular.ttf#Roboto" />
+                <On Platform="iOS" Value="Roboto-Regular"/>
 
-	</Application.Resources>
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="Roboto-Thin">
+                <On Platform="Android" Value="Roboto-Thin.ttf#Roboto" />
+                <On Platform="iOS" Value="Roboto-Thin"/>
+            </OnPlatform>
+            <OnPlatform x:TypeArguments="x:String" x:Key="Roboto-Light">
+                <On Platform="Android" Value="Roboto-Light.ttf#Roboto" />
+                <On Platform="iOS" Value="Roboto-Light"/>
+            </OnPlatform>
+        </ResourceDictionary>
+        <Style TargetType="ContentPage"
+         ApplyToDerivedTypes="True">
+            <Setter Property="BackgroundColor" Value="#282828" />
+           
+
+        </Style>
+        
+    </Application.Resources>
 </Application>

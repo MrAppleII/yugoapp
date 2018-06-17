@@ -2,25 +2,80 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:Yugo"
+            xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+            xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
             x:Class="Yugo.LoggedInNavigation"
             Title="Home"
             >
-  <!--Pages can be added as references or inline-->
+    <!--Pages can be added as references or inline-->
     <ContentPage Title="Explore">
         <StackLayout>
-            <Label Text="Where are you headed?"
-                
-                VerticalOptions="Center" 
-                HorizontalOptions="Center" />
-            <Button Text="Japan"
-                    HorizontalOptions="CenterAndExpand"
-                    VerticalOptions="Center"
-                      Clicked="Jp_buttonclicked"
-                    />
+            <Grid VerticalOptions="FillAndExpand" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Margin="10" Text="Where are you headed?" HorizontalOptions="Center" FontSize="25" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+                    <ListView x:Name="listviewTrip" Grid.Row="1" HorizontalOptions="FillAndExpand"  SeparatorVisibility="Default" HasUnevenRows="True" ItemSelected="listviewCity_ItemSelected">
+                <ListView.ItemTemplate >
+                    <DataTemplate >
+                        <ViewCell>
+                                    <Grid HorizontalOptions="FillAndExpand" Margin="0" >
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="150" />
+                                </Grid.RowDefinitions>
+                            
+                                    
+                                    
+                                        <ffimageloading:CachedImage   HorizontalOptions="FillAndExpand" VerticalOptions="Fill" 
+                                                                      
+                                                        Grid.Row="0"
+                             Aspect="AspectFill"
+                             Source ="{Binding CityPic}" 
+                             
+                            >
+                                            
+
+
+
+                                        </ffimageloading:CachedImage>
+
+                                        <BoxView VerticalOptions="Fill" HorizontalOptions="Fill" BackgroundColor="Black" Grid.Row="0" Opacity="0.5"></BoxView>
+
+                                        <Label
+                                            
+                         Grid.Row="0"
+                            BackgroundColor="Transparent"
+                                           
+                            TextColor="White"
+                            FontFamily="{StaticResource Roboto-Light}"
+                            Text="{Binding CityNameUpperCase}"
+                            FontSize="58"
+                            
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                           
+                            >
+                                        </Label>
+
+
+                                    </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+                </Grid>
+                <ActivityIndicator x:Name="ProgressLoader" IsRunning="true"/>
+            </Grid>
         </StackLayout>
     </ContentPage>
 
-    <ContentPage Title="Trip" />
-  <ContentPage Title="Inbox" />
+
+
+    <local:TripSelectionPage />
+
+
+    <ContentPage Title="Inbox" />
     <ContentPage Title="Profile" />
 </TabbedPage>
