@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+			 xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+			 x:Class="Yugo.GuideDetails">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="About your guide:" FontSize="25" HorizontalOptions="StartAndExpand" Grid.Row="0" FontAttributes="Bold"  Margin="20"  TextColor="White"  VerticalOptions="Start"/>
+            <StackLayout VerticalOptions="CenterAndExpand">
+                <Grid Margin="30">
+
+
+
+                    <Grid x:Name="GridDetails" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <StackLayout>
+                            <ffimageloading:CachedImage    HorizontalOptions="Fill" VerticalOptions="Center"
+																			  Margin="2"
+														   Aspect="AspectFit"                     
+												   HeightRequest="250"
+														DownsampleToViewSize="true"
+														   Grid.Row="0"
+													
+												Source ="{Binding PicUrl}">
+                                <ffimageloading:CachedImage.Transformations>
+                                    <fftransformations:CircleTransformation/>
+                                </ffimageloading:CachedImage.Transformations>
+                            </ffimageloading:CachedImage>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal" Grid.Row="1" >
+                            <Label Text="Name:" HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="Center" FontAttributes="Bold"/>
+                            <Label Text="{Binding name}" VerticalOptions="Center" HorizontalOptions="StartAndExpand"  TextColor="White"  FontAttributes="Bold" Margin="20"/>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal"  Grid.Row="2">
+                            <Label Text="Rating:" TextColor="White" FontAttributes="Bold"/>
+                            <Label Text="{Binding rating}" VerticalOptions="Center"  TextColor="White"  FontAttributes="Bold"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal"  Grid.Row="3">
+                            <Label Text="About:" HorizontalOptions="StartAndExpand" TextColor="White" FontAttributes="Bold"/>
+                            <Label Text="{Binding about}" VerticalOptions="Center" HorizontalOptions="StartAndExpand"  TextColor="White"  FontAttributes="Bold"/>
+                        </StackLayout>
+                    </Grid>
+                </Grid>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" VerticalOptions="End" Margin="5" HorizontalOptions="Center">
+                <!-- bottom controls -->
+
+
+                <Button x:Name="ContactButton"
+					   Text="Save"
+				
+					  IsVisible="True"
+				 
+					
+						   BorderRadius = "4"
+						
+				BorderWidth = "1"
+						BackgroundColor="Transparent"
+					   BorderColor="Black"
+							
+					   TextColor="White"
+					
+					   FontSize="Medium"
+					 HorizontalOptions="Center"
+					  
+					
+				   />
+                <Button x:Name="PurchaseButton"
+					   Text="Reserve"
+				
+					  IsVisible="True"
+				 
+				   
+						   BorderRadius = "4"
+						
+				BorderWidth = "1"
+						BackgroundColor="Transparent"
+					   BorderColor="Black"
+							
+					   TextColor="White"
+					
+					   FontSize="Medium"
+					 HorizontalOptions="Center"
+					  
+					
+				   />
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

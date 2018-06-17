@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             x:Class="Yugo.TripSelectionPage"
+             Title="Trip">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid VerticalOptions="FillAndExpand" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Margin="10" Text="Your current trips" FontSize="25" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+                    <ListView x:Name="listviewTrip" Grid.Row="1" HorizontalOptions="FillAndExpand"  SeparatorVisibility="Default" HasUnevenRows="True" ItemSelected="listviewContacts_ItemSelected">
+                        <ListView.ItemTemplate >
+                            <DataTemplate >
+                                <ViewCell>
+                                    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                        <Grid.RowDefinitions>
+
+                                            <RowDefinition Height="Auto"/>
+                                           
+                                            
+                                        </Grid.RowDefinitions>
+
+                                        
+
+                                        <ffimageloading:CachedImage    HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"
+                                                                       
+                                                   Aspect="AspectFill"                     
+			                                       HeightRequest="100"
+		                                    	   DownsampleToViewSize="true"
+                                                   Grid.Row="0"
+                                                      
+			                                    Source ="{Binding CityPic}">
+                                           
+
+                                        </ffimageloading:CachedImage>
+                                        <BoxView VerticalOptions="Fill" HorizontalOptions="Fill" BackgroundColor="Black" Grid.Row="0" Opacity="0.5"></BoxView>
+
+                                        <StackLayout  Orientation="Vertical" Grid.Row="0" Margin="10"           >
+                                            
+                                            <Label Text="{Binding TripName}" FontSize="52"   TextColor="White" FontFamily="{StaticResource Roboto-Regular}" />
+                                            <Label Text="{Binding TripDestination}"  FontSize="Medium" TextColor="White"  FontFamily="{StaticResource Roboto-Light}" />
+                                            <Label Text="{Binding TripStatus}"  FontSize="Medium"  TextColor="White" FontFamily="{StaticResource Roboto-Light}"  />
+                                        </StackLayout>
+
+                                    </Grid>
+                                </ViewCell>
+
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Grid>
+                <ActivityIndicator x:Name="ProgressLoader" IsRunning="true"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
