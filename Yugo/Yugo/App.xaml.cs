@@ -14,17 +14,20 @@ namespace Yugo
 		{
            
             InitializeComponent();
-            CachedImageRenderer.Init(true);
-          
-            //MainPage = new NavigationPage(new Yugo.intro_page());
-           
+
+                  MainPage = new NavigationPage(new Yugo.intro_page());
+
+
             //   MainPage = new NavigationPage(new Yugo.GuideSelectScreen());
-              MainPage = new NavigationPage(new Yugo.LoggedInNavigation());
-        }
+            // MainPage = new NavigationPage(new Yugo.LoggedInNavigation());
+
+     //       MainPage = new NavigationPage(new Yugo.TripPlayMasterPage()); 
+    }
         
 
 		protected override void OnStart ()
 		{
+
 			// Handle when your app starts
 		}
 

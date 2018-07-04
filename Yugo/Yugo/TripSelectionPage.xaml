@@ -14,7 +14,7 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
                     <Label Grid.Row="0" Margin="10" Text="Your current trips" FontSize="25" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
-                    <ListView x:Name="listviewTrip" Grid.Row="1" HorizontalOptions="FillAndExpand"  SeparatorVisibility="Default" HasUnevenRows="True" ItemSelected="listviewContacts_ItemSelected">
+                    <ListView x:Name="listviewTrip" Opacity="0" Grid.Row="1" HorizontalOptions="FillAndExpand"  SeparatorVisibility="Default" HasUnevenRows="True" ItemSelected="listviewContacts_ItemSelected">
                         <ListView.ItemTemplate >
                             <DataTemplate >
                                 <ViewCell>
@@ -29,12 +29,12 @@
                                         
 
                                         <ffimageloading:CachedImage    HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"
-                                                                       
+                                                      Success="CachedImage_Success"                 
                                                    Aspect="AspectFill"                     
 			                                       HeightRequest="100"
 		                                    	   DownsampleToViewSize="true"
                                                    Grid.Row="0"
-                                                      
+                                                     
 			                                    Source ="{Binding CityPic}">
                                            
 

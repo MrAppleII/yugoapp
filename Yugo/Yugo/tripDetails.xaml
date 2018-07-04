@@ -14,7 +14,7 @@
                     FontFamily="{StaticResource Roboto-Light}"
                 HorizontalOptions="CenterAndExpand"
                      FontSize="48"
-                   TextColor="Black"
+                   TextColor="White"
                 />
             <Label Text="Now lets talk about your trip!"
                    Margin="0,0,0,20"
@@ -22,10 +22,10 @@
                     FontFamily="{StaticResource Roboto-Light}"
                 HorizontalOptions="CenterAndExpand"
                      FontSize="28"
-                   TextColor="Black"></Label>
+                   TextColor="White"></Label>
                 <StackLayout Orientation="Horizontal" WidthRequest="250" HorizontalOptions="Center">
 
-                    <Label Text="When are you going? "  FontFamily="{StaticResource Roboto-Light}" VerticalTextAlignment="Center"  HorizontalOptions="CenterAndExpand" FontSize="Large"></Label>
+                    <Label Text="When are you going? "  FontFamily="{StaticResource Roboto-Light}" VerticalTextAlignment="Center" TextColor="White"  HorizontalOptions="CenterAndExpand" FontSize="Large"></Label>
                     <DatePicker
                  HorizontalOptions="Center"
                 
@@ -36,9 +36,11 @@
             <Entry Placeholder="Where are you going?"
                     FontFamily="{StaticResource Roboto-Light}"
                    HorizontalOptions="Center"
+                   PlaceholderColor="DarkGray"
                    WidthRequest="250"></Entry>
             <Entry Placeholder="How many Travelers?"
                     FontFamily="{StaticResource Roboto-Light}"
+                   PlaceholderColor="DarkGray"
                     HorizontalOptions="Center"
                    WidthRequest="250"></Entry>
                 <StackLayout Orientation="Vertical" VerticalOptions="End">

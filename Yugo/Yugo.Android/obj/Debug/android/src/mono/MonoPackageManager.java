@@ -107,6 +107,10 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Yugo.Android.dll" comes first in this list. */
 		"Yugo.Android.dll",
+		"CarouselView.FormsPlugin.Abstractions.dll",
+		"CarouselView.FormsPlugin.Android.dll",
+		"Com.Android.DeskClock.dll",
+		"Com.ViewPagerIndicator.dll",
 		"FFImageLoading.dll",
 		"FFImageLoading.Forms.dll",
 		"FFImageLoading.Forms.Platform.dll",
@@ -118,6 +122,9 @@ class MonoPackageManager_Resources {
 		"Newtonsoft.Json.dll",
 		"Plugin.Connectivity.Abstractions.dll",
 		"Plugin.Connectivity.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.Geolocator.dll",
+		"Plugin.Permissions.dll",
 		"SkiaSharp.dll",
 		"System.Net.Http.Extensions.dll",
 		"System.Net.Http.Primitives.dll",
@@ -143,9 +150,18 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"Xamarin.Forms.Core.dll",
+		"Xamarin.Forms.GoogleMaps.Android.dll",
+		"Xamarin.Forms.GoogleMaps.dll",
+		"Xamarin.Forms.Maps.Android.dll",
+		"Xamarin.Forms.Maps.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"Xamarin.iOS.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Tasks.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Maps.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

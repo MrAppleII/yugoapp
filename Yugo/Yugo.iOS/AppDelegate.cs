@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using CarouselView.FormsPlugin.iOS;
+using FFImageLoading.Forms.Platform;
 using Foundation;
 using UIKit;
 
@@ -23,6 +24,9 @@ namespace Yugo.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            Xamarin.FormsMaps.Init();
+            CachedImageRenderer.Init();
+            CarouselViewRenderer.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.16299": {
+      "CarouselView.FormsPlugin/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -406,6 +420,18 @@
           "lib/UAP10/Plugin.Connectivity.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.3.840": {
         "type": "package",
         "compile": {
@@ -493,9 +519,51 @@
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Forms.GoogleMaps/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/3.0.0.561731": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.561731"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-arm": {
+      "CarouselView.FormsPlugin/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -1030,6 +1098,18 @@
           "lib/UAP10/Plugin.Connectivity.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.3.840": {
         "type": "package",
         "compile": {
@@ -1117,9 +1197,51 @@
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Forms.GoogleMaps/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/3.0.0.561731": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.561731"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-arm-aot": {
+      "CarouselView.FormsPlugin/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -1655,6 +1777,18 @@
           "lib/UAP10/Plugin.Connectivity.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.3.840": {
         "type": "package",
         "compile": {
@@ -1742,9 +1876,51 @@
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Forms.GoogleMaps/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/3.0.0.561731": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.561731"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-arm64-aot": {
+      "CarouselView.FormsPlugin/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -2099,6 +2275,18 @@
           "lib/UAP10/Plugin.Connectivity.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.3.840": {
         "type": "package",
         "compile": {
@@ -2186,9 +2374,51 @@
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Forms.GoogleMaps/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/3.0.0.561731": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.561731"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-x64": {
+      "CarouselView.FormsPlugin/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -2723,6 +2953,18 @@
           "lib/UAP10/Plugin.Connectivity.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.3.840": {
         "type": "package",
         "compile": {
@@ -2810,9 +3052,51 @@
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Forms.GoogleMaps/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/3.0.0.561731": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.561731"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-x64-aot": {
+      "CarouselView.FormsPlugin/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -3348,6 +3632,18 @@
           "lib/UAP10/Plugin.Connectivity.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.3.840": {
         "type": "package",
         "compile": {
@@ -3435,9 +3731,51 @@
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Forms.GoogleMaps/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/3.0.0.561731": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.561731"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-x86": {
+      "CarouselView.FormsPlugin/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -3972,6 +4310,18 @@
           "lib/UAP10/Plugin.Connectivity.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.3.840": {
         "type": "package",
         "compile": {
@@ -4059,9 +4409,51 @@
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Forms.GoogleMaps/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/3.0.0.561731": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.561731"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.16299/win10-x86-aot": {
+      "CarouselView.FormsPlugin/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.5.0.121934"
+        },
+        "compile": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/UAP10/CarouselView.FormsPlugin.UWP.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -4597,6 +4989,18 @@
           "lib/UAP10/Plugin.Connectivity.dll": {}
         }
       },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.3"
+        },
+        "compile": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.10240/Plugin.Geolocator.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.3.840": {
         "type": "package",
         "compile": {
@@ -4684,10 +5088,58 @@
           "build/netstandard2.0/Xamarin.Forms.props": {},
           "build/netstandard2.0/Xamarin.Forms.targets": {}
         }
+      },
+      "Xamarin.Forms.GoogleMaps/2.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.3.4.247"
+        },
+        "compile": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll": {},
+          "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/3.0.0.561731": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.561731"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "CarouselView.FormsPlugin/5.2.0": {
+      "sha512": "h849lqz0wvmpyiXqCrN7EW+cCGqK5chcefCfS55CkoGMMQx238QWNknUTOl/CvIdZ4bgs0Oztb7kamYXDlQ5mQ==",
+      "type": "package",
+      "path": "carouselview.formsplugin/5.2.0",
+      "files": [
+        "carouselview.formsplugin.5.2.0.nupkg.sha512",
+        "carouselview.formsplugin.nuspec",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Android.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP.pri",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP/CarouselView.FormsPlugin.UWP.xr.xml",
+        "lib/UAP10/FlipViewControl.xbf",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll",
+        "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/portable-net45+netcore45+wpa81+wp8+MonoAndroid10+Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll"
+      ]
+    },
     "Microsoft.Bcl/1.1.10": {
       "sha512": "+tTqoh/M1pyL8El3qLy30EcwnAtyvFoDZJtdG9Cbg/WdFbh4N8kyrq198XHuEL7lnJbeD0DRO8jcX5IIOh05cQ==",
       "type": "package",
@@ -8675,6 +9127,31 @@
         "xam.plugin.connectivity.nuspec"
       ]
     },
+    "Xam.Plugin.Geolocator/4.5.0.6": {
+      "sha512": "Ro7peBDxsDXPc7J7yLx0ekAcXIfVTAXj/rXiBKiTgZ4Lm7KZJIU8PXOCcI4JztzT3MQrL8Rmka48il/ix0pwoA==",
+      "type": "package",
+      "path": "xam.plugin.geolocator/4.5.0.6",
+      "files": [
+        "lib/monoandroid71/Plugin.Geolocator.dll",
+        "lib/monoandroid71/Plugin.Geolocator.xml",
+        "lib/netstandard1.0/Plugin.Geolocator.dll",
+        "lib/netstandard1.0/Plugin.Geolocator.xml",
+        "lib/netstandard2.0/Plugin.Geolocator.dll",
+        "lib/netstandard2.0/Plugin.Geolocator.xml",
+        "lib/uap10.0.10240/Plugin.Geolocator.dll",
+        "lib/uap10.0.10240/Plugin.Geolocator.pri",
+        "lib/uap10.0.10240/Plugin.Geolocator.xml",
+        "lib/xamarinios10/Plugin.Geolocator.dll",
+        "lib/xamarinios10/Plugin.Geolocator.xml",
+        "lib/xamarinmac20/Plugin.Geolocator.dll",
+        "lib/xamarinmac20/Plugin.Geolocator.xml",
+        "lib/xamarintvos10/Plugin.Geolocator.dll",
+        "lib/xamarintvos10/Plugin.Geolocator.xml",
+        "readme.txt",
+        "xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+        "xam.plugin.geolocator.nuspec"
+      ]
+    },
     "Xamarin.FFImageLoading/2.4.3.840": {
       "sha512": "MUcVwR/hfaG6/GZ28g8YDDKnXI2JMfT4goanYoYgKuqjLjM44qwivrhnBZ0Zt/pTDpqiGUmGTIoakHiDihTVQQ==",
       "type": "package",
@@ -9018,21 +9495,72 @@
         "xamarin.forms.3.0.0.561731.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "Xamarin.Forms.GoogleMaps/2.3.0": {
+      "sha512": "lsnf+ZkxUIoAsPvBFbdeP7mu5bhQSfhBBRSJkT5gpZ53qQQPSeuaUnxiMl7x6Z7eRxJ22cvPrlioWhTX6qvlpA==",
+      "type": "package",
+      "path": "xamarin.forms.googlemaps/2.3.0",
+      "files": [
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.Android.dll",
+        "lib/MonoAndroid70/Xamarin.Forms.GoogleMaps.dll",
+        "lib/UAP10/Xamarin.Forms.GoogleMaps.UWP.dll",
+        "lib/UAP10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.GoogleMaps.iOS.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid70+MonoTouch10+Xamarin.iOS10+UAP10/Xamarin.Forms.GoogleMaps.dll",
+        "xamarin.forms.googlemaps.2.3.0.nupkg.sha512",
+        "xamarin.forms.googlemaps.nuspec"
+      ]
+    },
+    "Xamarin.Forms.Maps/3.0.0.561731": {
+      "sha512": "FyLmNS9Wtfccx2K3hvV6uWS9hYRRoRO5f63AgVQdfW+SXShA5bIKLJ1K4HdAf1m9zw0YBm7i2lB6lzMVfRkNww==",
+      "type": "package",
+      "path": "xamarin.forms.maps/3.0.0.561731",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.Design.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.Design.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.3.0.0.561731.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
+      "CarouselView.FormsPlugin >= 5.2.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.5",
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 11.0.2",
       "UXDivers.GorillaPlayer.Common >= 0.9.1.2",
       "Xam.Plugin.Connectivity >= 3.1.1",
+      "Xam.Plugin.Geolocator >= 4.5.0.6",
       "Xamarin.FFImageLoading >= 2.4.3.840",
       "Xamarin.FFImageLoading.Forms >= 2.4.3.840",
       "Xamarin.FFImageLoading.Svg >= 2.4.3.840",
       "Xamarin.FFImageLoading.Svg.Forms >= 2.4.3.840",
       "Xamarin.FFImageLoading.Transformations >= 2.4.3.840",
-      "Xamarin.Forms >= 3.0.0.561731"
+      "Xamarin.Forms >= 3.0.0.561731",
+      "Xamarin.Forms.GoogleMaps >= 2.3.0",
+      "Xamarin.Forms.Maps >= 3.0.0.561731"
     ]
   },
   "packageFolders": {
@@ -9072,6 +9600,10 @@
     "frameworks": {
       "uap10.0.16299": {
         "dependencies": {
+          "CarouselView.FormsPlugin": {
+            "target": "Package",
+            "version": "[5.2.0, )"
+          },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.1.5, )"
@@ -9091,6 +9623,10 @@
           "Xam.Plugin.Connectivity": {
             "target": "Package",
             "version": "[3.1.1, )"
+          },
+          "Xam.Plugin.Geolocator": {
+            "target": "Package",
+            "version": "[4.5.0.6, )"
           },
           "Xamarin.FFImageLoading": {
             "target": "Package",
@@ -9113,6 +9649,14 @@
             "version": "[2.4.3.840, )"
           },
           "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.0.0.561731, )"
+          },
+          "Xamarin.Forms.GoogleMaps": {
+            "target": "Package",
+            "version": "[2.3.0, )"
+          },
+          "Xamarin.Forms.Maps": {
             "target": "Package",
             "version": "[3.0.0.561731, )"
           }

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="Yugo.UserProfilePage"
+             Title="Profile"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <ffimageloading:CachedImage 
+                x:Name="UserProfileImageInUI"
+                HorizontalOptions="Fill" 
+                VerticalOptions="Center"
+                
+                Opacity="0"
+                Aspect="AspectFill"
+                HeightRequest="250"
+                   DownsampleToViewSize="True"
+                 Source ="https://images.pexels.com/photos/785667/pexels-photo-785667.jpeg?auto=compress\u0026cs=tinysrgb\u0026dpr=2\u0026h=750\u0026w=1260">
+            </ffimageloading:CachedImage>
+            <Label Text="Jesus Garnica" TextColor="White" Margin="10" HorizontalOptions="Center" FontSize="42" ></Label>
+
+            <StackLayout HorizontalOptions="Fill" Orientation="Vertical" Margin="10">
+                <Label Text="Email"  FontSize="Large" TextColor="DarkGray" FontFamily="{StaticResource Roboto-Light}" />
+                <Label Text="gtechy100@gmail.com"  FontSize="Medium" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+            </StackLayout>
+            <StackLayout HorizontalOptions="Fill" Orientation="Vertical" Margin="10">
+                <Label Text="Home Town"  FontSize="Large" TextColor="DarkGray" FontFamily="{StaticResource Roboto-Light}" />
+                <Label Text="Menlo Park"  FontSize="Medium" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+            </StackLayout>
+            <StackLayout HorizontalOptions="Fill" Orientation="Vertical" Margin="10">
+                <Label Text="Birthday"  FontSize="Large" TextColor="DarkGray" FontFamily="{StaticResource Roboto-Light}" />
+                <Label Text="12/28/95"  FontSize="Medium" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

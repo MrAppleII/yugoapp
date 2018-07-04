@@ -17,14 +17,6 @@ public class TimePickerRenderer
 	}
 
 
-	public TimePickerRenderer (android.content.Context p0, android.util.AttributeSet p1)
-	{
-		super (p0, p1);
-		if (getClass () == TimePickerRenderer.class)
-			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.TimePickerRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
-	}
-
-
 	public TimePickerRenderer (android.content.Context p0)
 	{
 		super (p0);
@@ -38,6 +30,14 @@ public class TimePickerRenderer
 		super (p0, p1, p2);
 		if (getClass () == TimePickerRenderer.class)
 			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.TimePickerRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android:System.Int32, mscorlib", this, new java.lang.Object[] { p0, p1, p2 });
+	}
+
+
+	public TimePickerRenderer (android.content.Context p0, android.util.AttributeSet p1)
+	{
+		super (p0, p1);
+		if (getClass () == TimePickerRenderer.class)
+			mono.android.TypeManager.Activate ("Xamarin.Forms.Platform.Android.TimePickerRenderer, Xamarin.Forms.Platform.Android", "Android.Content.Context, Mono.Android:Android.Util.IAttributeSet, Mono.Android", this, new java.lang.Object[] { p0, p1 });
 	}
 
 

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="Yugo.ActivityDetailsPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill" Orientation="Vertical">
+            <StackLayout Orientation="Vertical">
+                <ffimageloading:CachedImage
+                Source="{Binding ActivityPicture}"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="Start"
+                Aspect="AspectFill"
+                HeightRequest="200"
+                FadeAnimationEnabled="true"
+                >
+                </ffimageloading:CachedImage>
+            </StackLayout>
+            <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+                <StackLayout VerticalOptions="Fill">
+                    <StackLayout Orientation="Vertical" Padding="0" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                    <Label Text="{Binding ActivityName}"
+                   FontSize="Large"
+                       Margin="10"
+                 VerticalOptions="Start"
+                HorizontalOptions="CenterAndExpand" TextColor="White" FontFamily="{StaticResource Roboto-Regular}" />
+                        <BoxView HorizontalOptions="Fill"   HeightRequest="1" BackgroundColor="Black" ></BoxView>
+                        <StackLayout HorizontalOptions="Fill" Orientation="Vertical" Margin="10">
+                            <Label Text="About"  FontSize="Large" TextColor="DarkGray" FontFamily="{StaticResource Roboto-Light}" />
+                            <Label Text="{Binding AcvtivityAbout}"  FontSize="Medium" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Fill" Orientation="Vertical" Margin="10">
+                            <Label Text="Recommendation"  FontSize="Large" TextColor="DarkGray" FontFamily="{StaticResource Roboto-Light}" />
+                            <Label Text="{Binding ActivityRecommendation}"  FontSize="Medium" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Fill" Orientation="Vertical" Margin="10">
+                            <Label Text="Why It Is Recommended"  FontSize="Large" TextColor="DarkGray" FontFamily="{StaticResource Roboto-Light}" />
+                            <Label Text="{Binding ActivityMoreDetails}"  FontSize="Medium" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+                        </StackLayout>
+                       
+                        <BoxView HorizontalOptions="Fill"   HeightRequest="1" BackgroundColor="Black" ></BoxView>
+                        <StackLayout HorizontalOptions="Fill" Orientation="Horizontal"   Margin="10">
+
+
+                            <Label Text="{Binding ActivityAddress}" FontSize="Medium" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+                           
+
+                        </StackLayout>
+                        <BoxView HorizontalOptions="Fill"   HeightRequest="1" BackgroundColor="Black" ></BoxView>
+                    </StackLayout>
+                <Button
+                                                    x:Name="directionsButton"
+                                                    Text="Get Directions"
+                                                    BorderRadius = "4"
+                                                    BorderWidth = "1"
+                                                    Margin="5"
+                                                    Pressed="directionsButtonClicked"
+                                                    BackgroundColor="White"
+                                                    BorderColor="White"
+                                                    TextColor="Black"
+                                                    FontSize="Medium"
+                                                    IsVisible="True"
+                                                    ></Button>
+                <maps:Map 
+                  VerticalOptions="End"
+                        x:Name="TripMap"
+                        HeightRequest="200"
+                        IsShowingUser="true"
+                        MapType="Street"
+/>
+
+
+
+                </StackLayout>
+            </ScrollView>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

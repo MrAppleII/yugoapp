@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             x:Class="Yugo.TripPlanDisplay"
+Title="{Binding CurrentDayText}">
+    <ContentPage.Content>
+
+        <StackLayout>
+            
+            <Grid VerticalOptions="FillAndExpand" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Margin="10" Text="{Binding CurrentTripName}" x:Name="TripNameUI" HorizontalOptions="Center" FontSize="25" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+                    <StackLayout VerticalOptions="StartAndExpand" Padding="0" Grid.Row="1">
+
+                        <maps:Map HorizontalOptions="Fill"
+                        HeightRequest="240"
+                        x:Name="TripMap"
+                        
+                        IsShowingUser="true"
+                        MapType="Street"
+/>
+                    </StackLayout>
+                    <ListView x:Name="listviewActivities" Grid.Row="2" HorizontalOptions="FillAndExpand" SeparatorVisibility="Default" HasUnevenRows="True" ItemSelected="listviewActivity_ItemSelected">
+
+                        <ListView.ItemTemplate >
+                            <DataTemplate >
+                                <ViewCell>
+                                    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                        <Grid.RowDefinitions>
+
+                                            <RowDefinition Height="Auto"/>
+
+
+                                        </Grid.RowDefinitions>
+
+
+
+                                        <ffimageloading:CachedImage HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"
+                                        Aspect="AspectFill"
+                                        HeightRequest="{Binding ActivityViewSize,Mode=TwoWay}"
+                                        Grid.Row="0"
+                                        Source ="{Binding ActivityPicture}">
+                                        </ffimageloading:CachedImage>
+                                        <BoxView VerticalOptions="Fill" HorizontalOptions="Fill" BackgroundColor="{Binding SelectedColor}" Grid.Row="0" Opacity="0.5"></BoxView>
+
+                                        <StackLayout Orientation="Vertical" Grid.Row="0" Margin="10" >
+                                            <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                                                <Label Text="{Binding ActivityName,Mode=TwoWay}" FontSize="Large" VerticalOptions="Center" HorizontalOptions="Start" TextColor="White" FontFamily="{StaticResource Roboto-Regular}" />
+                                                <Label Text="{Binding ActivityTime}" FontSize="Medium" VerticalOptions="Center" HorizontalOptions="EndAndExpand" TextColor="White" FontFamily="{StaticResource Roboto-Regular}" />
+                                            </StackLayout>
+
+                                            <Label Text="{Binding ActivityAddress}" FontSize="Medium" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+                                            <Label Text="{Binding AcvtivityAbout}" FontSize="Medium" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+                                            <Label Text="{Binding ActivityMoreDetails}" IsVisible="{Binding CurrentlySelectedEvent}" FontSize="Medium" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+                                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand">
+                                                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                                    <Grid.RowDefinitions>
+
+                                                        <RowDefinition Height="Auto"/>
+                                                      
+
+                                                    </Grid.RowDefinitions>
+                                                    <Grid.ColumnDefinitions>
+
+                                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                                        <ColumnDefinition Width="*"></ColumnDefinition>
+
+                                                    </Grid.ColumnDefinitions>
+                                                    <Button
+                                                    x:Name="directionsButton"
+                                                    Text="Get Directions"
+                                                    BorderRadius = "4"
+                                                    BorderWidth = "1"
+                                                    Grid.Row="0"
+                                                        Grid.Column="0"
+                                                    Pressed="directionsButtonClicked"
+                                                    BackgroundColor="White"
+                                                    BorderColor="White"
+                                                    TextColor="Black"
+                                                    FontSize="Medium"
+                                                    IsVisible="{Binding CurrentlySelectedEvent }"
+                                                    ></Button>
+                                                    <Button
+                                                    x:Name="MoreDetails_Button"
+                                                Text="More Details"
+                                                          Grid.Row="0"
+                                                        Grid.Column="1"
+                                                 BorderRadius = "4"
+                                                 BorderWidth = "1"
+                                                    Pressed="MoreDetails_Button_Pressed"
+                                                 BackgroundColor="Transparent"
+                                                 BorderColor="White"
+                                                    TextColor="White"
+                                                 FontSize="Medium"
+                                                IsVisible="{Binding CurrentlySelectedEvent }"
+                                                 ></Button>
+
+                                                </Grid>
+                                                                                        
+
+                                            </StackLayout>
+                                        </StackLayout>
+
+                                    </Grid>
+                                </ViewCell>
+
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                  
+                </Grid>
+                <ActivityIndicator x:Name="ProgressLoader" IsRunning="true"/>
+            </Grid>
+          
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -14,6 +14,7 @@
                 <Label Text="First Let Us Ask You A Few Questions"
                                           FontFamily="{StaticResource Roboto-Light}"
                 HorizontalTextAlignment="Center"
+                       
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                      FontSize="32"
@@ -21,16 +22,19 @@
                 />
                 <Entry Placeholder="Name"
                      HorizontalOptions="Center"
+                        PlaceholderColor="DarkGray"
                        FontFamily="{StaticResource Roboto-Light}"
                         WidthRequest="250"
                        ></Entry>
 
                 <Entry Placeholder="Enter your email"
                    HorizontalOptions="Center"
+                        PlaceholderColor="DarkGray"
                        FontFamily="{StaticResource Roboto-Light}"
                         WidthRequest="250"></Entry>
                 <Entry Placeholder="Type in a password"
                    HorizontalOptions="Center"
+                        PlaceholderColor="DarkGray"
                        FontFamily="{StaticResource Roboto-Light}"
                         WidthRequest="250"></Entry>
 

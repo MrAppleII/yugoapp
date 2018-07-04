@@ -6,6 +6,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Plugin.CurrentActivity;
+using FFImageLoading.Forms.Platform;
+using CarouselView.FormsPlugin.Android;
 
 namespace Yugo.Droid
 {
@@ -18,10 +21,21 @@ namespace Yugo.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
+            Xamarin.FormsMaps.Init(this, bundle);
+            CachedImageRenderer.Init(true);
+
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            CarouselViewRenderer.Init();
             LoadApplication(new App());
+
         }
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults)
+        {
+            Plugin.Permissions.PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+
     }
 }
 

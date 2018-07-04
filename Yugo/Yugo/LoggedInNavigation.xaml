@@ -17,7 +17,7 @@
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
                     <Label Grid.Row="0" Margin="10" Text="Where are you headed?" HorizontalOptions="Center" FontSize="25" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
-                    <ListView x:Name="listviewTrip" Grid.Row="1" HorizontalOptions="FillAndExpand"  SeparatorVisibility="Default" HasUnevenRows="True" ItemSelected="listviewCity_ItemSelected">
+                    <ListView x:Name="listviewTrip" Opacity ="0" Grid.Row="1" HorizontalOptions="FillAndExpand"  SeparatorVisibility="Default" HasUnevenRows="True" ItemSelected="listviewCity_ItemSelected">
                 <ListView.ItemTemplate >
                     <DataTemplate >
                         <ViewCell>
@@ -29,12 +29,22 @@
                                     
                                     
                                         <ffimageloading:CachedImage   HorizontalOptions="FillAndExpand" VerticalOptions="Fill" 
+                                       Success="CityBackgroundPhoto_Finish"
+                                        
+                                                                      CacheType="All"
+                                                                      CacheDuration="1"
+                                                                   
                                                                       
-                                                        Grid.Row="0"
-                             Aspect="AspectFill"
-                             Source ="{Binding CityPic}" 
-                             
-                            >
+                                        
+                                                                       DownsampleToViewSize="true"
+                                                                     DownsampleHeight="150"
+                                                                      DownsampleUseDipUnits="True"
+                                        Grid.Row="0"
+                                        x:Name="CityBackgroundPhoto"
+                                        Aspect="AspectFill"
+                                        Source ="{Binding CityPic}" 
+                                        
+                                         >
                                             
 
 
@@ -77,5 +87,5 @@
 
 
     <ContentPage Title="Inbox" />
-    <ContentPage Title="Profile" />
+    <local:UserProfilePage />
 </TabbedPage>

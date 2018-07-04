@@ -36,9 +36,9 @@
                 <On Platform="Android" Value="Roboto-Light.ttf#Roboto" />
                 <On Platform="iOS" Value="Roboto-Light"/>
             </OnPlatform>
-        </ResourceDictionary>
-        <Style TargetType="ContentPage"
-         ApplyToDerivedTypes="True">
+            </ResourceDictionary>
+            <Style TargetType="ContentPage"
+            ApplyToDerivedTypes="True">
             <Setter Property="BackgroundColor" Value="#282828" />
            
 

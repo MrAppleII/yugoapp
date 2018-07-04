@@ -12,12 +12,15 @@ namespace Yugo
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class TripSelectionPage : ContentPage
+
 	{
+        private int ListLength = 0;
+        private int counter = 0;
 		public TripSelectionPage ()
 		{
 			InitializeComponent ();
 		}
-        private async void GetJSON()
+        private async void GetCurrentTrips()
         {
             //await DisplayAlert("Internet Availible", "Going forward with Method", "OK");
             //Check network status   
@@ -35,10 +38,11 @@ namespace Yugo
                 }
                 //Binding listview with server response    
                 listviewTrip.ItemsSource = ObjTripList.Trips;
+                ListLength = ObjTripList.Trips.Count();
             }
             else
             {
-                await DisplayAlert("JSONParsing", "No network is available.", "Ok");
+                await DisplayAlert("Oh no!", "No network is available.", "Ok");
             }
             //Hide loader after server response    
            ProgressLoader.IsVisible = false;
@@ -47,15 +51,34 @@ namespace Yugo
         {
 
             var itemSelectedData = e.SelectedItem as TripPlan;
-           // Navigation.PushAsync(new GuideDetails(itemSelectedData));
+           // DisplayAlert("Trip Selected!", itemSelectedData.TripDestination, "Ok");
+             Navigation.PushAsync(new TripPlanDisplay(itemSelectedData));
             //do nothing so far
         }
         protected override void OnAppearing()
         {
-            GetJSON();
+            GetCurrentTrips();
 
         }
 
+        private void CachedImage_Success(object sender, FFImageLoading.Forms.CachedImageEvents.SuccessEventArgs e)
+        {
+            if (counter != ListLength)
+            {
+                ++counter;
+            }
+            if (counter == ListLength)
+            {
+                // System.Diagnostics.Debug.WriteLine("MAX REACHED " + cityDownloadedList.Cities.Count() + " " + counter);
+                displayAlItems();
+            }
+
+        }
+        private async void displayAlItems()
+        {
+
+            await listviewTrip.FadeTo(1, 250);
+        }
     }
     public class TripPlan
     {
@@ -64,6 +87,7 @@ namespace Yugo
         public string CityPic { get; set; }
         public string TripStatus { get; set; }
         public string TripID { get; set; }
+        public string TripApiLink { get; set; }
     }
 
     

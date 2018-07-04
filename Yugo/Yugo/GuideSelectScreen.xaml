@@ -41,17 +41,17 @@
                     <RowDefinition Height="Auto"/>
                         <RowDefinition  Height="*"/>
                 </Grid.RowDefinitions>
-                        <Grid Grid.Row="0">
+                        <Grid Margin="3" Grid.Row="0">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
 
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
                                 <ColumnDefinition Width="*" />
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
-                            <Button Text="Theme" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1" TextColor="White"  
+                            <Button Text="Theme" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="0" TextColor="White"  
                         FontFamily="{StaticResource Roboto-Light}" 
                         BorderRadius = "4"
                          BorderWidth = "1"
@@ -59,12 +59,12 @@
                        BorderColor="Black"
                             
                        />
-                            <Button Text="Budget" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="2" TextColor="White"  BorderRadius = "4"
+                            <Button Text="Budget" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1" TextColor="White"  BorderRadius = "4"
                         FontFamily="{StaticResource Roboto-Light}" 
                          BorderWidth = "1"
                         BackgroundColor="Transparent"
                        BorderColor="Black" />
-                            <Button Text="Travelers" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="3" TextColor="White"   BorderRadius = "4"
+                            <Button Text="Travelers" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="2" TextColor="White"   BorderRadius = "4"
                         FontFamily="{StaticResource Roboto-Light}" 
                          BorderWidth = "1"
                         BackgroundColor="Transparent"

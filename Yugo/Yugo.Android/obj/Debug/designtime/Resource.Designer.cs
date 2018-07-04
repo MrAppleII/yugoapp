@@ -26,6 +26,2067 @@ namespace Yugo.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_fade_in = global::Yugo.Droid.Resource.Animation.abc_fade_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_fade_out = global::Yugo.Droid.Resource.Animation.abc_fade_out;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Yugo.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_popup_enter = global::Yugo.Droid.Resource.Animation.abc_popup_enter;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_popup_exit = global::Yugo.Droid.Resource.Animation.abc_popup_exit;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Yugo.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_in_bottom = global::Yugo.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_in_top = global::Yugo.Droid.Resource.Animation.abc_slide_in_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_out_bottom = global::Yugo.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_out_top = global::Yugo.Droid.Resource.Animation.abc_slide_out_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_bottom_sheet_slide_in = global::Yugo.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_bottom_sheet_slide_out = global::Yugo.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_snackbar_in = global::Yugo.Droid.Resource.Animation.design_snackbar_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_snackbar_out = global::Yugo.Droid.Resource.Animation.design_snackbar_out;
+			global::CarouselView.FormsPlugin.Android.Resource.Animator.design_appbar_state_list_animator = global::Yugo.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarDivider = global::Yugo.Droid.Resource.Attribute.actionBarDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarItemBackground = global::Yugo.Droid.Resource.Attribute.actionBarItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarPopupTheme = global::Yugo.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarSize = global::Yugo.Droid.Resource.Attribute.actionBarSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarSplitStyle = global::Yugo.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarStyle = global::Yugo.Droid.Resource.Attribute.actionBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTabBarStyle = global::Yugo.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTabStyle = global::Yugo.Droid.Resource.Attribute.actionBarTabStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTabTextStyle = global::Yugo.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTheme = global::Yugo.Droid.Resource.Attribute.actionBarTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarWidgetTheme = global::Yugo.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionButtonStyle = global::Yugo.Droid.Resource.Attribute.actionButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionDropDownStyle = global::Yugo.Droid.Resource.Attribute.actionDropDownStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionLayout = global::Yugo.Droid.Resource.Attribute.actionLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionMenuTextAppearance = global::Yugo.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionMenuTextColor = global::Yugo.Droid.Resource.Attribute.actionMenuTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeBackground = global::Yugo.Droid.Resource.Attribute.actionModeBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCloseButtonStyle = global::Yugo.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCloseDrawable = global::Yugo.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCopyDrawable = global::Yugo.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCutDrawable = global::Yugo.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeFindDrawable = global::Yugo.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModePasteDrawable = global::Yugo.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModePopupWindowStyle = global::Yugo.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeSelectAllDrawable = global::Yugo.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeShareDrawable = global::Yugo.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeSplitBackground = global::Yugo.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeStyle = global::Yugo.Droid.Resource.Attribute.actionModeStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeWebSearchDrawable = global::Yugo.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionOverflowButtonStyle = global::Yugo.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionOverflowMenuStyle = global::Yugo.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionProviderClass = global::Yugo.Droid.Resource.Attribute.actionProviderClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionViewClass = global::Yugo.Droid.Resource.Attribute.actionViewClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.activityChooserViewStyle = global::Yugo.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::Yugo.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogCenterButtons = global::Yugo.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogStyle = global::Yugo.Droid.Resource.Attribute.alertDialogStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogTheme = global::Yugo.Droid.Resource.Attribute.alertDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.allowStacking = global::Yugo.Droid.Resource.Attribute.allowStacking;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alpha = global::Yugo.Droid.Resource.Attribute.alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.arrowHeadLength = global::Yugo.Droid.Resource.Attribute.arrowHeadLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.arrowShaftLength = global::Yugo.Droid.Resource.Attribute.arrowShaftLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.autoCompleteTextViewStyle = global::Yugo.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.background = global::Yugo.Droid.Resource.Attribute.background;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundSplit = global::Yugo.Droid.Resource.Attribute.backgroundSplit;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundStacked = global::Yugo.Droid.Resource.Attribute.backgroundStacked;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundTint = global::Yugo.Droid.Resource.Attribute.backgroundTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundTintMode = global::Yugo.Droid.Resource.Attribute.backgroundTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.barLength = global::Yugo.Droid.Resource.Attribute.barLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_autoHide = global::Yugo.Droid.Resource.Attribute.behavior_autoHide;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_hideable = global::Yugo.Droid.Resource.Attribute.behavior_hideable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_overlapTop = global::Yugo.Droid.Resource.Attribute.behavior_overlapTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_peekHeight = global::Yugo.Droid.Resource.Attribute.behavior_peekHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_skipCollapsed = global::Yugo.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.borderWidth = global::Yugo.Droid.Resource.Attribute.borderWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.borderlessButtonStyle = global::Yugo.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.bottomSheetDialogTheme = global::Yugo.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.bottomSheetStyle = global::Yugo.Droid.Resource.Attribute.bottomSheetStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarButtonStyle = global::Yugo.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::Yugo.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::Yugo.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::Yugo.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarStyle = global::Yugo.Droid.Resource.Attribute.buttonBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonGravity = global::Yugo.Droid.Resource.Attribute.buttonGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonPanelSideLayout = global::Yugo.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonStyle = global::Yugo.Droid.Resource.Attribute.buttonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonStyleSmall = global::Yugo.Droid.Resource.Attribute.buttonStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonTint = global::Yugo.Droid.Resource.Attribute.buttonTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonTintMode = global::Yugo.Droid.Resource.Attribute.buttonTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardBackgroundColor = global::Yugo.Droid.Resource.Attribute.cardBackgroundColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardCornerRadius = global::Yugo.Droid.Resource.Attribute.cardCornerRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardElevation = global::Yugo.Droid.Resource.Attribute.cardElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardMaxElevation = global::Yugo.Droid.Resource.Attribute.cardMaxElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardPreventCornerOverlap = global::Yugo.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardUseCompatPadding = global::Yugo.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.checkboxStyle = global::Yugo.Droid.Resource.Attribute.checkboxStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.checkedTextViewStyle = global::Yugo.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.closeIcon = global::Yugo.Droid.Resource.Attribute.closeIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.closeItemLayout = global::Yugo.Droid.Resource.Attribute.closeItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapseContentDescription = global::Yugo.Droid.Resource.Attribute.collapseContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapseIcon = global::Yugo.Droid.Resource.Attribute.collapseIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapsedTitleGravity = global::Yugo.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapsedTitleTextAppearance = global::Yugo.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.color = global::Yugo.Droid.Resource.Attribute.color;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorAccent = global::Yugo.Droid.Resource.Attribute.colorAccent;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorBackgroundFloating = global::Yugo.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorButtonNormal = global::Yugo.Droid.Resource.Attribute.colorButtonNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlActivated = global::Yugo.Droid.Resource.Attribute.colorControlActivated;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlHighlight = global::Yugo.Droid.Resource.Attribute.colorControlHighlight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlNormal = global::Yugo.Droid.Resource.Attribute.colorControlNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorPrimary = global::Yugo.Droid.Resource.Attribute.colorPrimary;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorPrimaryDark = global::Yugo.Droid.Resource.Attribute.colorPrimaryDark;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorSwitchThumbNormal = global::Yugo.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.commitIcon = global::Yugo.Droid.Resource.Attribute.commitIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetEnd = global::Yugo.Droid.Resource.Attribute.contentInsetEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetEndWithActions = global::Yugo.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetLeft = global::Yugo.Droid.Resource.Attribute.contentInsetLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetRight = global::Yugo.Droid.Resource.Attribute.contentInsetRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetStart = global::Yugo.Droid.Resource.Attribute.contentInsetStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetStartWithNavigation = global::Yugo.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPadding = global::Yugo.Droid.Resource.Attribute.contentPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingBottom = global::Yugo.Droid.Resource.Attribute.contentPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingLeft = global::Yugo.Droid.Resource.Attribute.contentPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingRight = global::Yugo.Droid.Resource.Attribute.contentPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingTop = global::Yugo.Droid.Resource.Attribute.contentPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentScrim = global::Yugo.Droid.Resource.Attribute.contentScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.controlBackground = global::Yugo.Droid.Resource.Attribute.controlBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterEnabled = global::Yugo.Droid.Resource.Attribute.counterEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterMaxLength = global::Yugo.Droid.Resource.Attribute.counterMaxLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterOverflowTextAppearance = global::Yugo.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterTextAppearance = global::Yugo.Droid.Resource.Attribute.counterTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.customNavigationLayout = global::Yugo.Droid.Resource.Attribute.customNavigationLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.defaultQueryHint = global::Yugo.Droid.Resource.Attribute.defaultQueryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dialogPreferredPadding = global::Yugo.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dialogTheme = global::Yugo.Droid.Resource.Attribute.dialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.displayOptions = global::Yugo.Droid.Resource.Attribute.displayOptions;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.divider = global::Yugo.Droid.Resource.Attribute.divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dividerHorizontal = global::Yugo.Droid.Resource.Attribute.dividerHorizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dividerPadding = global::Yugo.Droid.Resource.Attribute.dividerPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dividerVertical = global::Yugo.Droid.Resource.Attribute.dividerVertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.drawableSize = global::Yugo.Droid.Resource.Attribute.drawableSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.drawerArrowStyle = global::Yugo.Droid.Resource.Attribute.drawerArrowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dropDownListViewStyle = global::Yugo.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::Yugo.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.editTextBackground = global::Yugo.Droid.Resource.Attribute.editTextBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.editTextColor = global::Yugo.Droid.Resource.Attribute.editTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.editTextStyle = global::Yugo.Droid.Resource.Attribute.editTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.elevation = global::Yugo.Droid.Resource.Attribute.elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.errorEnabled = global::Yugo.Droid.Resource.Attribute.errorEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.errorTextAppearance = global::Yugo.Droid.Resource.Attribute.errorTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Yugo.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expanded = global::Yugo.Droid.Resource.Attribute.expanded;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleGravity = global::Yugo.Droid.Resource.Attribute.expandedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMargin = global::Yugo.Droid.Resource.Attribute.expandedTitleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginBottom = global::Yugo.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginEnd = global::Yugo.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginStart = global::Yugo.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginTop = global::Yugo.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleTextAppearance = global::Yugo.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.externalRouteEnabledDrawable = global::Yugo.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fabSize = global::Yugo.Droid.Resource.Attribute.fabSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.foregroundInsidePadding = global::Yugo.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.gapBetweenBars = global::Yugo.Droid.Resource.Attribute.gapBetweenBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.goIcon = global::Yugo.Droid.Resource.Attribute.goIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.headerLayout = global::Yugo.Droid.Resource.Attribute.headerLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.height = global::Yugo.Droid.Resource.Attribute.height;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hideOnContentScroll = global::Yugo.Droid.Resource.Attribute.hideOnContentScroll;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hintAnimationEnabled = global::Yugo.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hintEnabled = global::Yugo.Droid.Resource.Attribute.hintEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hintTextAppearance = global::Yugo.Droid.Resource.Attribute.hintTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.homeAsUpIndicator = global::Yugo.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.homeLayout = global::Yugo.Droid.Resource.Attribute.homeLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.icon = global::Yugo.Droid.Resource.Attribute.icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.iconifiedByDefault = global::Yugo.Droid.Resource.Attribute.iconifiedByDefault;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.imageButtonStyle = global::Yugo.Droid.Resource.Attribute.imageButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.indeterminateProgressStyle = global::Yugo.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.initialActivityCount = global::Yugo.Droid.Resource.Attribute.initialActivityCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.insetForeground = global::Yugo.Droid.Resource.Attribute.insetForeground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.isLightTheme = global::Yugo.Droid.Resource.Attribute.isLightTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemBackground = global::Yugo.Droid.Resource.Attribute.itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemIconTint = global::Yugo.Droid.Resource.Attribute.itemIconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemPadding = global::Yugo.Droid.Resource.Attribute.itemPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemTextAppearance = global::Yugo.Droid.Resource.Attribute.itemTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemTextColor = global::Yugo.Droid.Resource.Attribute.itemTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.keylines = global::Yugo.Droid.Resource.Attribute.keylines;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout = global::Yugo.Droid.Resource.Attribute.layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layoutManager = global::Yugo.Droid.Resource.Attribute.layoutManager;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_anchor = global::Yugo.Droid.Resource.Attribute.layout_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_anchorGravity = global::Yugo.Droid.Resource.Attribute.layout_anchorGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_behavior = global::Yugo.Droid.Resource.Attribute.layout_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_collapseMode = global::Yugo.Droid.Resource.Attribute.layout_collapseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::Yugo.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_dodgeInsetEdges = global::Yugo.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_insetEdge = global::Yugo.Droid.Resource.Attribute.layout_insetEdge;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_keyline = global::Yugo.Droid.Resource.Attribute.layout_keyline;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_scrollFlags = global::Yugo.Droid.Resource.Attribute.layout_scrollFlags;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_scrollInterpolator = global::Yugo.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::Yugo.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listDividerAlertDialog = global::Yugo.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listItemLayout = global::Yugo.Droid.Resource.Attribute.listItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listLayout = global::Yugo.Droid.Resource.Attribute.listLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listMenuViewStyle = global::Yugo.Droid.Resource.Attribute.listMenuViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPopupWindowStyle = global::Yugo.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeight = global::Yugo.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeightLarge = global::Yugo.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeightSmall = global::Yugo.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::Yugo.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemPaddingRight = global::Yugo.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.logo = global::Yugo.Droid.Resource.Attribute.logo;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.logoDescription = global::Yugo.Droid.Resource.Attribute.logoDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.maxActionInlineWidth = global::Yugo.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.maxButtonHeight = global::Yugo.Droid.Resource.Attribute.maxButtonHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.measureWithLargestChild = global::Yugo.Droid.Resource.Attribute.measureWithLargestChild;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::Yugo.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteButtonStyle = global::Yugo.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteCloseDrawable = global::Yugo.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::Yugo.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::Yugo.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRoutePauseDrawable = global::Yugo.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRoutePlayDrawable = global::Yugo.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::Yugo.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::Yugo.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteStopDrawable = global::Yugo.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteTheme = global::Yugo.Droid.Resource.Attribute.mediaRouteTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::Yugo.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.menu = global::Yugo.Droid.Resource.Attribute.menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.multiChoiceItemLayout = global::Yugo.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationContentDescription = global::Yugo.Droid.Resource.Attribute.navigationContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationIcon = global::Yugo.Droid.Resource.Attribute.navigationIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationMode = global::Yugo.Droid.Resource.Attribute.navigationMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.overlapAnchor = global::Yugo.Droid.Resource.Attribute.overlapAnchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingBottomNoButtons = global::Yugo.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingEnd = global::Yugo.Droid.Resource.Attribute.paddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingStart = global::Yugo.Droid.Resource.Attribute.paddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingTopNoTitle = global::Yugo.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.panelBackground = global::Yugo.Droid.Resource.Attribute.panelBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.panelMenuListTheme = global::Yugo.Droid.Resource.Attribute.panelMenuListTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.panelMenuListWidth = global::Yugo.Droid.Resource.Attribute.panelMenuListWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleContentDescription = global::Yugo.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleDrawable = global::Yugo.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleEnabled = global::Yugo.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleTint = global::Yugo.Droid.Resource.Attribute.passwordToggleTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleTintMode = global::Yugo.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.popupMenuStyle = global::Yugo.Droid.Resource.Attribute.popupMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.popupTheme = global::Yugo.Droid.Resource.Attribute.popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.popupWindowStyle = global::Yugo.Droid.Resource.Attribute.popupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.preserveIconSpacing = global::Yugo.Droid.Resource.Attribute.preserveIconSpacing;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.pressedTranslationZ = global::Yugo.Droid.Resource.Attribute.pressedTranslationZ;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.progressBarPadding = global::Yugo.Droid.Resource.Attribute.progressBarPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.progressBarStyle = global::Yugo.Droid.Resource.Attribute.progressBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.queryBackground = global::Yugo.Droid.Resource.Attribute.queryBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.queryHint = global::Yugo.Droid.Resource.Attribute.queryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.radioButtonStyle = global::Yugo.Droid.Resource.Attribute.radioButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.ratingBarStyle = global::Yugo.Droid.Resource.Attribute.ratingBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.ratingBarStyleIndicator = global::Yugo.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.ratingBarStyleSmall = global::Yugo.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.reverseLayout = global::Yugo.Droid.Resource.Attribute.reverseLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.rippleColor = global::Yugo.Droid.Resource.Attribute.rippleColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.scrimAnimationDuration = global::Yugo.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::Yugo.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.searchHintIcon = global::Yugo.Droid.Resource.Attribute.searchHintIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.searchIcon = global::Yugo.Droid.Resource.Attribute.searchIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.searchViewStyle = global::Yugo.Droid.Resource.Attribute.searchViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.seekBarStyle = global::Yugo.Droid.Resource.Attribute.seekBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.selectableItemBackground = global::Yugo.Droid.Resource.Attribute.selectableItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::Yugo.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showAsAction = global::Yugo.Droid.Resource.Attribute.showAsAction;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showDividers = global::Yugo.Droid.Resource.Attribute.showDividers;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showText = global::Yugo.Droid.Resource.Attribute.showText;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showTitle = global::Yugo.Droid.Resource.Attribute.showTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.singleChoiceItemLayout = global::Yugo.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spanCount = global::Yugo.Droid.Resource.Attribute.spanCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spinBars = global::Yugo.Droid.Resource.Attribute.spinBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spinnerDropDownItemStyle = global::Yugo.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spinnerStyle = global::Yugo.Droid.Resource.Attribute.spinnerStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.splitTrack = global::Yugo.Droid.Resource.Attribute.splitTrack;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.srcCompat = global::Yugo.Droid.Resource.Attribute.srcCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.stackFromEnd = global::Yugo.Droid.Resource.Attribute.stackFromEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.state_above_anchor = global::Yugo.Droid.Resource.Attribute.state_above_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.state_collapsed = global::Yugo.Droid.Resource.Attribute.state_collapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.state_collapsible = global::Yugo.Droid.Resource.Attribute.state_collapsible;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.statusBarBackground = global::Yugo.Droid.Resource.Attribute.statusBarBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.statusBarScrim = global::Yugo.Droid.Resource.Attribute.statusBarScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subMenuArrow = global::Yugo.Droid.Resource.Attribute.subMenuArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.submitBackground = global::Yugo.Droid.Resource.Attribute.submitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitle = global::Yugo.Droid.Resource.Attribute.subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitleTextAppearance = global::Yugo.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitleTextColor = global::Yugo.Droid.Resource.Attribute.subtitleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitleTextStyle = global::Yugo.Droid.Resource.Attribute.subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.suggestionRowLayout = global::Yugo.Droid.Resource.Attribute.suggestionRowLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchMinWidth = global::Yugo.Droid.Resource.Attribute.switchMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchPadding = global::Yugo.Droid.Resource.Attribute.switchPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchStyle = global::Yugo.Droid.Resource.Attribute.switchStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchTextAppearance = global::Yugo.Droid.Resource.Attribute.switchTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabBackground = global::Yugo.Droid.Resource.Attribute.tabBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabContentStart = global::Yugo.Droid.Resource.Attribute.tabContentStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabGravity = global::Yugo.Droid.Resource.Attribute.tabGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabIndicatorColor = global::Yugo.Droid.Resource.Attribute.tabIndicatorColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabIndicatorHeight = global::Yugo.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabMaxWidth = global::Yugo.Droid.Resource.Attribute.tabMaxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabMinWidth = global::Yugo.Droid.Resource.Attribute.tabMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabMode = global::Yugo.Droid.Resource.Attribute.tabMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPadding = global::Yugo.Droid.Resource.Attribute.tabPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingBottom = global::Yugo.Droid.Resource.Attribute.tabPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingEnd = global::Yugo.Droid.Resource.Attribute.tabPaddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingStart = global::Yugo.Droid.Resource.Attribute.tabPaddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingTop = global::Yugo.Droid.Resource.Attribute.tabPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabSelectedTextColor = global::Yugo.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabTextAppearance = global::Yugo.Droid.Resource.Attribute.tabTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabTextColor = global::Yugo.Droid.Resource.Attribute.tabTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAllCaps = global::Yugo.Droid.Resource.Attribute.textAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::Yugo.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceListItem = global::Yugo.Droid.Resource.Attribute.textAppearanceListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceListItemSecondary = global::Yugo.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceListItemSmall = global::Yugo.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::Yugo.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Yugo.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::Yugo.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::Yugo.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textColorAlertDialogListItem = global::Yugo.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textColorError = global::Yugo.Droid.Resource.Attribute.textColorError;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textColorSearchUrl = global::Yugo.Droid.Resource.Attribute.textColorSearchUrl;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.theme = global::Yugo.Droid.Resource.Attribute.theme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thickness = global::Yugo.Droid.Resource.Attribute.thickness;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thumbTextPadding = global::Yugo.Droid.Resource.Attribute.thumbTextPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thumbTint = global::Yugo.Droid.Resource.Attribute.thumbTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thumbTintMode = global::Yugo.Droid.Resource.Attribute.thumbTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tickMark = global::Yugo.Droid.Resource.Attribute.tickMark;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tickMarkTint = global::Yugo.Droid.Resource.Attribute.tickMarkTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tickMarkTintMode = global::Yugo.Droid.Resource.Attribute.tickMarkTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tint = global::Yugo.Droid.Resource.Attribute.tint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tintMode = global::Yugo.Droid.Resource.Attribute.tintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.title = global::Yugo.Droid.Resource.Attribute.title;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleEnabled = global::Yugo.Droid.Resource.Attribute.titleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMargin = global::Yugo.Droid.Resource.Attribute.titleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginBottom = global::Yugo.Droid.Resource.Attribute.titleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginEnd = global::Yugo.Droid.Resource.Attribute.titleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginStart = global::Yugo.Droid.Resource.Attribute.titleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginTop = global::Yugo.Droid.Resource.Attribute.titleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMargins = global::Yugo.Droid.Resource.Attribute.titleMargins;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleTextAppearance = global::Yugo.Droid.Resource.Attribute.titleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleTextColor = global::Yugo.Droid.Resource.Attribute.titleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleTextStyle = global::Yugo.Droid.Resource.Attribute.titleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarId = global::Yugo.Droid.Resource.Attribute.toolbarId;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::Yugo.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarStyle = global::Yugo.Droid.Resource.Attribute.toolbarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.track = global::Yugo.Droid.Resource.Attribute.track;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.trackTint = global::Yugo.Droid.Resource.Attribute.trackTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.trackTintMode = global::Yugo.Droid.Resource.Attribute.trackTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.useCompatPadding = global::Yugo.Droid.Resource.Attribute.useCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.voiceIcon = global::Yugo.Droid.Resource.Attribute.voiceIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowActionBar = global::Yugo.Droid.Resource.Attribute.windowActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowActionBarOverlay = global::Yugo.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowActionModeOverlay = global::Yugo.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedHeightMajor = global::Yugo.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedHeightMinor = global::Yugo.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedWidthMajor = global::Yugo.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedWidthMinor = global::Yugo.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowMinWidthMajor = global::Yugo.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowMinWidthMinor = global::Yugo.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowNoTitle = global::Yugo.Droid.Resource.Attribute.windowNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::Yugo.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::Yugo.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Yugo.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::Yugo.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Yugo.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Yugo.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::Yugo.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::Yugo.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_btn_colored_text_material = global::Yugo.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_color_highlight_material = global::Yugo.Droid.Resource.Color.abc_color_highlight_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_hint_foreground_material_dark = global::Yugo.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_hint_foreground_material_light = global::Yugo.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_input_method_navigation_guard = global::Yugo.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::Yugo.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::Yugo.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_material_dark = global::Yugo.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_material_light = global::Yugo.Droid.Resource.Color.abc_primary_text_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text = global::Yugo.Droid.Resource.Color.abc_search_url_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text_normal = global::Yugo.Droid.Resource.Color.abc_search_url_text_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text_pressed = global::Yugo.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text_selected = global::Yugo.Droid.Resource.Color.abc_search_url_text_selected;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_secondary_text_material_dark = global::Yugo.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_secondary_text_material_light = global::Yugo.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_btn_checkable = global::Yugo.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_default = global::Yugo.Droid.Resource.Color.abc_tint_default;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_edittext = global::Yugo.Droid.Resource.Color.abc_tint_edittext;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_seek_thumb = global::Yugo.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_spinner = global::Yugo.Droid.Resource.Color.abc_tint_spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_switch_track = global::Yugo.Droid.Resource.Color.abc_tint_switch_track;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.accent_material_dark = global::Yugo.Droid.Resource.Color.accent_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.accent_material_light = global::Yugo.Droid.Resource.Color.accent_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_floating_material_dark = global::Yugo.Droid.Resource.Color.background_floating_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_floating_material_light = global::Yugo.Droid.Resource.Color.background_floating_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_material_dark = global::Yugo.Droid.Resource.Color.background_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_material_light = global::Yugo.Droid.Resource.Color.background_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_disabled_material_dark = global::Yugo.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_disabled_material_light = global::Yugo.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_inverse_material_dark = global::Yugo.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_inverse_material_light = global::Yugo.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_material_dark = global::Yugo.Droid.Resource.Color.bright_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_material_light = global::Yugo.Droid.Resource.Color.bright_foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.button_material_dark = global::Yugo.Droid.Resource.Color.button_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.button_material_light = global::Yugo.Droid.Resource.Color.button_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_dark_background = global::Yugo.Droid.Resource.Color.cardview_dark_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_light_background = global::Yugo.Droid.Resource.Color.cardview_light_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_shadow_end_color = global::Yugo.Droid.Resource.Color.cardview_shadow_end_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_shadow_start_color = global::Yugo.Droid.Resource.Color.cardview_shadow_start_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_bottom_navigation_shadow_color = global::Yugo.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_error = global::Yugo.Droid.Resource.Color.design_error;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_shadow_end_color = global::Yugo.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_shadow_mid_color = global::Yugo.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_shadow_start_color = global::Yugo.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_end_inner_color = global::Yugo.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_end_outer_color = global::Yugo.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_top_inner_color = global::Yugo.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_top_outer_color = global::Yugo.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_snackbar_background_color = global::Yugo.Droid.Resource.Color.design_snackbar_background_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_tint_password_toggle = global::Yugo.Droid.Resource.Color.design_tint_password_toggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_disabled_material_dark = global::Yugo.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_disabled_material_light = global::Yugo.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_material_dark = global::Yugo.Droid.Resource.Color.dim_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_material_light = global::Yugo.Droid.Resource.Color.dim_foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.foreground_material_dark = global::Yugo.Droid.Resource.Color.foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.foreground_material_light = global::Yugo.Droid.Resource.Color.foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.highlighted_text_material_dark = global::Yugo.Droid.Resource.Color.highlighted_text_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.highlighted_text_material_light = global::Yugo.Droid.Resource.Color.highlighted_text_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_blue_grey_800 = global::Yugo.Droid.Resource.Color.material_blue_grey_800;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_blue_grey_900 = global::Yugo.Droid.Resource.Color.material_blue_grey_900;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_blue_grey_950 = global::Yugo.Droid.Resource.Color.material_blue_grey_950;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_deep_teal_200 = global::Yugo.Droid.Resource.Color.material_deep_teal_200;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_deep_teal_500 = global::Yugo.Droid.Resource.Color.material_deep_teal_500;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_100 = global::Yugo.Droid.Resource.Color.material_grey_100;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_300 = global::Yugo.Droid.Resource.Color.material_grey_300;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_50 = global::Yugo.Droid.Resource.Color.material_grey_50;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_600 = global::Yugo.Droid.Resource.Color.material_grey_600;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_800 = global::Yugo.Droid.Resource.Color.material_grey_800;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_850 = global::Yugo.Droid.Resource.Color.material_grey_850;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_900 = global::Yugo.Droid.Resource.Color.material_grey_900;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.notification_action_color_filter = global::Yugo.Droid.Resource.Color.notification_action_color_filter;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.notification_icon_bg_color = global::Yugo.Droid.Resource.Color.notification_icon_bg_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.notification_material_background_media_default_color = global::Yugo.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_dark_material_dark = global::Yugo.Droid.Resource.Color.primary_dark_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_dark_material_light = global::Yugo.Droid.Resource.Color.primary_dark_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_material_dark = global::Yugo.Droid.Resource.Color.primary_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_material_light = global::Yugo.Droid.Resource.Color.primary_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_default_material_dark = global::Yugo.Droid.Resource.Color.primary_text_default_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_default_material_light = global::Yugo.Droid.Resource.Color.primary_text_default_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_disabled_material_dark = global::Yugo.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_disabled_material_light = global::Yugo.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.ripple_material_dark = global::Yugo.Droid.Resource.Color.ripple_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.ripple_material_light = global::Yugo.Droid.Resource.Color.ripple_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_default_material_dark = global::Yugo.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_default_material_light = global::Yugo.Droid.Resource.Color.secondary_text_default_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_disabled_material_dark = global::Yugo.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_disabled_material_light = global::Yugo.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_disabled_material_dark = global::Yugo.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_disabled_material_light = global::Yugo.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_material_dark = global::Yugo.Droid.Resource.Color.switch_thumb_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_material_light = global::Yugo.Droid.Resource.Color.switch_thumb_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_normal_material_dark = global::Yugo.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_normal_material_light = global::Yugo.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::Yugo.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Yugo.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_height_material = global::Yugo.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Yugo.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Yugo.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_elevation_material = global::Yugo.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Yugo.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Yugo.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Yugo.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::Yugo.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::Yugo.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Yugo.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Yugo.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Yugo.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_height_material = global::Yugo.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_width_material = global::Yugo.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Yugo.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Yugo.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::Yugo.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_inset_vertical_material = global::Yugo.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::Yugo.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_padding_vertical_material = global::Yugo.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Yugo.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_config_prefDialogWidth = global::Yugo.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_control_corner_material = global::Yugo.Droid.Resource.Dimension.abc_control_corner_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_control_inset_material = global::Yugo.Droid.Resource.Dimension.abc_control_inset_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_control_padding_material = global::Yugo.Droid.Resource.Dimension.abc_control_padding_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::Yugo.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::Yugo.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::Yugo.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::Yugo.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Yugo.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Yugo.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_min_width_major = global::Yugo.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_min_width_minor = global::Yugo.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_padding_material = global::Yugo.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_padding_top_material = global::Yugo.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_title_divider_material = global::Yugo.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::Yugo.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::Yugo.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::Yugo.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Yugo.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Yugo.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Yugo.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Yugo.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::Yugo.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_floating_window_z = global::Yugo.Droid.Resource.Dimension.abc_floating_window_z;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Yugo.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_panel_menu_list_width = global::Yugo.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_progress_bar_height_material = global::Yugo.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_search_view_preferred_height = global::Yugo.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_search_view_preferred_width = global::Yugo.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::Yugo.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Yugo.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::Yugo.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_switch_padding = global::Yugo.Droid.Resource.Dimension.abc_switch_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_body_1_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_body_2_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_button_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_caption_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_1_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_2_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_3_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_4_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_headline_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_large_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_medium_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_menu_header_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_menu_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_small_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_subhead_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Yugo.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_title_material = global::Yugo.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::Yugo.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_compat_inset_shadow = global::Yugo.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_default_elevation = global::Yugo.Droid.Resource.Dimension.cardview_default_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_default_radius = global::Yugo.Droid.Resource.Dimension.cardview_default_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_appbar_elevation = global::Yugo.Droid.Resource.Dimension.design_appbar_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Yugo.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::Yugo.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_elevation = global::Yugo.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_height = global::Yugo.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::Yugo.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::Yugo.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_margin = global::Yugo.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::Yugo.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_text_size = global::Yugo.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Yugo.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Yugo.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_border_width = global::Yugo.Droid.Resource.Dimension.design_fab_border_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_elevation = global::Yugo.Droid.Resource.Dimension.design_fab_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_image_size = global::Yugo.Droid.Resource.Dimension.design_fab_image_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_size_mini = global::Yugo.Droid.Resource.Dimension.design_fab_size_mini;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_size_normal = global::Yugo.Droid.Resource.Dimension.design_fab_size_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_translation_z_pressed = global::Yugo.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_elevation = global::Yugo.Droid.Resource.Dimension.design_navigation_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_icon_padding = global::Yugo.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_icon_size = global::Yugo.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_max_width = global::Yugo.Droid.Resource.Dimension.design_navigation_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_padding_bottom = global::Yugo.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::Yugo.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::Yugo.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::Yugo.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_elevation = global::Yugo.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Yugo.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_max_width = global::Yugo.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_min_width = global::Yugo.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::Yugo.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_vertical = global::Yugo.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Yugo.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_text_size = global::Yugo.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_max_width = global::Yugo.Droid.Resource.Dimension.design_tab_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_scrollable_min_width = global::Yugo.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_text_size = global::Yugo.Droid.Resource.Dimension.design_tab_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_text_size_2line = global::Yugo.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.disabled_alpha_material_dark = global::Yugo.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.disabled_alpha_material_light = global::Yugo.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_colored = global::Yugo.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_dark = global::Yugo.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_light = global::Yugo.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_alpha_material_dark = global::Yugo.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_alpha_material_light = global::Yugo.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::Yugo.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::Yugo.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Yugo.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Yugo.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Yugo.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::Yugo.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::Yugo.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::Yugo.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::Yugo.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::Yugo.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::Yugo.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_action_icon_size = global::Yugo.Droid.Resource.Dimension.notification_action_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_action_text_size = global::Yugo.Droid.Resource.Dimension.notification_action_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_big_circle_margin = global::Yugo.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_content_margin_start = global::Yugo.Droid.Resource.Dimension.notification_content_margin_start;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_large_icon_height = global::Yugo.Droid.Resource.Dimension.notification_large_icon_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_large_icon_width = global::Yugo.Droid.Resource.Dimension.notification_large_icon_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_main_column_padding_top = global::Yugo.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_media_narrow_margin = global::Yugo.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_right_icon_size = global::Yugo.Droid.Resource.Dimension.notification_right_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_right_side_padding_top = global::Yugo.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_small_icon_background_padding = global::Yugo.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_small_icon_size_as_large = global::Yugo.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_subtext_size = global::Yugo.Droid.Resource.Dimension.notification_subtext_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_top_pad = global::Yugo.Droid.Resource.Dimension.notification_top_pad;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_top_pad_large_text = global::Yugo.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_action_bar_item_background_material = global::Yugo.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_borderless_material = global::Yugo.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_check_material = global::Yugo.Droid.Resource.Drawable.abc_btn_check_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Yugo.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Yugo.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_colored_material = global::Yugo.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::Yugo.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_material = global::Yugo.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Yugo.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Yugo.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Yugo.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Yugo.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_cab_background_internal_bg = global::Yugo.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_cab_background_top_material = global::Yugo.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_control_background_material = global::Yugo.Droid.Resource.Drawable.abc_control_background_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_dialog_material_background = global::Yugo.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_edit_text_material = global::Yugo.Droid.Resource.Drawable.abc_edit_text_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_ab_back_material = global::Yugo.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Yugo.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_clear_material = global::Yugo.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_go_search_api_material = global::Yugo.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Yugo.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::Yugo.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Yugo.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_search_api_material = global::Yugo.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_16dp = global::Yugo.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_36dp = global::Yugo.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_48dp = global::Yugo.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::Yugo.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::Yugo.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::Yugo.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::Yugo.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_item_background_holo_dark = global::Yugo.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_item_background_holo_light = global::Yugo.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_focused_holo = global::Yugo.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_longpressed_holo = global::Yugo.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::Yugo.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_pressed_holo_light = global::Yugo.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Yugo.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Yugo.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Yugo.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Yugo.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_holo_dark = global::Yugo.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_holo_light = global::Yugo.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Yugo.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::Yugo.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::Yugo.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_material = global::Yugo.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_small_material = global::Yugo.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Yugo.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Yugo.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_seekbar_thumb_material = global::Yugo.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::Yugo.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_seekbar_track_material = global::Yugo.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Yugo.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::Yugo.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_switch_thumb_material = global::Yugo.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_tab_indicator_material = global::Yugo.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_cursor_material = global::Yugo.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Yugo.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Yugo.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Yugo.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Yugo.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Yugo.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Yugo.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Yugo.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_material = global::Yugo.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_vector_test = global::Yugo.Droid.Resource.Drawable.abc_vector_test;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_hide_password = global::Yugo.Droid.Resource.Drawable.avd_hide_password;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_show_password = global::Yugo.Droid.Resource.Drawable.avd_show_password;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_bottom_navigation_item_background = global::Yugo.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_fab_background = global::Yugo.Droid.Resource.Drawable.design_fab_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_ic_visibility = global::Yugo.Droid.Resource.Drawable.design_ic_visibility;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_ic_visibility_off = global::Yugo.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_password_eye = global::Yugo.Droid.Resource.Drawable.design_password_eye;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_snackbar_background = global::Yugo.Droid.Resource.Drawable.design_snackbar_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_audiotrack_dark = global::Yugo.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_audiotrack_light = global::Yugo.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_dialog_close_dark = global::Yugo.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_dialog_close_light = global::Yugo.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_00 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_01 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_02 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_03 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_04 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_05 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_06 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_07 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_08 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_09 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_10 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_11 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_12 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_13 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_14 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_15 = global::Yugo.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_00 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_00;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_01 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_01;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_02 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_02;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_03 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_03;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_04 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_04;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_05 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_05;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_06 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_06;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_07 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_07;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_08 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_08;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_09 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_09;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_10 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_10;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_11 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_11;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_12 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_12;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_13 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_13;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_14 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_14;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_15 = global::Yugo.Droid.Resource.Drawable.ic_group_expand_15;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_pause_dark = global::Yugo.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_pause_light = global::Yugo.Droid.Resource.Drawable.ic_media_pause_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_play_dark = global::Yugo.Droid.Resource.Drawable.ic_media_play_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_play_light = global::Yugo.Droid.Resource.Drawable.ic_media_play_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_stop_dark = global::Yugo.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_stop_light = global::Yugo.Droid.Resource.Drawable.ic_media_stop_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disabled_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::Yugo.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::Yugo.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_grey = global::Yugo.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::Yugo.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::Yugo.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::Yugo.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_light = global::Yugo.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_tv_dark = global::Yugo.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_tv_light = global::Yugo.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connected_dark = global::Yugo.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connected_light = global::Yugo.Droid.Resource.Drawable.mr_button_connected_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connecting_dark = global::Yugo.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connecting_light = global::Yugo.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_dark = global::Yugo.Droid.Resource.Drawable.mr_button_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_light = global::Yugo.Droid.Resource.Drawable.mr_button_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_close_dark = global::Yugo.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_close_light = global::Yugo.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_material_background_dark = global::Yugo.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_material_background_light = global::Yugo.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_group_collapse = global::Yugo.Droid.Resource.Drawable.mr_group_collapse;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_group_expand = global::Yugo.Droid.Resource.Drawable.mr_group_expand;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_pause_dark = global::Yugo.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_pause_light = global::Yugo.Droid.Resource.Drawable.mr_media_pause_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_play_dark = global::Yugo.Droid.Resource.Drawable.mr_media_play_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_play_light = global::Yugo.Droid.Resource.Drawable.mr_media_play_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_stop_dark = global::Yugo.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_stop_light = global::Yugo.Droid.Resource.Drawable.mr_media_stop_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::Yugo.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::Yugo.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.navigation_empty_icon = global::Yugo.Droid.Resource.Drawable.navigation_empty_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_action_background = global::Yugo.Droid.Resource.Drawable.notification_action_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg = global::Yugo.Droid.Resource.Drawable.notification_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_low = global::Yugo.Droid.Resource.Drawable.notification_bg_low;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_low_normal = global::Yugo.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_low_pressed = global::Yugo.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_normal = global::Yugo.Droid.Resource.Drawable.notification_bg_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_normal_pressed = global::Yugo.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_icon_background = global::Yugo.Droid.Resource.Drawable.notification_icon_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_template_icon_bg = global::Yugo.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_template_icon_low_bg = global::Yugo.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_tile_bg = global::Yugo.Droid.Resource.Drawable.notification_tile_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::Yugo.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action0 = global::Yugo.Droid.Resource.Id.action0;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar = global::Yugo.Droid.Resource.Id.action_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_activity_content = global::Yugo.Droid.Resource.Id.action_bar_activity_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_container = global::Yugo.Droid.Resource.Id.action_bar_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_root = global::Yugo.Droid.Resource.Id.action_bar_root;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_spinner = global::Yugo.Droid.Resource.Id.action_bar_spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_subtitle = global::Yugo.Droid.Resource.Id.action_bar_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_title = global::Yugo.Droid.Resource.Id.action_bar_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_container = global::Yugo.Droid.Resource.Id.action_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_context_bar = global::Yugo.Droid.Resource.Id.action_context_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_divider = global::Yugo.Droid.Resource.Id.action_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_image = global::Yugo.Droid.Resource.Id.action_image;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_menu_divider = global::Yugo.Droid.Resource.Id.action_menu_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_menu_presenter = global::Yugo.Droid.Resource.Id.action_menu_presenter;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_mode_bar = global::Yugo.Droid.Resource.Id.action_mode_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_mode_bar_stub = global::Yugo.Droid.Resource.Id.action_mode_bar_stub;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_mode_close_button = global::Yugo.Droid.Resource.Id.action_mode_close_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_text = global::Yugo.Droid.Resource.Id.action_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.actions = global::Yugo.Droid.Resource.Id.actions;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.activity_chooser_view_content = global::Yugo.Droid.Resource.Id.activity_chooser_view_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.add = global::Yugo.Droid.Resource.Id.add;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.alertTitle = global::Yugo.Droid.Resource.Id.alertTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.auto = global::Yugo.Droid.Resource.Id.auto;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.bottom = global::Yugo.Droid.Resource.Id.bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.buttonPanel = global::Yugo.Droid.Resource.Id.buttonPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.cancel_action = global::Yugo.Droid.Resource.Id.cancel_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.center = global::Yugo.Droid.Resource.Id.center;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.checkbox = global::Yugo.Droid.Resource.Id.checkbox;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.chronometer = global::Yugo.Droid.Resource.Id.chronometer;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.container = global::Yugo.Droid.Resource.Id.container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.contentPanel = global::Yugo.Droid.Resource.Id.contentPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.coordinator = global::Yugo.Droid.Resource.Id.coordinator;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.custom = global::Yugo.Droid.Resource.Id.custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.customPanel = global::Yugo.Droid.Resource.Id.customPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.decor_content_parent = global::Yugo.Droid.Resource.Id.decor_content_parent;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.default_activity_button = global::Yugo.Droid.Resource.Id.default_activity_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_bottom_sheet = global::Yugo.Droid.Resource.Id.design_bottom_sheet;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_menu_item_action_area = global::Yugo.Droid.Resource.Id.design_menu_item_action_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_menu_item_action_area_stub = global::Yugo.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_menu_item_text = global::Yugo.Droid.Resource.Id.design_menu_item_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_navigation_view = global::Yugo.Droid.Resource.Id.design_navigation_view;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.edit_query = global::Yugo.Droid.Resource.Id.edit_query;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.end = global::Yugo.Droid.Resource.Id.end;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.end_padder = global::Yugo.Droid.Resource.Id.end_padder;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.expand_activities_button = global::Yugo.Droid.Resource.Id.expand_activities_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.expanded_menu = global::Yugo.Droid.Resource.Id.expanded_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.fill = global::Yugo.Droid.Resource.Id.fill;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.@fixed = global::Yugo.Droid.Resource.Id.@fixed;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.home = global::Yugo.Droid.Resource.Id.home;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.icon = global::Yugo.Droid.Resource.Id.icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.icon_group = global::Yugo.Droid.Resource.Id.icon_group;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.image = global::Yugo.Droid.Resource.Id.image;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.info = global::Yugo.Droid.Resource.Id.info;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.item_touch_helper_previous_elevation = global::Yugo.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.largeLabel = global::Yugo.Droid.Resource.Id.largeLabel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.left = global::Yugo.Droid.Resource.Id.left;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.line1 = global::Yugo.Droid.Resource.Id.line1;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.line3 = global::Yugo.Droid.Resource.Id.line3;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.listMode = global::Yugo.Droid.Resource.Id.listMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.list_item = global::Yugo.Droid.Resource.Id.list_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.masked = global::Yugo.Droid.Resource.Id.masked;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.media_actions = global::Yugo.Droid.Resource.Id.media_actions;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mini = global::Yugo.Droid.Resource.Id.mini;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_art = global::Yugo.Droid.Resource.Id.mr_art;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_list = global::Yugo.Droid.Resource.Id.mr_chooser_list;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_route_desc = global::Yugo.Droid.Resource.Id.mr_chooser_route_desc;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_route_icon = global::Yugo.Droid.Resource.Id.mr_chooser_route_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_route_name = global::Yugo.Droid.Resource.Id.mr_chooser_route_name;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_title = global::Yugo.Droid.Resource.Id.mr_chooser_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_close = global::Yugo.Droid.Resource.Id.mr_close;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_divider = global::Yugo.Droid.Resource.Id.mr_control_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_playback_ctrl = global::Yugo.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_subtitle = global::Yugo.Droid.Resource.Id.mr_control_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_title = global::Yugo.Droid.Resource.Id.mr_control_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_title_container = global::Yugo.Droid.Resource.Id.mr_control_title_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_custom_control = global::Yugo.Droid.Resource.Id.mr_custom_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_default_control = global::Yugo.Droid.Resource.Id.mr_default_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_dialog_area = global::Yugo.Droid.Resource.Id.mr_dialog_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_expandable_area = global::Yugo.Droid.Resource.Id.mr_expandable_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_group_expand_collapse = global::Yugo.Droid.Resource.Id.mr_group_expand_collapse;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_media_main_control = global::Yugo.Droid.Resource.Id.mr_media_main_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_name = global::Yugo.Droid.Resource.Id.mr_name;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_playback_control = global::Yugo.Droid.Resource.Id.mr_playback_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_title_bar = global::Yugo.Droid.Resource.Id.mr_title_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_control = global::Yugo.Droid.Resource.Id.mr_volume_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_group_list = global::Yugo.Droid.Resource.Id.mr_volume_group_list;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_item_icon = global::Yugo.Droid.Resource.Id.mr_volume_item_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_slider = global::Yugo.Droid.Resource.Id.mr_volume_slider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.multiply = global::Yugo.Droid.Resource.Id.multiply;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.navigation_header_container = global::Yugo.Droid.Resource.Id.navigation_header_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.none = global::Yugo.Droid.Resource.Id.none;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.normal = global::Yugo.Droid.Resource.Id.normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.notification_background = global::Yugo.Droid.Resource.Id.notification_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.notification_main_column = global::Yugo.Droid.Resource.Id.notification_main_column;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.notification_main_column_container = global::Yugo.Droid.Resource.Id.notification_main_column_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.parallax = global::Yugo.Droid.Resource.Id.parallax;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.parentPanel = global::Yugo.Droid.Resource.Id.parentPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.pin = global::Yugo.Droid.Resource.Id.pin;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.progress_circular = global::Yugo.Droid.Resource.Id.progress_circular;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.progress_horizontal = global::Yugo.Droid.Resource.Id.progress_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.radio = global::Yugo.Droid.Resource.Id.radio;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.right = global::Yugo.Droid.Resource.Id.right;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.right_icon = global::Yugo.Droid.Resource.Id.right_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.right_side = global::Yugo.Droid.Resource.Id.right_side;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.screen = global::Yugo.Droid.Resource.Id.screen;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollIndicatorDown = global::Yugo.Droid.Resource.Id.scrollIndicatorDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollIndicatorUp = global::Yugo.Droid.Resource.Id.scrollIndicatorUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollView = global::Yugo.Droid.Resource.Id.scrollView;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollable = global::Yugo.Droid.Resource.Id.scrollable;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_badge = global::Yugo.Droid.Resource.Id.search_badge;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_bar = global::Yugo.Droid.Resource.Id.search_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_button = global::Yugo.Droid.Resource.Id.search_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_close_btn = global::Yugo.Droid.Resource.Id.search_close_btn;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_edit_frame = global::Yugo.Droid.Resource.Id.search_edit_frame;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_go_btn = global::Yugo.Droid.Resource.Id.search_go_btn;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_mag_icon = global::Yugo.Droid.Resource.Id.search_mag_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_plate = global::Yugo.Droid.Resource.Id.search_plate;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_src_text = global::Yugo.Droid.Resource.Id.search_src_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_voice_btn = global::Yugo.Droid.Resource.Id.search_voice_btn;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.select_dialog_listview = global::Yugo.Droid.Resource.Id.select_dialog_listview;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.shortcut = global::Yugo.Droid.Resource.Id.shortcut;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.smallLabel = global::Yugo.Droid.Resource.Id.smallLabel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.snackbar_action = global::Yugo.Droid.Resource.Id.snackbar_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.snackbar_text = global::Yugo.Droid.Resource.Id.snackbar_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.spacer = global::Yugo.Droid.Resource.Id.spacer;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.split_action_bar = global::Yugo.Droid.Resource.Id.split_action_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.src_atop = global::Yugo.Droid.Resource.Id.src_atop;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.src_in = global::Yugo.Droid.Resource.Id.src_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.src_over = global::Yugo.Droid.Resource.Id.src_over;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.start = global::Yugo.Droid.Resource.Id.start;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.status_bar_latest_event_content = global::Yugo.Droid.Resource.Id.status_bar_latest_event_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.submenuarrow = global::Yugo.Droid.Resource.Id.submenuarrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.submit_area = global::Yugo.Droid.Resource.Id.submit_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.tabMode = global::Yugo.Droid.Resource.Id.tabMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.text = global::Yugo.Droid.Resource.Id.text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.text2 = global::Yugo.Droid.Resource.Id.text2;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textSpacerNoButtons = global::Yugo.Droid.Resource.Id.textSpacerNoButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textSpacerNoTitle = global::Yugo.Droid.Resource.Id.textSpacerNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.text_input_password_toggle = global::Yugo.Droid.Resource.Id.text_input_password_toggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textinput_counter = global::Yugo.Droid.Resource.Id.textinput_counter;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textinput_error = global::Yugo.Droid.Resource.Id.textinput_error;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.time = global::Yugo.Droid.Resource.Id.time;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.title = global::Yugo.Droid.Resource.Id.title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.titleDividerNoCustom = global::Yugo.Droid.Resource.Id.titleDividerNoCustom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.title_template = global::Yugo.Droid.Resource.Id.title_template;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.top = global::Yugo.Droid.Resource.Id.top;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.topPanel = global::Yugo.Droid.Resource.Id.topPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.touch_outside = global::Yugo.Droid.Resource.Id.touch_outside;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_current_scene = global::Yugo.Droid.Resource.Id.transition_current_scene;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_scene_layoutid_cache = global::Yugo.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.up = global::Yugo.Droid.Resource.Id.up;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.view_offset_helper = global::Yugo.Droid.Resource.Id.view_offset_helper;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.visible = global::Yugo.Droid.Resource.Id.visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.volume_item_container = global::Yugo.Droid.Resource.Id.volume_item_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.wrap_content = global::Yugo.Droid.Resource.Id.wrap_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.abc_config_activityDefaultDur = global::Yugo.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.abc_config_activityShortDur = global::Yugo.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.app_bar_elevation_anim_duration = global::Yugo.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.bottom_sheet_slide_duration = global::Yugo.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.cancel_button_image_alpha = global::Yugo.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.design_snackbar_text_max_lines = global::Yugo.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.hide_password_duration = global::Yugo.Droid.Resource.Integer.hide_password_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::Yugo.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::Yugo.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::Yugo.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.show_password_duration = global::Yugo.Droid.Resource.Integer.show_password_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.status_bar_notification_info_maxnum = global::Yugo.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::CarouselView.FormsPlugin.Android.Resource.Interpolator.mr_fast_out_slow_in = global::Yugo.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Interpolator.mr_linear_out_slow_in = global::Yugo.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_bar_title_item = global::Yugo.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_bar_up_container = global::Yugo.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_menu_item_layout = global::Yugo.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_menu_layout = global::Yugo.Droid.Resource.Layout.abc_action_menu_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_mode_bar = global::Yugo.Droid.Resource.Layout.abc_action_mode_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_mode_close_item_material = global::Yugo.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_activity_chooser_view = global::Yugo.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::Yugo.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::Yugo.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_material = global::Yugo.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_title_material = global::Yugo.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_dialog_title_material = global::Yugo.Droid.Resource.Layout.abc_dialog_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_expanded_menu_layout = global::Yugo.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_checkbox = global::Yugo.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_icon = global::Yugo.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_layout = global::Yugo.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_radio = global::Yugo.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::Yugo.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_popup_menu_item_layout = global::Yugo.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_content_include = global::Yugo.Droid.Resource.Layout.abc_screen_content_include;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_simple = global::Yugo.Droid.Resource.Layout.abc_screen_simple;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Yugo.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_toolbar = global::Yugo.Droid.Resource.Layout.abc_screen_toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Yugo.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_search_view = global::Yugo.Droid.Resource.Layout.abc_search_view;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_select_dialog_material = global::Yugo.Droid.Resource.Layout.abc_select_dialog_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_bottom_navigation_item = global::Yugo.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_bottom_sheet_dialog = global::Yugo.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_snackbar = global::Yugo.Droid.Resource.Layout.design_layout_snackbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_snackbar_include = global::Yugo.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_tab_icon = global::Yugo.Droid.Resource.Layout.design_layout_tab_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_tab_text = global::Yugo.Droid.Resource.Layout.design_layout_tab_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_menu_item_action_area = global::Yugo.Droid.Resource.Layout.design_menu_item_action_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item = global::Yugo.Droid.Resource.Layout.design_navigation_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item_header = global::Yugo.Droid.Resource.Layout.design_navigation_item_header;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item_separator = global::Yugo.Droid.Resource.Layout.design_navigation_item_separator;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item_subheader = global::Yugo.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_menu = global::Yugo.Droid.Resource.Layout.design_navigation_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_menu_item = global::Yugo.Droid.Resource.Layout.design_navigation_menu_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_text_input_password_icon = global::Yugo.Droid.Resource.Layout.design_text_input_password_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_chooser_dialog = global::Yugo.Droid.Resource.Layout.mr_chooser_dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_chooser_list_item = global::Yugo.Droid.Resource.Layout.mr_chooser_list_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_controller_material_dialog_b = global::Yugo.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_controller_volume_item = global::Yugo.Droid.Resource.Layout.mr_controller_volume_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_playback_control = global::Yugo.Droid.Resource.Layout.mr_playback_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_volume_control = global::Yugo.Droid.Resource.Layout.mr_volume_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_action = global::Yugo.Droid.Resource.Layout.notification_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_action_tombstone = global::Yugo.Droid.Resource.Layout.notification_action_tombstone;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_media_action = global::Yugo.Droid.Resource.Layout.notification_media_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_media_cancel_action = global::Yugo.Droid.Resource.Layout.notification_media_cancel_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media = global::Yugo.Droid.Resource.Layout.notification_template_big_media;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media_custom = global::Yugo.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media_narrow = global::Yugo.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::Yugo.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_custom_big = global::Yugo.Droid.Resource.Layout.notification_template_custom_big;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_icon_group = global::Yugo.Droid.Resource.Layout.notification_template_icon_group;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_lines_media = global::Yugo.Droid.Resource.Layout.notification_template_lines_media;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_media = global::Yugo.Droid.Resource.Layout.notification_template_media;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_media_custom = global::Yugo.Droid.Resource.Layout.notification_template_media_custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_part_chronometer = global::Yugo.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_part_time = global::Yugo.Droid.Resource.Layout.notification_template_part_time;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.select_dialog_item_material = global::Yugo.Droid.Resource.Layout.select_dialog_item_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.select_dialog_multichoice_material = global::Yugo.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.select_dialog_singlechoice_material = global::Yugo.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Yugo.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_bar_home_description = global::Yugo.Droid.Resource.String.abc_action_bar_home_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_bar_up_description = global::Yugo.Droid.Resource.String.abc_action_bar_up_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_menu_overflow_description = global::Yugo.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_mode_done = global::Yugo.Droid.Resource.String.abc_action_mode_done;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_activity_chooser_view_see_all = global::Yugo.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_activitychooserview_choose_application = global::Yugo.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_capital_off = global::Yugo.Droid.Resource.String.abc_capital_off;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_capital_on = global::Yugo.Droid.Resource.String.abc_capital_on;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_body_1_material = global::Yugo.Droid.Resource.String.abc_font_family_body_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_body_2_material = global::Yugo.Droid.Resource.String.abc_font_family_body_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_button_material = global::Yugo.Droid.Resource.String.abc_font_family_button_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_caption_material = global::Yugo.Droid.Resource.String.abc_font_family_caption_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_1_material = global::Yugo.Droid.Resource.String.abc_font_family_display_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_2_material = global::Yugo.Droid.Resource.String.abc_font_family_display_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_3_material = global::Yugo.Droid.Resource.String.abc_font_family_display_3_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_4_material = global::Yugo.Droid.Resource.String.abc_font_family_display_4_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_headline_material = global::Yugo.Droid.Resource.String.abc_font_family_headline_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_menu_material = global::Yugo.Droid.Resource.String.abc_font_family_menu_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_subhead_material = global::Yugo.Droid.Resource.String.abc_font_family_subhead_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_title_material = global::Yugo.Droid.Resource.String.abc_font_family_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_search_hint = global::Yugo.Droid.Resource.String.abc_search_hint;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_clear = global::Yugo.Droid.Resource.String.abc_searchview_description_clear;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_query = global::Yugo.Droid.Resource.String.abc_searchview_description_query;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_search = global::Yugo.Droid.Resource.String.abc_searchview_description_search;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_submit = global::Yugo.Droid.Resource.String.abc_searchview_description_submit;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_voice = global::Yugo.Droid.Resource.String.abc_searchview_description_voice;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_shareactionprovider_share_with = global::Yugo.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::Yugo.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_toolbar_collapse_description = global::Yugo.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.appbar_scrolling_view_behavior = global::Yugo.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.String.bottom_sheet_behavior = global::Yugo.Droid.Resource.String.bottom_sheet_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.String.character_counter_pattern = global::Yugo.Droid.Resource.String.character_counter_pattern;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_button_content_description = global::Yugo.Droid.Resource.String.mr_button_content_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_cast_button_connected = global::Yugo.Droid.Resource.String.mr_cast_button_connected;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_cast_button_connecting = global::Yugo.Droid.Resource.String.mr_cast_button_connecting;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_cast_button_disconnected = global::Yugo.Droid.Resource.String.mr_cast_button_disconnected;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_chooser_searching = global::Yugo.Droid.Resource.String.mr_chooser_searching;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_chooser_title = global::Yugo.Droid.Resource.String.mr_chooser_title;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_album_art = global::Yugo.Droid.Resource.String.mr_controller_album_art;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_casting_screen = global::Yugo.Droid.Resource.String.mr_controller_casting_screen;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_close_description = global::Yugo.Droid.Resource.String.mr_controller_close_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_collapse_group = global::Yugo.Droid.Resource.String.mr_controller_collapse_group;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_disconnect = global::Yugo.Droid.Resource.String.mr_controller_disconnect;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_expand_group = global::Yugo.Droid.Resource.String.mr_controller_expand_group;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_no_info_available = global::Yugo.Droid.Resource.String.mr_controller_no_info_available;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_no_media_selected = global::Yugo.Droid.Resource.String.mr_controller_no_media_selected;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_pause = global::Yugo.Droid.Resource.String.mr_controller_pause;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_play = global::Yugo.Droid.Resource.String.mr_controller_play;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_stop = global::Yugo.Droid.Resource.String.mr_controller_stop;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_stop_casting = global::Yugo.Droid.Resource.String.mr_controller_stop_casting;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_volume_slider = global::Yugo.Droid.Resource.String.mr_controller_volume_slider;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_system_route_name = global::Yugo.Droid.Resource.String.mr_system_route_name;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_user_route_category_name = global::Yugo.Droid.Resource.String.mr_user_route_category_name;
+			global::CarouselView.FormsPlugin.Android.Resource.String.password_toggle_content_description = global::Yugo.Droid.Resource.String.password_toggle_content_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye = global::Yugo.Droid.Resource.String.path_password_eye;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye_mask_strike_through = global::Yugo.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye_mask_visible = global::Yugo.Droid.Resource.String.path_password_eye_mask_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_strike_through = global::Yugo.Droid.Resource.String.path_password_strike_through;
+			global::CarouselView.FormsPlugin.Android.Resource.String.search_menu_title = global::Yugo.Droid.Resource.String.search_menu_title;
+			global::CarouselView.FormsPlugin.Android.Resource.String.status_bar_notification_info_overflow = global::Yugo.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.AlertDialog_AppCompat = global::Yugo.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.AlertDialog_AppCompat_Light = global::Yugo.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_AppCompat_Dialog = global::Yugo.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::Yugo.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::Yugo.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_AlertDialog_AppCompat = global::Yugo.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Yugo.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::Yugo.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Yugo.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_CardView = global::Yugo.Droid.Resource.Style.Base_CardView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Yugo.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Yugo.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Yugo.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Yugo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Yugo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Yugo.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Yugo.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::Yugo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Yugo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Yugo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Yugo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Yugo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Yugo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Yugo.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Yugo.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Yugo.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::Yugo.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::Yugo.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::Yugo.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat = global::Yugo.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Yugo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Yugo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Yugo.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Yugo.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V22_Theme_AppCompat = global::Yugo.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Yugo.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V23_Theme_AppCompat = global::Yugo.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Yugo.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat = global::Yugo.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Yugo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Yugo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Yugo.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Yugo.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Yugo.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Yugo.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Yugo.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_Design_AppBarLayout = global::Yugo.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_Design_TabLayout = global::Yugo.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.CardView = global::Yugo.Droid.Resource.Style.CardView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.CardView_Dark = global::Yugo.Droid.Resource.Style.CardView_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.CardView_Light = global::Yugo.Droid.Resource.Style.CardView_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_AppCompat = global::Yugo.Droid.Resource.Style.Platform_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_AppCompat_Light = global::Yugo.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Yugo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Yugo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Yugo.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V11_AppCompat = global::Yugo.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V11_AppCompat_Light = global::Yugo.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V14_AppCompat = global::Yugo.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V14_AppCompat_Light = global::Yugo.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V21_AppCompat = global::Yugo.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V21_AppCompat_Light = global::Yugo.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V25_AppCompat = global::Yugo.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V25_AppCompat_Light = global::Yugo.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Yugo.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Yugo.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Yugo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Yugo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Yugo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Yugo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Yugo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Yugo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Yugo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Yugo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Yugo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Yugo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Yugo.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Yugo.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Yugo.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Button = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Large = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Title = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Yugo.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Yugo.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Counter = global::Yugo.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Yugo.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Error = global::Yugo.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Hint = global::Yugo.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Yugo.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Tab = global::Yugo.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::Yugo.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::Yugo.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::Yugo.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Yugo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Yugo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Yugo.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat = global::Yugo.Droid.Resource.Style.Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::Yugo.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight = global::Yugo.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Yugo.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Yugo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Yugo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Yugo.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Yugo.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Yugo.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog = global::Yugo.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Yugo.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Yugo.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Yugo.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light = global::Yugo.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Yugo.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::Yugo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Yugo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Yugo.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Yugo.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Yugo.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::Yugo.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design = global::Yugo.Droid.Resource.Style.Theme_Design;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::Yugo.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_Light = global::Yugo.Droid.Resource.Style.Theme_Design_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Yugo.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::Yugo.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_NoActionBar = global::Yugo.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter = global::Yugo.Droid.Resource.Style.Theme_MediaRouter;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_Light = global::Yugo.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::Yugo.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::Yugo.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat = global::Yugo.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Yugo.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Yugo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Yugo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Yugo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Yugo.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::Yugo.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::Yugo.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::Yugo.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionMode = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Yugo.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Small = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Yugo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Yugo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Yugo.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Yugo.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Yugo.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_EditText = global::Yugo.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ImageButton = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::Yugo.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Yugo.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::Yugo.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Yugo.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar = global::Yugo.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Yugo.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Yugo.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SearchView = global::Yugo.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Yugo.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SeekBar = global::Yugo.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Yugo.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Yugo.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Toolbar = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Yugo.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_AppBarLayout = global::Yugo.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_BottomNavigationView = global::Yugo.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::Yugo.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::Yugo.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::Yugo.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_FloatingActionButton = global::Yugo.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_NavigationView = global::Yugo.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Yugo.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_Snackbar = global::Yugo.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_TabLayout = global::Yugo.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_TextInputLayout = global::Yugo.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::Yugo.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::Yugo.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar = global::Yugo.Droid.Resource.Styleable.ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_background = global::Yugo.Droid.Resource.Styleable.ActionBar_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_backgroundSplit = global::Yugo.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_backgroundStacked = global::Yugo.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::Yugo.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Yugo.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::Yugo.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetRight = global::Yugo.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetStart = global::Yugo.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Yugo.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::Yugo.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_displayOptions = global::Yugo.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_divider = global::Yugo.Droid.Resource.Styleable.ActionBar_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_elevation = global::Yugo.Droid.Resource.Styleable.ActionBar_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_height = global::Yugo.Droid.Resource.Styleable.ActionBar_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::Yugo.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Yugo.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_homeLayout = global::Yugo.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_icon = global::Yugo.Droid.Resource.Styleable.ActionBar_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Yugo.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_itemPadding = global::Yugo.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_logo = global::Yugo.Droid.Resource.Styleable.ActionBar_logo;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_navigationMode = global::Yugo.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_popupTheme = global::Yugo.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_progressBarPadding = global::Yugo.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_progressBarStyle = global::Yugo.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_subtitle = global::Yugo.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::Yugo.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_title = global::Yugo.Droid.Resource.Styleable.ActionBar_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_titleTextStyle = global::Yugo.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBarLayout = global::Yugo.Droid.Resource.Styleable.ActionBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Yugo.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMenuItemView = global::Yugo.Droid.Resource.Styleable.ActionMenuItemView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Yugo.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode = global::Yugo.Droid.Resource.Styleable.ActionMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_background = global::Yugo.Droid.Resource.Styleable.ActionMode_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_backgroundSplit = global::Yugo.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_closeItemLayout = global::Yugo.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_height = global::Yugo.Droid.Resource.Styleable.ActionMode_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::Yugo.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_titleTextStyle = global::Yugo.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActivityChooserView = global::Yugo.Droid.Resource.Styleable.ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Yugo.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Yugo.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog = global::Yugo.Droid.Resource.Styleable.AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_android_layout = global::Yugo.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Yugo.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_listItemLayout = global::Yugo.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_listLayout = global::Yugo.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Yugo.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_showTitle = global::Yugo.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Yugo.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout = global::Yugo.Droid.Resource.Styleable.AppBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_android_background = global::Yugo.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_elevation = global::Yugo.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_expanded = global::Yugo.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates = global::Yugo.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Yugo.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Yugo.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout = global::Yugo.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Yugo.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Yugo.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView = global::Yugo.Droid.Resource.Styleable.AppCompatImageView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_android_src = global::Yugo.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::Yugo.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_tint = global::Yugo.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_tintMode = global::Yugo.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar = global::Yugo.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Yugo.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::Yugo.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Yugo.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Yugo.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper = global::Yugo.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Yugo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Yugo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Yugo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Yugo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Yugo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Yugo.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Yugo.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView = global::Yugo.Droid.Resource.Styleable.AppCompatTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Yugo.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::Yugo.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme = global::Yugo.Droid.Resource.Styleable.AppCompatTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Yugo.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView = global::Yugo.Droid.Resource.Styleable.BottomNavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_elevation = global::Yugo.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::Yugo.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::Yugo.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::Yugo.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_menu = global::Yugo.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::Yugo.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Yugo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Yugo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Yugo.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ButtonBarLayout = global::Yugo.Droid.Resource.Styleable.ButtonBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::Yugo.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView = global::Yugo.Droid.Resource.Styleable.CardView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_android_minHeight = global::Yugo.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_android_minWidth = global::Yugo.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardBackgroundColor = global::Yugo.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardCornerRadius = global::Yugo.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardElevation = global::Yugo.Droid.Resource.Styleable.CardView_cardElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardMaxElevation = global::Yugo.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Yugo.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::Yugo.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPadding = global::Yugo.Droid.Resource.Styleable.CardView_contentPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingBottom = global::Yugo.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingLeft = global::Yugo.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingRight = global::Yugo.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingTop = global::Yugo.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Yugo.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem = global::Yugo.Droid.Resource.Styleable.ColorStateListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_alpha = global::Yugo.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::Yugo.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_android_color = global::Yugo.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton = global::Yugo.Droid.Resource.Styleable.CompoundButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton_android_button = global::Yugo.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton_buttonTint = global::Yugo.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::Yugo.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout = global::Yugo.Droid.Resource.Styleable.CoordinatorLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_keylines = global::Yugo.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Yugo.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout = global::Yugo.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Yugo.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Yugo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Yugo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Yugo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Yugo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Yugo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Yugo.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme = global::Yugo.Droid.Resource.Styleable.DesignTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Yugo.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Yugo.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme_textColorError = global::Yugo.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle = global::Yugo.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Yugo.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Yugo.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::Yugo.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_color = global::Yugo.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Yugo.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Yugo.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::Yugo.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::Yugo.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton = global::Yugo.Droid.Resource.Styleable.FloatingActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::Yugo.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Yugo.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::Yugo.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_elevation = global::Yugo.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_fabSize = global::Yugo.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Yugo.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::Yugo.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Yugo.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Yugo.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Yugo.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout = global::Yugo.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Yugo.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Yugo.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Yugo.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_divider = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Yugo.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ListPopupWindow = global::Yugo.Droid.Resource.Styleable.ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Yugo.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Yugo.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton = global::Yugo.Droid.Resource.Styleable.MediaRouteButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::Yugo.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::Yugo.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::Yugo.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup = global::Yugo.Droid.Resource.Styleable.MenuGroup;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Yugo.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_enabled = global::Yugo.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_id = global::Yugo.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::Yugo.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::Yugo.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_visible = global::Yugo.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem = global::Yugo.Droid.Resource.Styleable.MenuItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionLayout = global::Yugo.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionProviderClass = global::Yugo.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionViewClass = global::Yugo.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Yugo.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_checkable = global::Yugo.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_checked = global::Yugo.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_enabled = global::Yugo.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_icon = global::Yugo.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_id = global::Yugo.Droid.Resource.Styleable.MenuItem_android_id;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_menuCategory = global::Yugo.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::Yugo.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_onClick = global::Yugo.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::Yugo.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_title = global::Yugo.Droid.Resource.Styleable.MenuItem_android_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::Yugo.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_visible = global::Yugo.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_showAsAction = global::Yugo.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView = global::Yugo.Droid.Resource.Styleable.MenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_headerBackground = global::Yugo.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::Yugo.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemBackground = global::Yugo.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Yugo.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::Yugo.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_verticalDivider = global::Yugo.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Yugo.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::Yugo.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_subMenuArrow = global::Yugo.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView = global::Yugo.Droid.Resource.Styleable.NavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_android_background = global::Yugo.Droid.Resource.Styleable.NavigationView_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Yugo.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_android_maxWidth = global::Yugo.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_elevation = global::Yugo.Droid.Resource.Styleable.NavigationView_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_headerLayout = global::Yugo.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemBackground = global::Yugo.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemIconTint = global::Yugo.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::Yugo.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemTextColor = global::Yugo.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_menu = global::Yugo.Droid.Resource.Styleable.NavigationView_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow = global::Yugo.Droid.Resource.Styleable.PopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Yugo.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::Yugo.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::Yugo.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindowBackgroundState = global::Yugo.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Yugo.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecycleListView = global::Yugo.Droid.Resource.Styleable.RecycleListView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Yugo.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Yugo.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView = global::Yugo.Droid.Resource.Styleable.RecyclerView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Yugo.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_android_orientation = global::Yugo.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_layoutManager = global::Yugo.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_reverseLayout = global::Yugo.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_spanCount = global::Yugo.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::Yugo.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::Yugo.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Yugo.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::Yugo.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Yugo.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView = global::Yugo.Droid.Resource.Styleable.SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_focusable = global::Yugo.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_imeOptions = global::Yugo.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_inputType = global::Yugo.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_maxWidth = global::Yugo.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_closeIcon = global::Yugo.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_commitIcon = global::Yugo.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_defaultQueryHint = global::Yugo.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_goIcon = global::Yugo.Droid.Resource.Styleable.SearchView_goIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::Yugo.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_layout = global::Yugo.Droid.Resource.Styleable.SearchView_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_queryBackground = global::Yugo.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_queryHint = global::Yugo.Droid.Resource.Styleable.SearchView_queryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_searchHintIcon = global::Yugo.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_searchIcon = global::Yugo.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_submitBackground = global::Yugo.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::Yugo.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_voiceIcon = global::Yugo.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout = global::Yugo.Droid.Resource.Styleable.SnackbarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Yugo.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_elevation = global::Yugo.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Yugo.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner = global::Yugo.Droid.Resource.Styleable.Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::Yugo.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_entries = global::Yugo.Droid.Resource.Styleable.Spinner_android_entries;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_popupBackground = global::Yugo.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_prompt = global::Yugo.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_popupTheme = global::Yugo.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat = global::Yugo.Droid.Resource.Styleable.SwitchCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_textOff = global::Yugo.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_textOn = global::Yugo.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_thumb = global::Yugo.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_showText = global::Yugo.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_splitTrack = global::Yugo.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::Yugo.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchPadding = global::Yugo.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Yugo.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Yugo.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTint = global::Yugo.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::Yugo.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_track = global::Yugo.Droid.Resource.Styleable.SwitchCompat_track;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_trackTint = global::Yugo.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::Yugo.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem = global::Yugo.Droid.Resource.Styleable.TabItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem_android_icon = global::Yugo.Droid.Resource.Styleable.TabItem_android_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem_android_layout = global::Yugo.Droid.Resource.Styleable.TabItem_android_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem_android_text = global::Yugo.Droid.Resource.Styleable.TabItem_android_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout = global::Yugo.Droid.Resource.Styleable.TabLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabBackground = global::Yugo.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabContentStart = global::Yugo.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabGravity = global::Yugo.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::Yugo.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Yugo.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::Yugo.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMinWidth = global::Yugo.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMode = global::Yugo.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPadding = global::Yugo.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::Yugo.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::Yugo.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::Yugo.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::Yugo.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Yugo.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::Yugo.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabTextColor = global::Yugo.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance = global::Yugo.Droid.Resource.Styleable.TextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::Yugo.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::Yugo.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::Yugo.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::Yugo.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColor = global::Yugo.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::Yugo.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textSize = global::Yugo.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textStyle = global::Yugo.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_typeface = global::Yugo.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_textAllCaps = global::Yugo.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout = global::Yugo.Droid.Resource.Styleable.TextInputLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_android_hint = global::Yugo.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::Yugo.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::Yugo.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::Yugo.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Yugo.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Yugo.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::Yugo.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Yugo.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Yugo.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::Yugo.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Yugo.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Yugo.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Yugo.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Yugo.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Yugo.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Yugo.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar = global::Yugo.Droid.Resource.Styleable.Toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_android_gravity = global::Yugo.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_android_minHeight = global::Yugo.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_buttonGravity = global::Yugo.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::Yugo.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_collapseIcon = global::Yugo.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::Yugo.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Yugo.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::Yugo.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetRight = global::Yugo.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetStart = global::Yugo.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Yugo.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_logo = global::Yugo.Droid.Resource.Styleable.Toolbar_logo;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_logoDescription = global::Yugo.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::Yugo.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::Yugo.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_navigationIcon = global::Yugo.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_popupTheme = global::Yugo.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitle = global::Yugo.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Yugo.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::Yugo.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_title = global::Yugo.Droid.Resource.Styleable.Toolbar_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMargin = global::Yugo.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::Yugo.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::Yugo.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginStart = global::Yugo.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginTop = global::Yugo.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMargins = global::Yugo.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::Yugo.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleTextColor = global::Yugo.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View = global::Yugo.Droid.Resource.Styleable.View;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_android_focusable = global::Yugo.Droid.Resource.Styleable.View_android_focusable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_android_theme = global::Yugo.Droid.Resource.Styleable.View_android_theme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_paddingEnd = global::Yugo.Droid.Resource.Styleable.View_paddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_paddingStart = global::Yugo.Droid.Resource.Styleable.View_paddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_theme = global::Yugo.Droid.Resource.Styleable.View_theme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper = global::Yugo.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::Yugo.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Yugo.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Yugo.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat = global::Yugo.Droid.Resource.Styleable.ViewStubCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::Yugo.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Yugo.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::Yugo.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Yugo.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -211,6 +2272,15 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F040022
 			public const int activityChooserViewStyle = 2130968610;
 			
+			// aapt resource value: 0x1
+			public const int adSize = 1;
+			
+			// aapt resource value: 0x1
+			public const int adSizes = 1;
+			
+			// aapt resource value: 0x1
+			public const int adUnitId = 1;
+			
 			// aapt resource value: 0x7F040023
 			public const int alertDialogButtonGroupStyle = 2130968611;
 			
@@ -223,6 +2293,9 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F040026
 			public const int alertDialogTheme = 2130968614;
 			
+			// aapt resource value: 0x1
+			public const int allowShortcuts = 1;
+			
 			// aapt resource value: 0x7F040027
 			public const int allowStacking = 2130968615;
 			
@@ -231,6 +2304,12 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F040029
 			public const int alphabeticModifiers = 2130968617;
+			
+			// aapt resource value: 0x1
+			public const int ambientEnabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int appTheme = 1;
 			
 			// aapt resource value: 0x7F04002A
 			public const int arrowHeadLength = 2130968618;
@@ -322,6 +2401,9 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F040047
 			public const int buttonPanelSideLayout = 2130968647;
 			
+			// aapt resource value: 0x1
+			public const int buttonSize = 1;
+			
 			// aapt resource value: 0x7F040048
 			public const int buttonStyle = 2130968648;
 			
@@ -333,6 +2415,39 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F04004B
 			public const int buttonTintMode = 2130968651;
+			
+			// aapt resource value: 0x1
+			public const int buyButtonAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int buyButtonHeight = 1;
+			
+			// aapt resource value: 0x1
+			public const int buyButtonText = 1;
+			
+			// aapt resource value: 0x1
+			public const int buyButtonWidth = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraBearing = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraMaxZoomPreference = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraMinZoomPreference = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraTargetLat = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraTargetLng = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraTilt = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraZoom = 1;
 			
 			// aapt resource value: 0x7F040001
 			public const int cardBackgroundColor = 2130968577;
@@ -352,11 +2467,104 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F040006
 			public const int cardUseCompatPadding = 2130968582;
 			
+			// aapt resource value: 0x1
+			public const int castBackground = 1;
+			
+			// aapt resource value: 0x1
+			public const int castBackgroundColor = 1;
+			
+			// aapt resource value: 0x1
+			public const int castButtonBackgroundColor = 1;
+			
+			// aapt resource value: 0x1
+			public const int castButtonColor = 1;
+			
+			// aapt resource value: 0x1
+			public const int castButtonText = 1;
+			
+			// aapt resource value: 0x1
+			public const int castButtonTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int castClosedCaptionsButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castControlButtons = 1;
+			
+			// aapt resource value: 0x1
+			public const int castExpandedControllerStyle = 1;
+			
+			// aapt resource value: 0x1
+			public const int castExpandedControllerToolbarStyle = 1;
+			
+			// aapt resource value: 0x1
+			public const int castFocusRadius = 1;
+			
+			// aapt resource value: 0x1
+			public const int castForward30ButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castIntroOverlayStyle = 1;
+			
+			// aapt resource value: 0x1
+			public const int castLargePauseButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castLargePlayButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castLargeStopButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castMiniControllerStyle = 1;
+			
+			// aapt resource value: 0x1
+			public const int castMuteToggleButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castPauseButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castPlayButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castProgressBarColor = 1;
+			
+			// aapt resource value: 0x1
+			public const int castRewind30ButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castSeekBarProgressDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castSeekBarThumbDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castShowImageThumbnail = 1;
+			
+			// aapt resource value: 0x1
+			public const int castSkipNextButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castSkipPreviousButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castStopButtonDrawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int castSubtitleTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int castTitleTextAppearance = 1;
+			
 			// aapt resource value: 0x7F04004C
 			public const int checkboxStyle = 2130968652;
 			
 			// aapt resource value: 0x7F04004D
 			public const int checkedTextViewStyle = 2130968653;
+			
+			// aapt resource value: 0x1
+			public const int circleCrop = 1;
 			
 			// aapt resource value: 0x7F04004E
 			public const int closeIcon = 2130968654;
@@ -406,6 +2614,9 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F04005D
 			public const int colorPrimaryDark = 2130968669;
 			
+			// aapt resource value: 0x1
+			public const int colorScheme = 1;
+			
 			// aapt resource value: 0x7F04005E
 			public const int colorSwitchThumbNormal = 2130968670;
 			
@@ -448,11 +2659,20 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F04000B
 			public const int contentPaddingTop = 2130968587;
 			
+			// aapt resource value: 0x1
+			public const int contentProviderUri = 1;
+			
 			// aapt resource value: 0x7F040067
 			public const int contentScrim = 2130968679;
 			
 			// aapt resource value: 0x7F040068
 			public const int controlBackground = 2130968680;
+			
+			// aapt resource value: 0x1
+			public const int corpusId = 1;
+			
+			// aapt resource value: 0x1
+			public const int corpusVersion = 1;
 			
 			// aapt resource value: 0x7F040069
 			public const int counterEnabled = 2130968681;
@@ -468,6 +2688,15 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F04006D
 			public const int customNavigationLayout = 2130968685;
+			
+			// aapt resource value: 0x1
+			public const int defaultIntentAction = 1;
+			
+			// aapt resource value: 0x1
+			public const int defaultIntentActivity = 1;
+			
+			// aapt resource value: 0x1
+			public const int defaultIntentData = 1;
 			
 			// aapt resource value: 0x7F04006E
 			public const int defaultQueryHint = 2130968686;
@@ -493,6 +2722,9 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F040075
 			public const int dividerVertical = 2130968693;
 			
+			// aapt resource value: 0x1
+			public const int documentMaxAgeSecs = 1;
+			
 			// aapt resource value: 0x7F040076
 			public const int drawableSize = 2130968694;
 			
@@ -516,6 +2748,9 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F04007D
 			public const int elevation = 2130968701;
+			
+			// aapt resource value: 0x1
+			public const int environment = 1;
 			
 			// aapt resource value: 0x7F04007E
 			public const int errorEnabled = 2130968702;
@@ -571,6 +2806,9 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F04008E
 			public const int fastScrollVerticalTrackDrawable = 2130968718;
 			
+			// aapt resource value: 0x1
+			public const int featureType = 1;
+			
 			// aapt resource value: 0x7F040001
 			public const int font = 2130968577;
 			
@@ -603,6 +2841,12 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F040099
 			public const int foregroundInsidePadding = 2130968729;
+			
+			// aapt resource value: 0x1
+			public const int fragmentMode = 1;
+			
+			// aapt resource value: 0x1
+			public const int fragmentStyle = 1;
 			
 			// aapt resource value: 0x7F04009A
 			public const int gapBetweenBars = 2130968730;
@@ -646,14 +2890,26 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0400A6
 			public const int iconTintMode = 2130968742;
 			
+			// aapt resource value: 0x1
+			public const int imageAspectRatio = 1;
+			
+			// aapt resource value: 0x1
+			public const int imageAspectRatioAdjust = 1;
+			
 			// aapt resource value: 0x7F0400A8
 			public const int imageButtonStyle = 2130968744;
 			
 			// aapt resource value: 0x7F0400A9
 			public const int indeterminateProgressStyle = 2130968745;
 			
+			// aapt resource value: 0x1
+			public const int indexPrefixes = 1;
+			
 			// aapt resource value: 0x7F0400AA
 			public const int initialActivityCount = 2130968746;
+			
+			// aapt resource value: 0x1
+			public const int inputEnabled = 1;
 			
 			// aapt resource value: 0x7F0400AB
 			public const int insetForeground = 2130968747;
@@ -678,6 +2934,18 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F0400B2
 			public const int keylines = 2130968754;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsNorthEastLatitude = 1;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsNorthEastLongitude = 1;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsSouthWestLatitude = 1;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsSouthWestLongitude = 1;
 			
 			// aapt resource value: 0x7F0400B3
 			public const int layout = 2130968755;
@@ -748,11 +3016,38 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0400C9
 			public const int listPreferredItemPaddingRight = 2130968777;
 			
+			// aapt resource value: 0x1
+			public const int liteMode = 1;
+			
 			// aapt resource value: 0x7F0400CA
 			public const int logo = 2130968778;
 			
 			// aapt resource value: 0x7F0400CB
 			public const int logoDescription = 2130968779;
+			
+			// aapt resource value: 0x1
+			public const int mapType = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsBackground = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsButtonBackground = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsButtonTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsHeaderTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsLogoImageType = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsLogoTextColor = 1;
+			
+			// aapt resource value: 0x1
+			public const int maskedWalletDetailsTextAppearance = 1;
 			
 			// aapt resource value: 0x7F0400CC
 			public const int maxActionInlineWidth = 2130968780;
@@ -817,6 +3112,9 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0400D3
 			public const int navigationMode = 2130968787;
 			
+			// aapt resource value: 0x1
+			public const int noIndex = 1;
+			
 			// aapt resource value: 0x7F0400D4
 			public const int numericModifiers = 2130968788;
 			
@@ -844,6 +3142,12 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0400DC
 			public const int panelMenuListWidth = 2130968796;
 			
+			// aapt resource value: 0x1
+			public const int paramName = 1;
+			
+			// aapt resource value: 0x1
+			public const int paramValue = 1;
+			
 			// aapt resource value: 0x7F0400DD
 			public const int passwordToggleContentDescription = 2130968797;
 			
@@ -858,6 +3162,9 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F0400E1
 			public const int passwordToggleTintMode = 2130968801;
+			
+			// aapt resource value: 0x1
+			public const int perAccountTemplate = 1;
 			
 			// aapt resource value: 0x7F0400E2
 			public const int popupMenuStyle = 2130968802;
@@ -904,11 +3211,23 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0400F0
 			public const int rippleColor = 2130968816;
 			
+			// aapt resource value: 0x1
+			public const int schemaOrgProperty = 1;
+			
+			// aapt resource value: 0x1
+			public const int schemaOrgType = 1;
+			
+			// aapt resource value: 0x1
+			public const int scopeUris = 1;
+			
 			// aapt resource value: 0x7F0400F1
 			public const int scrimAnimationDuration = 2130968817;
 			
 			// aapt resource value: 0x7F0400F2
 			public const int scrimVisibleHeightTrigger = 2130968818;
+			
+			// aapt resource value: 0x1
+			public const int searchEnabled = 1;
 			
 			// aapt resource value: 0x7F0400F3
 			public const int searchHintIcon = 2130968819;
@@ -916,8 +3235,26 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0400F4
 			public const int searchIcon = 2130968820;
 			
+			// aapt resource value: 0x1
+			public const int searchLabel = 1;
+			
 			// aapt resource value: 0x7F0400F5
 			public const int searchViewStyle = 2130968821;
+			
+			// aapt resource value: 0x1
+			public const int sectionContent = 1;
+			
+			// aapt resource value: 0x1
+			public const int sectionFormat = 1;
+			
+			// aapt resource value: 0x1
+			public const int sectionId = 1;
+			
+			// aapt resource value: 0x1
+			public const int sectionType = 1;
+			
+			// aapt resource value: 0x1
+			public const int sectionWeight = 1;
 			
 			// aapt resource value: 0x7F0400F6
 			public const int seekBarStyle = 2130968822;
@@ -927,6 +3264,12 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F0400F8
 			public const int selectableItemBackgroundBorderless = 2130968824;
+			
+			// aapt resource value: 0x1
+			public const int semanticallySearchable = 1;
+			
+			// aapt resource value: 0x1
+			public const int settingsDescription = 1;
 			
 			// aapt resource value: 0x7F0400F9
 			public const int showAsAction = 2130968825;
@@ -942,6 +3285,9 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F0400FD
 			public const int singleChoiceItemLayout = 2130968829;
+			
+			// aapt resource value: 0x1
+			public const int sourceClass = 1;
 			
 			// aapt resource value: 0x7F0400FE
 			public const int spanCount = 2130968830;
@@ -984,6 +3330,9 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F04010B
 			public const int submitBackground = 2130968843;
+			
+			// aapt resource value: 0x1
+			public const int subsectionSeparator = 1;
 			
 			// aapt resource value: 0x7F04010C
 			public const int subtitle = 2130968844;
@@ -1159,6 +3508,9 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F040145
 			public const int titleTextStyle = 2130968901;
 			
+			// aapt resource value: 0x1
+			public const int toAddressesSection = 1;
+			
 			// aapt resource value: 0x7F040146
 			public const int toolbarId = 2130968902;
 			
@@ -1167,6 +3519,9 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F040148
 			public const int toolbarStyle = 2130968904;
+			
+			// aapt resource value: 0x1
+			public const int toolbarTextColorStyle = 1;
 			
 			// aapt resource value: 0x7F040149
 			public const int tooltipForegroundColor = 2130968905;
@@ -1186,8 +3541,44 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F04014E
 			public const int trackTintMode = 2130968910;
 			
+			// aapt resource value: 0x1
+			public const int trimmable = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiCompass = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiMapToolbar = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiRotateGestures = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiScrollGestures = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiTiltGestures = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiZoomControls = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiZoomGestures = 1;
+			
 			// aapt resource value: 0x7F04014F
 			public const int useCompatPadding = 2130968911;
+			
+			// aapt resource value: 0x1
+			public const int userInputSection = 1;
+			
+			// aapt resource value: 0x1
+			public const int userInputTag = 1;
+			
+			// aapt resource value: 0x1
+			public const int userInputValue = 1;
+			
+			// aapt resource value: 0x1
+			public const int useViewLifecycle = 1;
 			
 			// aapt resource value: 0x7F040150
 			public const int voiceIcon = 2130968912;
@@ -1221,6 +3612,12 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F04015A
 			public const int windowNoTitle = 2130968922;
+			
+			// aapt resource value: 0x1
+			public const int windowTransitionStyle = 1;
+			
+			// aapt resource value: 0x1
+			public const int zOrderOnTop = 1;
 			
 			static Attribute()
 			{
@@ -1389,6 +3786,72 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F060004
 			public const int cardview_shadow_start_color = 2131099652;
 			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_container_white_stripe_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_label_background_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_background_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_progress_text_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_seek_bar_progress_background_tint_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_text_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay_background_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay_button_background_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_outer_highlight_default_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_body_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_header_color = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_default = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_disabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_pressed = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_default = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_disabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_pressed = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_tint = 1;
+			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
 			
@@ -1494,6 +3957,24 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F060049
 			public const int notification_material_background_media_default_color = 2131099721;
 			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_primary_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_primary_text_highlight = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_secondary_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_search_hint = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_search_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_separator = 1;
+			
 			// aapt resource value: 0x7F06004A
 			public const int primary_dark_material_dark = 2131099722;
 			
@@ -1559,6 +4040,45 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F06005F
 			public const int tooltip_background_light = 2131099743;
+			
+			// aapt resource value: 0x1
+			public const int wallet_bright_foreground_disabled_holo_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_bright_foreground_holo_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_bright_foreground_holo_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_dim_foreground_disabled_holo_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_dim_foreground_holo_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_highlighted_text_holo_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_highlighted_text_holo_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_hint_foreground_holo_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_hint_foreground_holo_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_holo_blue_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_link_text_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_primary_text_holo_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_secondary_text_holo_dark = 1;
 			
 			static Color()
 			{
@@ -1804,6 +4324,93 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F080003
 			public const int cardview_default_radius = 2131230723;
 			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_background_layout_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_background_layout_width = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_layout_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_layout_width = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_control_button_margin = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_control_toolbar_min_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_margin_between_seek_bar_and_control_buttons = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_margin_between_status_text_and_seek_bar = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_seekbar_disabled_alpha = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay_button_margin_bottom = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay_focus_radius = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay_title_margin_top = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_center_horizontal_offset = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_center_threshold = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_inner_margin = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_inner_radius = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_outer_padding = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_body_size = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_header_size = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_horizontal_margin = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_horizontal_offset = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_max_width = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_text_vertical_space = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller_control_button_margin = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller_icon_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller_icon_width = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_notification_image_size = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_no_message_text_size = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_row_text_size = 1;
+			
 			// aapt resource value: 0x7F080001
 			public const int compat_button_inset_horizontal_material = 2131230721;
 			
@@ -2040,6 +4647,36 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F080014
 			public const int notification_top_pad_large_text = 2131230740;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_button_padding = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_powered_by_google_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_powered_by_google_start = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_horizontal_margin = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_primary_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_secondary_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_progress_horizontal_margin = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_progress_size = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_separator_start = 1;
 			
 			// aapt resource value: 0x7F080094
 			public const int tooltip_corner_radius = 2131230868;
@@ -2333,6 +4970,225 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
 			
+			// aapt resource value: 0x1
+			public const int cast_abc_scrubber_control_off_mtrl_alpha = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_abc_scrubber_control_to_pressed_mtrl_000 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_abc_scrubber_control_to_pressed_mtrl_005 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_abc_scrubber_primary_mtrl_alpha = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_album_art_placeholder = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_album_art_placeholder_large = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_actionbar_bg_gradient_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_bg_gradient_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_seekbar_thumb = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_seekbar_track = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_closed_caption = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_forward30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_mute = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_pause = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_play = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_rewind30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_skip_next = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_skip_previous = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_expanded_controller_stop = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_closed_caption = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_forward30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_mute = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_pause = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_pause_large = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_play = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_play_large = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_rewind30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_skip_next = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_skip_prev = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_stop = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_mini_controller_stop_large = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_0 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_1 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_2 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_connecting = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_disconnect = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_forward = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_forward10 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_forward30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_on = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_pause = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_play = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_rewind = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_rewind10 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_rewind30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_skip_next = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_skip_prev = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_small_icon = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_notification_stop_live_stream = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_stop_circle_filled_grey600 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_ic_stop_circle_filled_white = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller_gradient_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller_progress_drawable = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_skip_ad_label_border = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_full_open_on_phone = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_dark_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_dark_normal = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_dark_normal_background = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_disabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_light_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_light_normal = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_light_normal_background = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_normal = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_normal_background = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_disabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_normal = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_normal_background = 1;
+			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
 			
@@ -2350,6 +5206,12 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
+			
+			// aapt resource value: 0x1
+			public const int googleg_disabled_color_18 = 1;
+			
+			// aapt resource value: 0x1
+			public const int googleg_standard_color_18 = 1;
 			
 			// aapt resource value: 0x7F010002
 			public const int icon = 2130771970;
@@ -2867,6 +5729,18 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0900FE
 			public const int ic_mr_button_grey = 2131296510;
 			
+			// aapt resource value: 0x1
+			public const int ic_plusone_medium_off_client = 1;
+			
+			// aapt resource value: 0x1
+			public const int ic_plusone_small_off_client = 1;
+			
+			// aapt resource value: 0x1
+			public const int ic_plusone_standard_off_client = 1;
+			
+			// aapt resource value: 0x1
+			public const int ic_plusone_tall_off_client = 1;
+			
 			// aapt resource value: 0x7F0900FF
 			public const int ic_vol_type_speaker_dark = 2131296511;
 			
@@ -2984,6 +5858,141 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
+			// aapt resource value: 0x1
+			public const int places_ic_clear = 1;
+			
+			// aapt resource value: 0x1
+			public const int places_ic_search = 1;
+			
+			// aapt resource value: 0x1
+			public const int powered_by_google_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int powered_by_google_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_art_track_grey600_48 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_bigtop_updates_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_cast_connected_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_cast_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_clear_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_closed_caption_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_closed_caption_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_forward_10_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_forward_30_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_forward_30_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_forward_30_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_keyboard_arrow_down_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_pause_circle_filled_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_pause_circle_filled_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_pause_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_pause_grey600_48 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_pause_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_play_arrow_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_play_arrow_grey600_48 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_play_arrow_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_play_circle_filled_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_play_circle_filled_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_refresh_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_replay_10_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_replay_30_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_replay_30_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_replay_30_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_replay_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_skip_next_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_skip_next_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_skip_next_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_skip_previous_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_skip_previous_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_skip_previous_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_stop_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_stop_grey600_48 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_stop_white_24 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_volume_off_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_volume_off_white_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_volume_up_grey600_36 = 1;
+			
+			// aapt resource value: 0x1
+			public const int quantum_ic_volume_up_white_36 = 1;
+			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
 			
@@ -3066,26 +6075,146 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C0015
 			public const int add = 2131492885;
 			
+			// aapt resource value: 0x1
+			public const int adjust_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int adjust_width = 1;
+			
+			// aapt resource value: 0x1
+			public const int ad_container = 1;
+			
+			// aapt resource value: 0x1
+			public const int ad_image_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int ad_in_progress_label = 1;
+			
+			// aapt resource value: 0x1
+			public const int ad_label = 1;
+			
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
+			
+			// aapt resource value: 0x1
+			public const int android_pay = 1;
+			
+			// aapt resource value: 0x1
+			public const int android_pay_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int android_pay_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int android_pay_light_with_border = 1;
+			
+			// aapt resource value: 0x7F020292
+			public const int app_name = 2130838162;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
 			
+			// aapt resource value: 0x1
+			public const int audio_empty_message = 1;
+			
+			// aapt resource value: 0x1
+			public const int audio_list_view = 1;
+			
 			// aapt resource value: 0x7F0C0018
 			public const int auto = 2131492888;
+			
+			// aapt resource value: 0x1
+			public const int background_image_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int background_place_holder_image_view = 1;
 			
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
 			
+			// aapt resource value: 0x1
+			public const int blurred_background_image_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int book_now = 1;
+			
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
+			
+			// aapt resource value: 0x1
+			public const int button = 1;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
 			
+			// aapt resource value: 0x1
+			public const int button_0 = 1;
+			
+			// aapt resource value: 0x1
+			public const int button_1 = 1;
+			
+			// aapt resource value: 0x1
+			public const int button_2 = 1;
+			
+			// aapt resource value: 0x1
+			public const int button_3 = 1;
+			
+			// aapt resource value: 0x1
+			public const int button_play_pause_toggle = 1;
+			
+			// aapt resource value: 0x1
+			public const int buyButton = 1;
+			
+			// aapt resource value: 0x1
+			public const int buy_now = 1;
+			
+			// aapt resource value: 0x1
+			public const int buy_with = 1;
+			
+			// aapt resource value: 0x1
+			public const int buy_with_google = 1;
+			
 			// aapt resource value: 0x7F0C001C
 			public const int cancel_action = 2131492892;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_closed_caption = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_custom = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_empty = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_forward_30_seconds = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_mute_toggle = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_play_pause_toggle = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_rewind_30_seconds = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_skip_next = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_button_type_skip_previous = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_featurehighlight_help_text_body_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_featurehighlight_help_text_header_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_featurehighlight_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_notification_id = 1;
 			
 			// aapt resource value: 0x7F0C001D
 			public const int center = 2131492893;
@@ -3096,14 +6225,32 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
 			
+			// aapt resource value: 0x1
+			public const int classic = 1;
+			
+			// aapt resource value: 0x1
+			public const int contact = 1;
+			
 			// aapt resource value: 0x7F0C0020
 			public const int container = 2131492896;
+			
+			// aapt resource value: 0x1
+			public const int container_all = 1;
+			
+			// aapt resource value: 0x1
+			public const int container_current = 1;
 			
 			// aapt resource value: 0x7F0C0021
 			public const int contentPanel = 2131492897;
 			
+			// aapt resource value: 0x1
+			public const int controllers = 1;
+			
 			// aapt resource value: 0x7F0C0022
 			public const int coordinator = 2131492898;
+			
+			// aapt resource value: 0x1
+			public const int crash_reporting_present = 1;
 			
 			// aapt resource value: 0x7F0C0023
 			public const int custom = 2131492899;
@@ -3111,11 +6258,23 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C0024
 			public const int customPanel = 2131492900;
 			
+			// aapt resource value: 0x1
+			public const int dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int date = 1;
+			
 			// aapt resource value: 0x7F0C0025
 			public const int decor_content_parent = 2131492901;
 			
 			// aapt resource value: 0x7F0C0026
 			public const int default_activity_button = 2131492902;
+			
+			// aapt resource value: 0x1
+			public const int demote_common_words = 1;
+			
+			// aapt resource value: 0x1
+			public const int demote_rfc822_hostnames = 1;
 			
 			// aapt resource value: 0x7F0C0027
 			public const int design_bottom_sheet = 2131492903;
@@ -3132,14 +6291,29 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C002B
 			public const int design_navigation_view = 2131492907;
 			
+			// aapt resource value: 0x1
+			public const int donate_with = 1;
+			
+			// aapt resource value: 0x1
+			public const int donate_with_google = 1;
+			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
+			
+			// aapt resource value: 0x1
+			public const int email = 1;
 			
 			// aapt resource value: 0x7F0C002D
 			public const int end = 2131492909;
 			
 			// aapt resource value: 0x7F0C002E
 			public const int end_padder = 2131492910;
+			
+			// aapt resource value: 0x1
+			public const int end_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int expanded_controller_layout = 1;
 			
 			// aapt resource value: 0x7F0C0030
 			public const int expanded_menu = 2131492912;
@@ -3159,8 +6333,32 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
 			
+			// aapt resource value: 0x1
+			public const int google_wallet_classic = 1;
+			
+			// aapt resource value: 0x1
+			public const int google_wallet_grayscale = 1;
+			
+			// aapt resource value: 0x1
+			public const int google_wallet_monochrome = 1;
+			
+			// aapt resource value: 0x1
+			public const int grayscale = 1;
+			
+			// aapt resource value: 0x1
+			public const int holo_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int holo_light = 1;
+			
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
+			
+			// aapt resource value: 0x1
+			public const int html = 1;
+			
+			// aapt resource value: 0x1
+			public const int hybrid = 1;
 			
 			// aapt resource value: 0x7F0C000A
 			public const int icon = 2131492874;
@@ -3168,11 +6366,41 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
+			// aapt resource value: 0x1
+			public const int icon_only = 1;
+			
+			// aapt resource value: 0x1
+			public const int icon_uri = 1;
+			
+			// aapt resource value: 0x1
+			public const int icon_view = 1;
+			
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
 			
+			// aapt resource value: 0x1
+			public const int index_entity_types = 1;
+			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
+			
+			// aapt resource value: 0x1
+			public const int instant_message = 1;
+			
+			// aapt resource value: 0x1
+			public const int intent_action = 1;
+			
+			// aapt resource value: 0x1
+			public const int intent_activity = 1;
+			
+			// aapt resource value: 0x1
+			public const int intent_data = 1;
+			
+			// aapt resource value: 0x1
+			public const int intent_data_id = 1;
+			
+			// aapt resource value: 0x1
+			public const int intent_extra_data = 1;
 			
 			// aapt resource value: 0x7F0C000D
 			public const int italic = 2131492877;
@@ -3183,8 +6411,14 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C003C
 			public const int largeLabel = 2131492924;
 			
+			// aapt resource value: 0x1
+			public const int large_icon_uri = 1;
+			
 			// aapt resource value: 0x7F0C003D
 			public const int left = 2131492925;
+			
+			// aapt resource value: 0x1
+			public const int light = 1;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -3198,8 +6432,26 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
+			// aapt resource value: 0x1
+			public const int live_stream_indicator = 1;
+			
+			// aapt resource value: 0x1
+			public const int live_stream_seek_bar = 1;
+			
+			// aapt resource value: 0x1
+			public const int loading_indicator = 1;
+			
+			// aapt resource value: 0x1
+			public const int logo_only = 1;
+			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
+			
+			// aapt resource value: 0x1
+			public const int match_global_nicknames = 1;
+			
+			// aapt resource value: 0x1
+			public const int match_parent = 1;
 			
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
@@ -3209,6 +6461,9 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F0C0045
 			public const int mini = 2131492933;
+			
+			// aapt resource value: 0x1
+			public const int monochrome = 1;
 			
 			// aapt resource value: 0x7F0C0033
 			public const int mr_art = 2131492915;
@@ -3309,6 +6564,12 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C0013
 			public const int notification_main_column_container = 2131492883;
 			
+			// aapt resource value: 0x1
+			public const int omnibox_title_section = 1;
+			
+			// aapt resource value: 0x1
+			public const int omnibox_url_section = 1;
+			
 			// aapt resource value: 0x7F0C004D
 			public const int parallax = 2131492941;
 			
@@ -3321,6 +6582,39 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
 			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_clear_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_powered_by_google = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_primary_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_prediction_secondary_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_progress = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_search_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_search_input = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_separator = 1;
+			
+			// aapt resource value: 0x1
+			public const int plain = 1;
+			
+			// aapt resource value: 0x1
+			public const int production = 1;
+			
+			// aapt resource value: 0x1
+			public const int progressBar = 1;
+			
 			// aapt resource value: 0x7F0C0051
 			public const int progress_circular = 2131492945;
 			
@@ -3330,6 +6624,9 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
 			
+			// aapt resource value: 0x1
+			public const int rfc822 = 1;
+			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
 			
@@ -3338,6 +6635,12 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F0C0015
 			public const int right_side = 2131492885;
+			
+			// aapt resource value: 0x1
+			public const int sandbox = 1;
+			
+			// aapt resource value: 0x1
+			public const int satellite = 1;
 			
 			// aapt resource value: 0x7F0C0057
 			public const int save_image_matrix = 2131492951;
@@ -3393,11 +6696,23 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C0068
 			public const int search_voice_btn = 2131492968;
 			
+			// aapt resource value: 0x1
+			public const int seek_bar = 1;
+			
+			// aapt resource value: 0x1
+			public const int seek_bar_controls = 1;
+			
+			// aapt resource value: 0x1
+			public const int selectionDetails = 1;
+			
 			// aapt resource value: 0x7F0C0069
 			public const int select_dialog_listview = 2131492969;
 			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
+			
+			// aapt resource value: 0x1
+			public const int slide = 1;
 			
 			// aapt resource value: 0x7F020003
 			public const int sliding_tabs = 2130837507;
@@ -3426,11 +6741,23 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C0072
 			public const int src_over = 2131492978;
 			
+			// aapt resource value: 0x1
+			public const int standard = 1;
+			
 			// aapt resource value: 0x7F0C0073
 			public const int start = 2131492979;
 			
+			// aapt resource value: 0x1
+			public const int start_text = 1;
+			
 			// aapt resource value: 0x7F0C0074
 			public const int status_bar_latest_event_content = 2131492980;
+			
+			// aapt resource value: 0x1
+			public const int status_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int strict_sandbox = 1;
 			
 			// aapt resource value: 0x7F0C0075
 			public const int submenuarrow = 2131492981;
@@ -3438,14 +6765,29 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C0076
 			public const int submit_area = 2131492982;
 			
+			// aapt resource value: 0x1
+			public const int subtitle_view = 1;
+			
 			// aapt resource value: 0x7F0C0077
 			public const int tabMode = 2131492983;
+			
+			// aapt resource value: 0x1
+			public const int tab_host = 1;
 			
 			// aapt resource value: 0x7F0C0016
 			public const int tag_transition_group = 2131492886;
 			
+			// aapt resource value: 0x1
+			public const int terrain = 1;
+			
+			// aapt resource value: 0x1
+			public const int test = 1;
+			
 			// aapt resource value: 0x7F0C0017
 			public const int text = 2131492887;
+			
+			// aapt resource value: 0x1
+			public const int text1 = 1;
 			
 			// aapt resource value: 0x7F0C0018
 			public const int text2 = 2131492888;
@@ -3462,8 +6804,20 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
+			// aapt resource value: 0x1
+			public const int textTitle = 1;
+			
+			// aapt resource value: 0x1
+			public const int text_empty_message = 1;
+			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
+			
+			// aapt resource value: 0x1
+			public const int text_list_view = 1;
+			
+			// aapt resource value: 0x1
+			public const int thing_proto = 1;
 			
 			// aapt resource value: 0x7F0C0019
 			public const int time = 2131492889;
@@ -3476,6 +6830,9 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F0C0083
 			public const int title_template = 2131492995;
+			
+			// aapt resource value: 0x1
+			public const int title_view = 1;
 			
 			// aapt resource value: 0x7F020004
 			public const int toolbar = 2130837508;
@@ -3510,6 +6867,9 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
+			// aapt resource value: 0x1
+			public const int url = 1;
+			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
 			
@@ -3518,6 +6878,9 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F0C007D
 			public const int volume_item_container = 2131492989;
+			
+			// aapt resource value: 0x1
+			public const int wide = 1;
 			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
@@ -3550,11 +6913,17 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0D0005
 			public const int cancel_button_image_alpha = 2131558405;
 			
+			// aapt resource value: 0x1
+			public const int cast_libraries_material_featurehighlight_pulse_base_alpha = 1;
+			
 			// aapt resource value: 0x7F0D0006
 			public const int config_tooltipAnimTime = 2131558406;
 			
 			// aapt resource value: 0x7F0D0007
 			public const int design_snackbar_text_max_lines = 2131558407;
+			
+			// aapt resource value: 0x1
+			public const int google_play_services_version = 1;
 			
 			// aapt resource value: 0x7F0D0008
 			public const int hide_password_duration = 2131558408;
@@ -3684,6 +7053,24 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_activity = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_help_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mini_controller = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_layout = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_row_layout = 1;
+			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
 			
@@ -3791,6 +7178,18 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_fragment = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_item_powered_by_google = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_item_prediction = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_progress = 1;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -3929,6 +7328,9 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F15001D
 			public const int abc_toolbar_collapse_description = 2132082717;
 			
+			// aapt resource value: 0x1
+			public const int accept = 1;
+			
 			// aapt resource value: 0x7F15001E
 			public const int appbar_scrolling_view_behavior = 2132082718;
 			
@@ -3938,8 +7340,203 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
 			
+			// aapt resource value: 0x1
+			public const int cast_ad_label = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_casting_to_device = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_closed_captions = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_closed_captions_unavailable = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_disconnect = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_image_description = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_ad_in_progress = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_background_image = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_live_stream_indicator = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_loading = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_expanded_controller_skip_ad_label = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_forward = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_forward_10 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_forward_30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_intro_overlay_button_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_invalid_stream_duration_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_invalid_stream_position_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_mute = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_notification_connected_message = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_notification_connecting_message = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_notification_disconnect = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_pause = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_play = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_rewind = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_rewind_10 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_rewind_30 = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_seek_bar = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_skip_next = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_skip_prev = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_stop = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_stop_live_stream = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_audio = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_cancel = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_closed_captions = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_default_track_name = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_none = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_no_audio_tracks = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_no_text_tracks = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_ok = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_tracks_chooser_dialog_subtitles = 1;
+			
+			// aapt resource value: 0x1
+			public const int cast_unmute = 1;
+			
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_enable_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_enable_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_enable_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_install_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_install_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_install_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_notification_ticker = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_unknown_issue = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_unsupported_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_update_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_update_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_update_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_updating_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_wear_update_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_open_on_phone = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_signin_button_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_signin_button_text_long = 1;
+			
+			// aapt resource value: 0x1
+			public const int create_calendar_message = 1;
+			
+			// aapt resource value: 0x1
+			public const int create_calendar_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int debug_menu_ad_information = 1;
+			
+			// aapt resource value: 0x1
+			public const int debug_menu_creative_preview = 1;
+			
+			// aapt resource value: 0x1
+			public const int debug_menu_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int debug_menu_troubleshooting = 1;
+			
+			// aapt resource value: 0x1
+			public const int decline = 1;
 			
 			// aapt resource value: 0x7F050002
 			public const int hello = 2131034114;
@@ -4022,11 +7619,35 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F150025
 			public const int path_password_strike_through = 2132082725;
 			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_clear_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int place_autocomplete_search_hint = 1;
+			
 			// aapt resource value: 0x7F150026
 			public const int search_menu_title = 2132082726;
 			
 			// aapt resource value: 0x7F150001
 			public const int status_bar_notification_info_overflow = 2132082689;
+			
+			// aapt resource value: 0x1
+			public const int store_picture_message = 1;
+			
+			// aapt resource value: 0x1
+			public const int store_picture_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int tagmanager_preview_dialog_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int tagmanager_preview_dialog_message = 1;
+			
+			// aapt resource value: 0x1
+			public const int tagmanager_preview_dialog_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int wallet_buy_button_place_holder = 1;
 			
 			static String()
 			{
@@ -4563,6 +8184,18 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F160004
 			public const int CardView_Light = 2132148228;
 			
+			// aapt resource value: 0x1
+			public const int CastExpandedController = 1;
+			
+			// aapt resource value: 0x1
+			public const int CastIntroOverlay = 1;
+			
+			// aapt resource value: 0x1
+			public const int CastMiniController = 1;
+			
+			// aapt resource value: 0x1
+			public const int CustomCastTheme = 1;
+			
 			// aapt resource value: 0x7F060002
 			public const int MainTheme = 2131099650;
 			
@@ -4797,6 +8430,18 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F1600F5
 			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2132148469;
 			
+			// aapt resource value: 0x1
+			public const int TextAppearance_CastIntroOverlay_Button = 1;
+			
+			// aapt resource value: 0x1
+			public const int TextAppearance_CastIntroOverlay_Title = 1;
+			
+			// aapt resource value: 0x1
+			public const int TextAppearance_CastMiniController_Subtitle = 1;
+			
+			// aapt resource value: 0x1
+			public const int TextAppearance_CastMiniController_Title = 1;
+			
 			// aapt resource value: 0x7F160001
 			public const int TextAppearance_Compat_Notification = 2132148225;
 			
@@ -4956,6 +8601,12 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F160125
 			public const int Theme_AppCompat_NoActionBar = 2132148517;
 			
+			// aapt resource value: 0x1
+			public const int Theme_AppInvite_Preview = 1;
+			
+			// aapt resource value: 0x1
+			public const int Theme_AppInvite_Preview_Base = 1;
+			
 			// aapt resource value: 0x7F160126
 			public const int Theme_Design = 2132148518;
 			
@@ -4974,6 +8625,9 @@ namespace Yugo.Droid
 			// aapt resource value: 0x7F16012B
 			public const int Theme_Design_NoActionBar = 2132148523;
 			
+			// aapt resource value: 0x1
+			public const int Theme_IAPTheme = 1;
+			
 			// aapt resource value: 0x7F16011E
 			public const int Theme_MediaRouter = 2132148510;
 			
@@ -4985,6 +8639,18 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7F160121
 			public const int Theme_MediaRouter_Light_DarkControlPanel = 2132148513;
+			
+			// aapt resource value: 0x1
+			public const int WalletFragmentDefaultButtonTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int WalletFragmentDefaultDetailsHeaderTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int WalletFragmentDefaultDetailsTextAppearance = 1;
+			
+			// aapt resource value: 0x1
+			public const int WalletFragmentDefaultStyle = 1;
 			
 			// aapt resource value: 0x7F16012C
 			public const int Widget_AppCompat_ActionBar = 2132148524;
@@ -5425,6 +9091,20 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
+			
+			public static int[] AdsAttrs = new int[] {
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x7F070560
+			public const int AdsAttrs_adSize = 2131166560;
+			
+			// aapt resource value: 0x1
+			public const int AdsAttrs_adSizes = 1;
+			
+			// aapt resource value: 0x2
+			public const int AdsAttrs_adUnitId = 2;
 			
 			public static int[] AlertDialog = new int[] {
 					16842994,
@@ -6076,6 +9756,9 @@ namespace Yugo.Droid
 			// aapt resource value: 0x118
 			public const int AppCompatTheme_windowNoTitle = 280;
 			
+			public static int[] AppDataSearch = new int[] {
+					0};
+			
 			public static int[] BottomNavigationView = new int[] {
 					2130968701,
 					2130968749,
@@ -6171,6 +9854,164 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x12
 			public const int CardView_contentPaddingTop = 18;
+			
+			public static int[] CastExpandedController = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x3
+			public const int CastExpandedController_castButtonColor = 3;
+			
+			// aapt resource value: 0x12
+			public const int CastExpandedController_castClosedCaptionsButtonDrawable = 18;
+			
+			// aapt resource value: 0x2
+			public const int CastExpandedController_castControlButtons = 2;
+			
+			// aapt resource value: 0x10
+			public const int CastExpandedController_castForward30ButtonDrawable = 16;
+			
+			// aapt resource value: 0x11
+			public const int CastExpandedController_castMuteToggleButtonDrawable = 17;
+			
+			// aapt resource value: 0x5
+			public const int CastExpandedController_castPauseButtonDrawable = 5;
+			
+			// aapt resource value: 0x4
+			public const int CastExpandedController_castPlayButtonDrawable = 4;
+			
+			// aapt resource value: 0x9
+			public const int CastExpandedController_castRewind30ButtonDrawable = 9;
+			
+			// aapt resource value: 0x7F070573
+			public const int CastExpandedController_castSeekBarProgressDrawable = 2131166579;
+			
+			// aapt resource value: 0x1
+			public const int CastExpandedController_castSeekBarThumbDrawable = 1;
+			
+			// aapt resource value: 0x8
+			public const int CastExpandedController_castSkipNextButtonDrawable = 8;
+			
+			// aapt resource value: 0x7
+			public const int CastExpandedController_castSkipPreviousButtonDrawable = 7;
+			
+			// aapt resource value: 0x6
+			public const int CastExpandedController_castStopButtonDrawable = 6;
+			
+			public static int[] CastIntroOverlay = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x7F070579
+			public const int CastIntroOverlay_castBackgroundColor = 2131166585;
+			
+			// aapt resource value: 0x1
+			public const int CastIntroOverlay_castButtonBackgroundColor = 1;
+			
+			// aapt resource value: 0x3
+			public const int CastIntroOverlay_castButtonText = 3;
+			
+			// aapt resource value: 0x2
+			public const int CastIntroOverlay_castButtonTextAppearance = 2;
+			
+			// aapt resource value: 0x5
+			public const int CastIntroOverlay_castFocusRadius = 5;
+			
+			// aapt resource value: 0x4
+			public const int CastIntroOverlay_castTitleTextAppearance = 4;
+			
+			public static int[] CastMiniController = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x4
+			public const int CastMiniController_castBackground = 4;
+			
+			// aapt resource value: 0x6
+			public const int CastMiniController_castButtonColor = 6;
+			
+			// aapt resource value: 0x18
+			public const int CastMiniController_castClosedCaptionsButtonDrawable = 24;
+			
+			// aapt resource value: 0x3
+			public const int CastMiniController_castControlButtons = 3;
+			
+			// aapt resource value: 0x16
+			public const int CastMiniController_castForward30ButtonDrawable = 22;
+			
+			// aapt resource value: 0x11
+			public const int CastMiniController_castLargePauseButtonDrawable = 17;
+			
+			// aapt resource value: 0x10
+			public const int CastMiniController_castLargePlayButtonDrawable = 16;
+			
+			// aapt resource value: 0x12
+			public const int CastMiniController_castLargeStopButtonDrawable = 18;
+			
+			// aapt resource value: 0x17
+			public const int CastMiniController_castMuteToggleButtonDrawable = 23;
+			
+			// aapt resource value: 0x8
+			public const int CastMiniController_castPauseButtonDrawable = 8;
+			
+			// aapt resource value: 0x7
+			public const int CastMiniController_castPlayButtonDrawable = 7;
+			
+			// aapt resource value: 0x5
+			public const int CastMiniController_castProgressBarColor = 5;
+			
+			// aapt resource value: 0x15
+			public const int CastMiniController_castRewind30ButtonDrawable = 21;
+			
+			// aapt resource value: 0x1
+			public const int CastMiniController_castShowImageThumbnail = 1;
+			
+			// aapt resource value: 0x14
+			public const int CastMiniController_castSkipNextButtonDrawable = 20;
+			
+			// aapt resource value: 0x13
+			public const int CastMiniController_castSkipPreviousButtonDrawable = 19;
+			
+			// aapt resource value: 0x9
+			public const int CastMiniController_castStopButtonDrawable = 9;
+			
+			// aapt resource value: 0x2
+			public const int CastMiniController_castSubtitleTextAppearance = 2;
+			
+			// aapt resource value: 0x7F070604
+			public const int CastMiniController_castTitleTextAppearance = 2131166724;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968658,
@@ -6316,6 +10157,64 @@ namespace Yugo.Droid
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
+			public static int[] Corpus = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x2
+			public const int Corpus_contentProviderUri = 2;
+			
+			// aapt resource value: 0x7F070607
+			public const int Corpus_corpusId = 2131166727;
+			
+			// aapt resource value: 0x1
+			public const int Corpus_corpusVersion = 1;
+			
+			// aapt resource value: 0x6
+			public const int Corpus_documentMaxAgeSecs = 6;
+			
+			// aapt resource value: 0x7
+			public const int Corpus_perAccountTemplate = 7;
+			
+			// aapt resource value: 0x4
+			public const int Corpus_schemaOrgType = 4;
+			
+			// aapt resource value: 0x5
+			public const int Corpus_semanticallySearchable = 5;
+			
+			// aapt resource value: 0x3
+			public const int Corpus_trimmable = 3;
+			
+			public static int[] CustomCastTheme = new int[] {
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x2
+			public const int CustomCastTheme_castExpandedControllerStyle = 2;
+			
+			// aapt resource value: 0x7F070616
+			public const int CustomCastTheme_castIntroOverlayStyle = 2131166742;
+			
+			// aapt resource value: 0x1
+			public const int CustomCastTheme_castMiniControllerStyle = 1;
+			
+			public static int[] CustomWalletTheme = new int[] {
+					1,
+					1};
+			
+			// aapt resource value: 0x1
+			public const int CustomWalletTheme_toolbarTextColorStyle = 1;
+			
+			// aapt resource value: 0x7F070620
+			public const int CustomWalletTheme_windowTransitionStyle = 2131166752;
+			
 			public static int[] DesignTheme = new int[] {
 					2130968639,
 					2130968640,
@@ -6363,6 +10262,16 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x7
 			public const int DrawerArrowToggle_thickness = 7;
+			
+			public static int[] FeatureParam = new int[] {
+					1,
+					1};
+			
+			// aapt resource value: 0x7F070622
+			public const int FeatureParam_paramName = 2131166754;
+			
+			// aapt resource value: 0x1
+			public const int FeatureParam_paramValue = 1;
 			
 			public static int[] FloatingActionButton = new int[] {
 					2130968629,
@@ -6470,6 +10379,74 @@ namespace Yugo.Droid
 			// aapt resource value: 0x2
 			public const int ForegroundLinearLayout_foregroundInsidePadding = 2;
 			
+			public static int[] GlobalSearch = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			public static int[] GlobalSearchCorpus = new int[] {
+					1};
+			
+			// aapt resource value: 0x7F070632
+			public const int GlobalSearchCorpus_allowShortcuts = 2131166770;
+			
+			public static int[] GlobalSearchSection = new int[] {
+					1,
+					1};
+			
+			// aapt resource value: 0x1
+			public const int GlobalSearchSection_sectionContent = 1;
+			
+			// aapt resource value: 0x7F070635
+			public const int GlobalSearchSection_sectionType = 2131166773;
+			
+			// aapt resource value: 0x3
+			public const int GlobalSearch_defaultIntentAction = 3;
+			
+			// aapt resource value: 0x5
+			public const int GlobalSearch_defaultIntentActivity = 5;
+			
+			// aapt resource value: 0x4
+			public const int GlobalSearch_defaultIntentData = 4;
+			
+			// aapt resource value: 0x7F070628
+			public const int GlobalSearch_searchEnabled = 2131166760;
+			
+			// aapt resource value: 0x1
+			public const int GlobalSearch_searchLabel = 1;
+			
+			// aapt resource value: 0x2
+			public const int GlobalSearch_settingsDescription = 2;
+			
+			public static int[] IMECorpus = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x7F070637
+			public const int IMECorpus_inputEnabled = 2131166775;
+			
+			// aapt resource value: 0x1
+			public const int IMECorpus_sourceClass = 1;
+			
+			// aapt resource value: 0x5
+			public const int IMECorpus_toAddressesSection = 5;
+			
+			// aapt resource value: 0x3
+			public const int IMECorpus_userInputSection = 3;
+			
+			// aapt resource value: 0x2
+			public const int IMECorpus_userInputTag = 2;
+			
+			// aapt resource value: 0x4
+			public const int IMECorpus_userInputValue = 4;
+			
 			public static int[] LinearLayoutCompat = new int[] {
 					16843046,
 					16843047,
@@ -6535,6 +10512,114 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
+			
+			public static int[] LoadingImageView = new int[] {
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x2
+			public const int LoadingImageView_circleCrop = 2;
+			
+			// aapt resource value: 0x1
+			public const int LoadingImageView_imageAspectRatio = 1;
+			
+			// aapt resource value: 0x7F070646
+			public const int LoadingImageView_imageAspectRatioAdjust = 2131166790;
+			
+			public static int[] MapAttrs = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x16
+			public const int MapAttrs_ambientEnabled = 22;
+			
+			// aapt resource value: 0x1
+			public const int MapAttrs_cameraBearing = 1;
+			
+			// aapt resource value: 0x18
+			public const int MapAttrs_cameraMaxZoomPreference = 24;
+			
+			// aapt resource value: 0x17
+			public const int MapAttrs_cameraMinZoomPreference = 23;
+			
+			// aapt resource value: 0x2
+			public const int MapAttrs_cameraTargetLat = 2;
+			
+			// aapt resource value: 0x3
+			public const int MapAttrs_cameraTargetLng = 3;
+			
+			// aapt resource value: 0x4
+			public const int MapAttrs_cameraTilt = 4;
+			
+			// aapt resource value: 0x5
+			public const int MapAttrs_cameraZoom = 5;
+			
+			// aapt resource value: 0x21
+			public const int MapAttrs_latLngBoundsNorthEastLatitude = 33;
+			
+			// aapt resource value: 0x22
+			public const int MapAttrs_latLngBoundsNorthEastLongitude = 34;
+			
+			// aapt resource value: 0x19
+			public const int MapAttrs_latLngBoundsSouthWestLatitude = 25;
+			
+			// aapt resource value: 0x20
+			public const int MapAttrs_latLngBoundsSouthWestLongitude = 32;
+			
+			// aapt resource value: 0x6
+			public const int MapAttrs_liteMode = 6;
+			
+			// aapt resource value: 0x7F070661
+			public const int MapAttrs_mapType = 2131166817;
+			
+			// aapt resource value: 0x7
+			public const int MapAttrs_uiCompass = 7;
+			
+			// aapt resource value: 0x15
+			public const int MapAttrs_uiMapToolbar = 21;
+			
+			// aapt resource value: 0x8
+			public const int MapAttrs_uiRotateGestures = 8;
+			
+			// aapt resource value: 0x9
+			public const int MapAttrs_uiScrollGestures = 9;
+			
+			// aapt resource value: 0x10
+			public const int MapAttrs_uiTiltGestures = 16;
+			
+			// aapt resource value: 0x11
+			public const int MapAttrs_uiZoomControls = 17;
+			
+			// aapt resource value: 0x12
+			public const int MapAttrs_uiZoomGestures = 18;
+			
+			// aapt resource value: 0x13
+			public const int MapAttrs_useViewLifecycle = 19;
+			
+			// aapt resource value: 0x14
+			public const int MapAttrs_zOrderOnTop = 20;
 			
 			public static int[] MediaRouteButton = new int[] {
 					16843072,
@@ -6911,6 +10996,56 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x16
 			public const int SearchView_voiceIcon = 22;
+			
+			public static int[] Section = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			public static int[] SectionFeature = new int[] {
+					1};
+			
+			// aapt resource value: 0x7F070680
+			public const int SectionFeature_featureType = 2131166848;
+			
+			// aapt resource value: 0x4
+			public const int Section_indexPrefixes = 4;
+			
+			// aapt resource value: 0x2
+			public const int Section_noIndex = 2;
+			
+			// aapt resource value: 0x6
+			public const int Section_schemaOrgProperty = 6;
+			
+			// aapt resource value: 0x1
+			public const int Section_sectionFormat = 1;
+			
+			// aapt resource value: 0x7F070676
+			public const int Section_sectionId = 2131166838;
+			
+			// aapt resource value: 0x3
+			public const int Section_sectionWeight = 3;
+			
+			// aapt resource value: 0x5
+			public const int Section_subsectionSeparator = 5;
+			
+			public static int[] SignInButton = new int[] {
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x7F070682
+			public const int SignInButton_buttonSize = 2131166850;
+			
+			// aapt resource value: 0x1
+			public const int SignInButton_colorScheme = 1;
+			
+			// aapt resource value: 0x2
+			public const int SignInButton_scopeUris = 2;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
@@ -7373,6 +11508,70 @@ namespace Yugo.Droid
 			
 			// aapt resource value: 0x4
 			public const int View_theme = 4;
+			
+			public static int[] WalletFragmentOptions = new int[] {
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x7F070686
+			public const int WalletFragmentOptions_appTheme = 2131166854;
+			
+			// aapt resource value: 0x1
+			public const int WalletFragmentOptions_environment = 1;
+			
+			// aapt resource value: 0x3
+			public const int WalletFragmentOptions_fragmentMode = 3;
+			
+			// aapt resource value: 0x2
+			public const int WalletFragmentOptions_fragmentStyle = 2;
+			
+			public static int[] WalletFragmentStyle = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x3
+			public const int WalletFragmentStyle_buyButtonAppearance = 3;
+			
+			// aapt resource value: 0x7F070692
+			public const int WalletFragmentStyle_buyButtonHeight = 2131166866;
+			
+			// aapt resource value: 0x2
+			public const int WalletFragmentStyle_buyButtonText = 2;
+			
+			// aapt resource value: 0x1
+			public const int WalletFragmentStyle_buyButtonWidth = 1;
+			
+			// aapt resource value: 0x6
+			public const int WalletFragmentStyle_maskedWalletDetailsBackground = 6;
+			
+			// aapt resource value: 0x8
+			public const int WalletFragmentStyle_maskedWalletDetailsButtonBackground = 8;
+			
+			// aapt resource value: 0x7
+			public const int WalletFragmentStyle_maskedWalletDetailsButtonTextAppearance = 7;
+			
+			// aapt resource value: 0x5
+			public const int WalletFragmentStyle_maskedWalletDetailsHeaderTextAppearance = 5;
+			
+			// aapt resource value: 0x10
+			public const int WalletFragmentStyle_maskedWalletDetailsLogoImageType = 16;
+			
+			// aapt resource value: 0x9
+			public const int WalletFragmentStyle_maskedWalletDetailsLogoTextColor = 9;
+			
+			// aapt resource value: 0x4
+			public const int WalletFragmentStyle_maskedWalletDetailsTextAppearance = 4;
 			
 			static Styleable()
 			{
