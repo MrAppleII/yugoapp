@@ -40,9 +40,13 @@
             <Style TargetType="ContentPage"
             ApplyToDerivedTypes="True">
             <Setter Property="BackgroundColor" Value="#282828" />
-           
+            
 
         </Style>
-        
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="{StaticResource Roboto-Light}" />
+           
+            <Setter Property="TextColor" Value="White" />
+        </Style>
     </Application.Resources>
 </Application>

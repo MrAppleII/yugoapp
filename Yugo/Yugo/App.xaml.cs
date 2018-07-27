@@ -15,11 +15,11 @@ namespace Yugo
            
             InitializeComponent();
 
-                  MainPage = new NavigationPage(new Yugo.intro_page());
+                 MainPage = new NavigationPage(new Yugo.intro_page());
 
 
             //   MainPage = new NavigationPage(new Yugo.GuideSelectScreen());
-            // MainPage = new NavigationPage(new Yugo.LoggedInNavigation());
+           //  MainPage = new NavigationPage(new Yugo.LoggedInNavigation());
 
      //       MainPage = new NavigationPage(new Yugo.TripPlayMasterPage()); 
     }

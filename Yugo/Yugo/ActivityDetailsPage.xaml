@@ -3,23 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
              x:Class="Yugo.ActivityDetailsPage">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill" Orientation="Vertical">
-            <StackLayout Orientation="Vertical">
-                <ffimageloading:CachedImage
-                Source="{Binding ActivityPicture}"
-                HorizontalOptions="FillAndExpand"
-                VerticalOptions="Start"
-                Aspect="AspectFill"
-                HeightRequest="200"
-                FadeAnimationEnabled="true"
-                >
-                </ffimageloading:CachedImage>
-            </StackLayout>
+        <StackLayout  HorizontalOptions="Fill" VerticalOptions="Fill" Orientation="Vertical">
+            <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill" x:Name="MainLayout" Orientation="Vertical">
+            
+           
+                 
+
+            
             <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
                 <StackLayout VerticalOptions="Fill">
-                    <StackLayout Orientation="Vertical" Padding="0" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+                        <controls:CarouselViewControl
+                 x:Name="carousel"
+       
+        ShowArrows="true"
+        ShowIndicators="true"
+       HeightRequest="200"
+                HorizontalOptions="Fill"
+        Orientation="Horizontal"
+                >
+                        </controls:CarouselViewControl>
+
+                        <StackLayout Orientation="Vertical" Padding="0" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
                     <Label Text="{Binding ActivityName}"
                    FontSize="Large"
                        Margin="10"
@@ -48,7 +55,22 @@
 
                         </StackLayout>
                         <BoxView HorizontalOptions="Fill"   HeightRequest="1" BackgroundColor="Black" ></BoxView>
-                    </StackLayout>
+                        <StackLayout HorizontalOptions="Fill" x:Name="websiteBlock" IsVisible="False" Orientation="Vertical"  >
+
+
+                            <Label Text="{Binding ActivityWebsite }" FontSize="Medium"  Margin="10" TextColor="White" FontFamily="{StaticResource Roboto-Light}" />
+                            <BoxView HorizontalOptions="Fill"   HeightRequest="1" BackgroundColor="Black" ></BoxView>
+
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="Fill" x:Name="hoursOpenBlock" IsVisible="False" Orientation="Vertical"  >
+
+
+                         
+                        
+
+                         </StackLayout>
+
+                        </StackLayout>
                 <Button
                                                     x:Name="directionsButton"
                                                     Text="Get Directions"
@@ -75,6 +97,8 @@
                 </StackLayout>
             </ScrollView>
            
+        </StackLayout>
+            <ActivityIndicator VerticalOptions="CenterAndExpand" HorizontalOptions="Center" HeightRequest="100" x:Name="CarousalProgressLoader" IsRunning="true"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

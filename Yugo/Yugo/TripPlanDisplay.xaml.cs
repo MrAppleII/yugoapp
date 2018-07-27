@@ -525,7 +525,8 @@ namespace Yugo
         public string ActivityDay { get; set; }
         public string ActivityMonth { get; set; }
         public string ActivityTripName { get; set; }
-        
+        public string ActivityWebsite { get; set; }
+
     }
     public class ActivityList
     {

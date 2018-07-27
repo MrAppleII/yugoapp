@@ -4,12 +4,15 @@
             xmlns:local="clr-namespace:Yugo"
             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
             xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+            xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+
             x:Class="Yugo.LoggedInNavigation"
             Title="Home"
             >
     <!--Pages can be added as references or inline-->
     <ContentPage Title="Explore">
         <StackLayout>
+        
             <Grid VerticalOptions="FillAndExpand" >
                 <Grid>
                     <Grid.RowDefinitions>

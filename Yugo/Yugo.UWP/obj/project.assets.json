@@ -409,7 +409,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/UXDivers.Gorilla.Common.dll": {}
         }
       },
-      "Xam.Plugin.Connectivity/3.1.1": {
+      "Xam.Plugin.Connectivity/3.2.0": {
         "type": "package",
         "compile": {
           "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
@@ -497,7 +497,7 @@
           "lib/uap/FFImageLoading.Transformations.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.561731": {
+      "Xamarin.Forms/3.1.0.583944": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -534,10 +534,10 @@
           "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/3.0.0.561731": {
+      "Xamarin.Forms.Maps/3.1.0.583944": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.0.0.561731"
+          "Xamarin.Forms": "3.1.0.583944"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -1087,7 +1087,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/UXDivers.Gorilla.Common.dll": {}
         }
       },
-      "Xam.Plugin.Connectivity/3.1.1": {
+      "Xam.Plugin.Connectivity/3.2.0": {
         "type": "package",
         "compile": {
           "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
@@ -1175,7 +1175,7 @@
           "lib/uap/FFImageLoading.Transformations.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.561731": {
+      "Xamarin.Forms/3.1.0.583944": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -1212,10 +1212,10 @@
           "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/3.0.0.561731": {
+      "Xamarin.Forms.Maps/3.1.0.583944": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.0.0.561731"
+          "Xamarin.Forms": "3.1.0.583944"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -1766,7 +1766,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/UXDivers.Gorilla.Common.dll": {}
         }
       },
-      "Xam.Plugin.Connectivity/3.1.1": {
+      "Xam.Plugin.Connectivity/3.2.0": {
         "type": "package",
         "compile": {
           "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
@@ -1854,7 +1854,7 @@
           "lib/uap/FFImageLoading.Transformations.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.561731": {
+      "Xamarin.Forms/3.1.0.583944": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -1891,10 +1891,10 @@
           "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/3.0.0.561731": {
+      "Xamarin.Forms.Maps/3.1.0.583944": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.0.0.561731"
+          "Xamarin.Forms": "3.1.0.583944"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -2264,7 +2264,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/UXDivers.Gorilla.Common.dll": {}
         }
       },
-      "Xam.Plugin.Connectivity/3.1.1": {
+      "Xam.Plugin.Connectivity/3.2.0": {
         "type": "package",
         "compile": {
           "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
@@ -2352,7 +2352,7 @@
           "lib/uap/FFImageLoading.Transformations.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.561731": {
+      "Xamarin.Forms/3.1.0.583944": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -2389,10 +2389,10 @@
           "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/3.0.0.561731": {
+      "Xamarin.Forms.Maps/3.1.0.583944": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.0.0.561731"
+          "Xamarin.Forms": "3.1.0.583944"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -2942,7 +2942,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/UXDivers.Gorilla.Common.dll": {}
         }
       },
-      "Xam.Plugin.Connectivity/3.1.1": {
+      "Xam.Plugin.Connectivity/3.2.0": {
         "type": "package",
         "compile": {
           "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
@@ -3030,7 +3030,7 @@
           "lib/uap/FFImageLoading.Transformations.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.561731": {
+      "Xamarin.Forms/3.1.0.583944": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -3067,10 +3067,10 @@
           "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/3.0.0.561731": {
+      "Xamarin.Forms.Maps/3.1.0.583944": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.0.0.561731"
+          "Xamarin.Forms": "3.1.0.583944"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -3621,7 +3621,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/UXDivers.Gorilla.Common.dll": {}
         }
       },
-      "Xam.Plugin.Connectivity/3.1.1": {
+      "Xam.Plugin.Connectivity/3.2.0": {
         "type": "package",
         "compile": {
           "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
@@ -3709,7 +3709,7 @@
           "lib/uap/FFImageLoading.Transformations.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.561731": {
+      "Xamarin.Forms/3.1.0.583944": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -3746,10 +3746,10 @@
           "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/3.0.0.561731": {
+      "Xamarin.Forms.Maps/3.1.0.583944": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.0.0.561731"
+          "Xamarin.Forms": "3.1.0.583944"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -4299,7 +4299,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/UXDivers.Gorilla.Common.dll": {}
         }
       },
-      "Xam.Plugin.Connectivity/3.1.1": {
+      "Xam.Plugin.Connectivity/3.2.0": {
         "type": "package",
         "compile": {
           "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
@@ -4387,7 +4387,7 @@
           "lib/uap/FFImageLoading.Transformations.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.561731": {
+      "Xamarin.Forms/3.1.0.583944": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -4424,10 +4424,10 @@
           "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/3.0.0.561731": {
+      "Xamarin.Forms.Maps/3.1.0.583944": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.0.0.561731"
+          "Xamarin.Forms": "3.1.0.583944"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -4978,7 +4978,7 @@
           "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/UXDivers.Gorilla.Common.dll": {}
         }
       },
-      "Xam.Plugin.Connectivity/3.1.1": {
+      "Xam.Plugin.Connectivity/3.2.0": {
         "type": "package",
         "compile": {
           "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
@@ -5066,7 +5066,7 @@
           "lib/uap/FFImageLoading.Transformations.dll": {}
         }
       },
-      "Xamarin.Forms/3.0.0.561731": {
+      "Xamarin.Forms/3.1.0.583944": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -5103,10 +5103,10 @@
           "lib/UAP10/Xamarin.Forms.GoogleMaps.dll": {}
         }
       },
-      "Xamarin.Forms.Maps/3.0.0.561731": {
+      "Xamarin.Forms.Maps/3.1.0.583944": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "3.0.0.561731"
+          "Xamarin.Forms": "3.1.0.583944"
         },
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
@@ -9062,10 +9062,10 @@
         "uxdivers.gorillaplayer.common.nuspec"
       ]
     },
-    "Xam.Plugin.Connectivity/3.1.1": {
-      "sha512": "X92JJFbVT8TRVaikzqjonP766jU1xeP6UgvDwu+aWA6Ll00Zjz0S/WevmzzxuPREbsYt//DdLWocy3lbbaJHPA==",
+    "Xam.Plugin.Connectivity/3.2.0": {
+      "sha512": "ZV45TaBTCJg7XQNEl3fPyyJcuMMhdDEQ6BCLc/5pMuTv38M226ER0WTu5sbmba8jlliDuzeRqkRFHwrGdWAgyg==",
       "type": "package",
-      "path": "xam.plugin.connectivity/3.1.1",
+      "path": "xam.plugin.connectivity/3.2.0",
       "files": [
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
         "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
@@ -9123,7 +9123,7 @@
         "lib/tizen40/Plugin.Connectivity.Abstractions.xml",
         "lib/tizen40/Plugin.Connectivity.deps.json",
         "lib/tizen40/Plugin.Connectivity.dll",
-        "xam.plugin.connectivity.3.1.1.nupkg.sha512",
+        "xam.plugin.connectivity.3.2.0.nupkg.sha512",
         "xam.plugin.connectivity.nuspec"
       ]
     },
@@ -9348,10 +9348,10 @@
         "xamarin.ffimageloading.transformations.nuspec"
       ]
     },
-    "Xamarin.Forms/3.0.0.561731": {
-      "sha512": "ZnpuSybty6uZsgInJQD2QoYsjsdzPmu25EltSNJTnwgiQCW0MVZfwU6//jbt4Sf0ZfAiryi8MZFhU1I0NAP6Ew==",
+    "Xamarin.Forms/3.1.0.583944": {
+      "sha512": "q4AGFr8k9z6v5u++COV6M5TEZ8Oh8iiU3inVysapL5j75bhKfbcU2RizgZxTQ7+2CdlzVK+Dz+nyFx4JFh0Cwg==",
       "type": "package",
-      "path": "xamarin.forms/3.0.0.561731",
+      "path": "xamarin.forms/3.1.0.583944",
       "files": [
         ".signature.p7s",
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
@@ -9487,12 +9487,13 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.0.0.561731.nupkg.sha512",
+        "xamarin.forms.3.1.0.583944.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -9512,10 +9513,10 @@
         "xamarin.forms.googlemaps.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/3.0.0.561731": {
-      "sha512": "FyLmNS9Wtfccx2K3hvV6uWS9hYRRoRO5f63AgVQdfW+SXShA5bIKLJ1K4HdAf1m9zw0YBm7i2lB6lzMVfRkNww==",
+    "Xamarin.Forms.Maps/3.1.0.583944": {
+      "sha512": "f2B2h/VzSY9KwMCD4jexPImJGo22GrFlPEPwUZgME7OBrnSUxtTNSwUx+GLu2mirux1A8MHnUfumY+Z7LZPDDg==",
       "type": "package",
-      "path": "xamarin.forms.maps/3.0.0.561731",
+      "path": "xamarin.forms.maps/3.1.0.583944",
       "files": [
         ".signature.p7s",
         "lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll",
@@ -9539,7 +9540,7 @@
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
         "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
         "lib/uap10.0/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.3.0.0.561731.nupkg.sha512",
+        "xamarin.forms.maps.3.1.0.583944.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     }
@@ -9551,16 +9552,16 @@
       "Microsoft.Net.Http >= 2.2.29",
       "Newtonsoft.Json >= 11.0.2",
       "UXDivers.GorillaPlayer.Common >= 0.9.1.2",
-      "Xam.Plugin.Connectivity >= 3.1.1",
+      "Xam.Plugin.Connectivity >= 3.2.0",
       "Xam.Plugin.Geolocator >= 4.5.0.6",
       "Xamarin.FFImageLoading >= 2.4.3.840",
       "Xamarin.FFImageLoading.Forms >= 2.4.3.840",
       "Xamarin.FFImageLoading.Svg >= 2.4.3.840",
       "Xamarin.FFImageLoading.Svg.Forms >= 2.4.3.840",
       "Xamarin.FFImageLoading.Transformations >= 2.4.3.840",
-      "Xamarin.Forms >= 3.0.0.561731",
+      "Xamarin.Forms >= 3.1.0.583944",
       "Xamarin.Forms.GoogleMaps >= 2.3.0",
-      "Xamarin.Forms.Maps >= 3.0.0.561731"
+      "Xamarin.Forms.Maps >= 3.1.0.583944"
     ]
   },
   "packageFolders": {
@@ -9622,7 +9623,7 @@
           },
           "Xam.Plugin.Connectivity": {
             "target": "Package",
-            "version": "[3.1.1, )"
+            "version": "[3.2.0, )"
           },
           "Xam.Plugin.Geolocator": {
             "target": "Package",
@@ -9650,7 +9651,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.0.0.561731, )"
+            "version": "[3.1.0.583944, )"
           },
           "Xamarin.Forms.GoogleMaps": {
             "target": "Package",
@@ -9658,7 +9659,7 @@
           },
           "Xamarin.Forms.Maps": {
             "target": "Package",
-            "version": "[3.0.0.561731, )"
+            "version": "[3.1.0.583944, )"
           }
         },
         "imports": [

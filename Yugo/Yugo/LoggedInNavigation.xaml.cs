@@ -1,7 +1,11 @@
-﻿using Newtonsoft.Json;
+﻿using FFImageLoading.Forms;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,6 +17,7 @@ namespace Yugo
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoggedInNavigation : TabbedPage
     {
+       
 
         private int counter = 0;
         private DestinationList cityDownloadedList = new DestinationList();
@@ -20,9 +25,11 @@ namespace Yugo
         public LoggedInNavigation ()
         {
             InitializeComponent();
+          
 
             cityDownloadedList.Cities = new List<Destination>();
             BindingContext = this;
+           
         }
        
         private async void GetCities()
@@ -49,7 +56,7 @@ namespace Yugo
             }
             else
             {
-                await DisplayAlert("JSONParsing", "No network is available.", "Ok");
+                await DisplayAlert("Yugo", "No network is available.", "Ok");
             }
             //Hide loader after server response    
             ProgressLoader.IsVisible = false;
@@ -117,6 +124,9 @@ namespace Yugo
 
             await listviewTrip.FadeTo(1, 250);
         }
+       
+
+
     }
     public class Destination
     {
